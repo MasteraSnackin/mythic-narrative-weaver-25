@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { useToast } from "@/components/ui/use-toast"
+import { Link } from "react-router-dom"
 
 export const CallToAction = () => {
   const { toast } = useToast()
@@ -31,16 +32,16 @@ export const CallToAction = () => {
         >
           <motion.h2 
             className="text-4xl font-bold"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             Join the Future of Storytelling
           </motion.h2>
           <motion.p 
             className="text-2xl text-purple-100"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             Be part of the revolution in interactive education and entertainment.
@@ -50,11 +51,11 @@ export const CallToAction = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Button 
+              asChild
               size="lg" 
               className="bg-white text-purple-900 hover:bg-purple-100 text-lg px-8 py-6"
-              onClick={handleContact}
             >
-              Contact Us
+              <Link to="/contact">Contact Us</Link>
             </Button>
           </motion.div>
         </motion.div>

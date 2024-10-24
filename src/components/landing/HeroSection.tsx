@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export const HeroSection = () => (
   <section className="container mx-auto px-4 py-20 flex flex-col lg:flex-row items-center justify-between gap-12 relative overflow-hidden">
@@ -26,11 +27,11 @@ export const HeroSection = () => (
         whileHover={{ scale: 1.05 }}
         transition={{ duration: 0.2 }}
       >
-        <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-lg px-8 py-6">
-          Get Started
+        <Button asChild size="lg" className="bg-purple-600 hover:bg-purple-700 text-lg px-8 py-6">
+          <Link to="/get-started">Get Started</Link>
         </Button>
-        <Button size="lg" variant="outline" className="text-lg px-8 py-6">
-          Learn More
+        <Button asChild size="lg" variant="outline" className="text-lg px-8 py-6">
+          <Link to="/learn-more">Learn More</Link>
         </Button>
       </motion.div>
     </motion.div>
