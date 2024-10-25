@@ -1,36 +1,36 @@
 import { motion } from "framer-motion";
-import { BookOpen, Brain, School, Target, TrendingUp, Users } from "lucide-react";
+import { Cloud, Brain, Coins, Shield, Zap, Users } from "lucide-react";
 import { FeatureCard } from "./FeatureCard";
 
 const features = [
   {
-    title: "AI-Powered Narratives",
-    description: "Dynamic stories that adapt to user choices in real-time, ensuring a unique experience every time.",
+    title: "Weather Data Integration",
+    description: "Real-time weather data from reliable APIs triggers insurance payouts automatically based on specific conditions.",
+    icon: Cloud
+  },
+  {
+    title: "Smart Contract Automation",
+    description: "Blockchain and oracles automate insurance payouts, increasing efficiency and reducing administrative overhead.",
     icon: Brain
   },
   {
-    title: "Educational Focus",
-    description: "Interactive content designed for both entertainment and education, making learning engaging and fun.",
-    icon: School
+    title: "Transparent Claims",
+    description: "All transactions and contract terms are immutable and transparent on the blockchain, ensuring trust.",
+    icon: Shield
   },
   {
-    title: "High Replayability",
-    description: "Multiple story branches and outcomes encourage users to explore new possibilities.",
-    icon: BookOpen
+    title: "Instant Payouts",
+    description: "Automated system processes claims instantly when predefined weather conditions are met.",
+    icon: Zap
   },
   {
-    title: "Target Audience",
-    description: "Focused on schools and young readers (Ages 5-14) who value interactive experiences.",
-    icon: Target
+    title: "Cost Efficient",
+    description: "Reduced administrative costs and automated processes lead to more affordable insurance coverage.",
+    icon: Coins
   },
   {
-    title: "Market Growth",
-    description: "Positioned to capture significant market share in the growing interactive fiction industry.",
-    icon: TrendingUp
-  },
-  {
-    title: "User-Centric",
-    description: "Personalized content that adapts to individual learning styles and preferences.",
+    title: "Community Focused",
+    description: "Designed to benefit underserved communities with accessible and reliable insurance solutions.",
     icon: Users
   }
 ];
@@ -44,7 +44,7 @@ export const FeaturesSection = () => (
         transition={{ duration: 0.6 }}
         className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent"
       >
-        Why Choose Mythic Mind Labs?
+        Why Choose Our Parametric Insurance?
       </motion.h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map((feature, index) => (
