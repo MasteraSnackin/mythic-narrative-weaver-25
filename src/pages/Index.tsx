@@ -1,10 +1,9 @@
 import { HeroSection } from "@/components/landing/HeroSection";
 import { FeaturesSection } from "@/components/landing/FeaturesSection";
-import { MarketSection } from "@/components/landing/MarketSection";
+import { InsuranceDashboard } from "@/components/landing/InsuranceDashboard";
+import { InsurancePlans } from "@/components/landing/InsurancePlans";
 import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
-import { NewsletterSection } from "@/components/landing/NewsletterSection";
 import { TrustBadgesSection } from "@/components/landing/TrustBadgesSection";
-import { HowItWorksSection } from "@/components/landing/HowItWorksSection";
 import { FaqSection } from "@/components/landing/FaqSection";
 import { CallToAction } from "@/components/landing/CallToAction";
 import Navigation from "@/components/layout/Navigation";
@@ -20,20 +19,13 @@ const Index = () => {
         <Navigation />
         <main className="pt-16">
           <HeroSection />
-          <HowItWorksSection />
-          <section id="features">
-            <FeaturesSection />
-          </section>
+          <FeaturesSection />
+          <InsuranceDashboard />
+          <InsurancePlans />
           <TrustBadgesSection />
-          <section id="market">
-            <MarketSection />
-          </section>
           <TestimonialsSection />
           <FaqSection />
-          <NewsletterSection />
-          <section id="contact">
-            <CallToAction />
-          </section>
+          <CallToAction />
         </main>
         <Footer />
       </div>

@@ -17,10 +17,10 @@ export const HeroSection = () => (
         className="absolute -top-20 -left-20 w-40 h-40 bg-purple-300 rounded-full blur-3xl opacity-30"
       />
       <h1 className="text-6xl lg:text-7xl font-bold bg-gradient-to-r from-purple-900 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-        Decentralized Insurance for the Future
+        Smart Contract Insurance for the Digital Age
       </h1>
-      <p className="text-2xl text-gray-700 leading-relaxed">
-        Revolutionizing parametric insurance with blockchain technology and real-time weather data for transparent, automated claims.
+      <p className="text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
+        Protect your assets with automated, transparent insurance powered by blockchain technology
       </p>
       <motion.div 
         className="space-x-4"
@@ -28,7 +28,7 @@ export const HeroSection = () => (
         transition={{ duration: 0.2 }}
       >
         <Button asChild size="lg" className="bg-purple-600 hover:bg-purple-700 text-lg px-8 py-6">
-          <Link to="/get-started">Get Started</Link>
+          <Link to="/get-started">Get Protected Now</Link>
         </Button>
         <Button asChild size="lg" variant="outline" className="text-lg px-8 py-6">
           <Link to="/learn-more">Learn More</Link>
@@ -44,7 +44,7 @@ export const HeroSection = () => (
       <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/30 to-transparent rounded-2xl" />
       <img 
         src="https://images.unsplash.com/photo-1601134467661-3d775b999c8b?w=800" 
-        alt="Parametric Insurance" 
+        alt="Smart Contract Insurance" 
         className="rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
       />
     </motion.div>
