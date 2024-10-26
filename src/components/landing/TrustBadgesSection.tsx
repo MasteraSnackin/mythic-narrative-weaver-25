@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Award, Shield, Star, Users } from "lucide-react";
+import { Shield, Users, Award, Star } from "lucide-react";
 
 export const TrustBadgesSection = () => {
   const badges = [
