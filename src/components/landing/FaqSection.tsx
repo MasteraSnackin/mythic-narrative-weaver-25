@@ -8,20 +8,24 @@ import { motion } from "framer-motion";
 
 const faqs = [
   {
-    question: "How does the AI storytelling work?",
-    answer: "Our AI technology analyzes reader responses and preferences in real-time to create personalized, adaptive narratives that evolve with each interaction."
+    question: "How does parametric insurance work?",
+    answer: "Parametric insurance automatically triggers payouts based on predefined weather conditions, such as rainfall amounts or temperature thresholds. When these conditions are met, as verified by our oracle data sources, smart contracts automatically process the payout without requiring traditional claims filing."
   },
   {
-    question: "Is it suitable for all age groups?",
-    answer: "Yes! Our platform is designed for ages 5-14, with content specifically tailored to different reading levels and educational requirements."
+    question: "What types of weather conditions are covered?",
+    answer: "Our insurance covers various weather-related risks including excess rainfall, drought conditions, and extreme temperatures. The specific conditions and thresholds are clearly defined in each policy and can be customized based on your farming needs."
   },
   {
-    question: "Can teachers track student progress?",
-    answer: "Absolutely! Our comprehensive dashboard allows educators to monitor reading progress, comprehension levels, and engagement metrics for each student."
+    question: "How are payouts calculated and processed?",
+    answer: "Payouts are calculated based on the severity of the weather event and your coverage amount. Our smart contracts automatically process payments when triggered by verified weather data, typically within 24-48 hours of the triggering event."
   },
   {
-    question: "How often is new content added?",
-    answer: "We release new stories weekly, with special themed content during holidays and educational events. All content is reviewed by education experts."
+    question: "Is blockchain technology secure for insurance?",
+    answer: "Yes! Blockchain technology provides enhanced security and transparency. All policy terms, conditions, and transactions are immutably recorded on the blockchain, ensuring that contract terms cannot be altered and payouts are processed exactly as agreed."
+  },
+  {
+    question: "How do I verify weather data accuracy?",
+    answer: "We use multiple trusted oracle sources to gather and verify weather data. This data is pulled from reliable weather stations and meteorological services, and is transparently recorded on the blockchain for verification."
   }
 ];
 
