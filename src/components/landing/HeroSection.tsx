@@ -17,10 +17,10 @@ export const HeroSection = () => (
         className="absolute -top-20 -left-20 w-40 h-40 bg-purple-300 rounded-full blur-3xl opacity-30"
       />
       <h1 className="text-6xl lg:text-7xl font-bold bg-gradient-to-r from-purple-900 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-        Smart Contract Insurance for the Digital Age
+        Decentralized Parametric Insurance
       </h1>
       <p className="text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
-        Protect your assets with automated, transparent insurance powered by blockchain technology
+        Protect your crops with automated, transparent insurance powered by real-time weather data and blockchain technology
       </p>
       <motion.div 
         className="space-x-4"
@@ -43,8 +43,8 @@ export const HeroSection = () => (
     >
       <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/30 to-transparent rounded-2xl" />
       <img 
-        src="https://images.unsplash.com/photo-1601134467661-3d775b999c8b?w=800" 
-        alt="Smart Contract Insurance" 
+        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800" 
+        alt="Parametric Crop Insurance" 
         className="rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
       />
     </motion.div>
