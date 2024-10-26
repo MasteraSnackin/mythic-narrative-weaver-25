@@ -4,22 +4,22 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Teacher",
+    name: "John Doe",
+    role: "Farmer, California",
+    image: "https://i.pravatar.cc/150?u=john",
+    content: "DInsure has given me peace of mind knowing my crops are protected against unpredictable weather conditions. The automatic payouts are a game-changer."
+  },
+  {
+    name: "Sarah Rodriguez",
+    role: "Farm Owner, Texas",
     image: "https://i.pravatar.cc/150?u=sarah",
-    content: "This platform has transformed how my students engage with stories. The AI adaptability is remarkable!"
+    content: "The transparency of smart contracts and immediate payouts make this insurance solution truly revolutionary. Highly recommended!"
   },
   {
-    name: "Michael Chen",
-    role: "Parent",
+    name: "Michael Johnson",
+    role: "Agricultural Consultant",
     image: "https://i.pravatar.cc/150?u=michael",
-    content: "My kids are absolutely loving the interactive stories. It's educational and entertaining!"
-  },
-  {
-    name: "Emily Rodriguez",
-    role: "Education Consultant",
-    image: "https://i.pravatar.cc/150?u=emily",
-    content: "The perfect blend of technology and storytelling. This is the future of education."
+    content: "As someone who advises farmers on risk management, I've found DInsure to be the most innovative and reliable parametric insurance solution available."
   }
 ];
 
@@ -28,7 +28,7 @@ export const TestimonialsSection = () => {
     <section className="py-20 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-          What Our Users Say
+          What Our Customers Say
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
