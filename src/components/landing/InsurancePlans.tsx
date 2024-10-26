@@ -5,34 +5,40 @@ import { Link } from "react-router-dom";
 
 const plans = [
   {
-    name: "Basic Plan",
-    price: "0.1 ETH/month",
+    name: "Basic Coverage",
+    price: "0.5 ETH/season",
     features: [
-      "Basic rainfall protection",
-      "Up to 1 ETH coverage",
-      "24/7 Support"
+      "Basic weather protection",
+      "Up to 5 ETH coverage",
+      "48-hour payout processing",
+      "Standard oracle data sources"
     ],
     buttonText: "Get Started",
     link: "/get-started"
   },
   {
-    name: "Premium Plan",
-    price: "0.3 ETH/month",
+    name: "Premium Coverage",
+    price: "1.2 ETH/season",
     features: [
       "Advanced weather protection",
-      "Up to 5 ETH coverage",
-      "Priority claims processing"
+      "Up to 15 ETH coverage",
+      "24-hour payout processing",
+      "Multiple oracle data sources",
+      "Customizable thresholds"
     ],
     buttonText: "Get Started",
     link: "/get-started"
   },
   {
-    name: "Enterprise Plan",
-    price: "Custom",
+    name: "Enterprise Solution",
+    price: "Custom Pricing",
     features: [
-      "Custom coverage options",
-      "Unlimited coverage",
-      "Dedicated account manager"
+      "Comprehensive coverage options",
+      "Unlimited coverage amount",
+      "Instant payout processing",
+      "Premium oracle network",
+      "Dedicated account manager",
+      "Custom risk parameters"
     ],
     buttonText: "Contact Sales",
     link: "/contact"
@@ -49,7 +55,7 @@ export const InsurancePlans = () => {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent"
         >
-          Insurance Plans
+          Coverage Plans
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {plans.map((plan, index) => (
