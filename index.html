@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mythic Mind Labs - AI-Powered Interactive Stories</title>
   <meta name="description" content="Revolutionary AI-powered storytelling platform for interactive education and entertainment. Join thousands of educators and students in the future of learning." />
-  <meta name="keywords" content="AI storytelling, interactive fiction, education, entertainment, adaptive learning" />
+  <meta name="keywords" content="AI storytelling, interactive fiction, education, entertainment, adaptive learning, personalized stories" />
   <meta name="author" content="Mythic Mind Labs" />
+  <meta name="robots" content="index, follow" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
@@ -27,6 +28,26 @@
   
   <!-- Preconnect to avatar service -->
   <link rel="preconnect" href="https://i.pravatar.cc" />
+  
+  <!-- Security headers -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://i.pravatar.cc https://images.unsplash.com data:; style-src 'self' 'unsafe-inline'; script-src 'self' https://va.vercel-scripts.com;">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Mythic Mind Labs",
+      "description": "AI-powered interactive storytelling platform for education",
+      "url": "https://mythicmindlabs.com",
+      "sameAs": [
+        "https://twitter.com/mythicmindlabs",
+        "https://facebook.com/mythicmindlabs"
+      ]
+    }
+  </script>
 </head>
 <body>
   <div id="root"></div>
