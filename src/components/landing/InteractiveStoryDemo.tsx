@@ -1,27 +1,15 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Sparkles } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { ChevronRight } from "lucide-react";
 import { storyNodes } from "@/data/storyNodes";
-import { StoryImage } from "@/components/story/StoryImage";
-import { StoryChoices } from "@/components/story/StoryChoices";
-import { StoryEffect } from "@/components/story/StoryEffect";
 
 export const InteractiveStoryDemo = () => {
   const [currentNode, setCurrentNode] = useState("start");
-  const [fadeIn, setFadeIn] = useState(true);
-  const [effect, setEffect] = useState("");
 
-  const handleChoice = (nextNode: string, choiceEffect?: string) => {
-    setFadeIn(false);
-    if (choiceEffect) {
-      setEffect(choiceEffect);
-      setTimeout(() => setEffect(""), 2000);
-    }
-    setTimeout(() => {
-      setCurrentNode(nextNode);
-      setFadeIn(true);
-    }, 300);
+  const handleChoice = (nextNode: string) => {
+    setCurrentNode(nextNode);
   };
 
   return (
@@ -32,43 +20,50 @@ export const InteractiveStoryDemo = () => {
           whileInView={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-bold text-purple-600 mb-4">
             Experience Interactive Learning
-          </h2>
-          <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">
+          </h1>
+          <p className="text-xl text-gray-600 dark:text-gray-300">
             Embark on an educational adventure where your choices shape the story
           </p>
         </motion.div>
 
-        <Card className="max-w-4xl mx-auto relative overflow-hidden">
-          <CardContent className="p-6">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={currentNode}
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.3 }}
-                className="space-y-6"
-              >
-                <StoryImage 
-                  image={storyNodes[currentNode].image} 
-                  header={storyNodes[currentNode].header} 
-                />
-                
-                <div className="flex items-start gap-4">
-                  <Sparkles className="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
-                  <p className="text-lg leading-relaxed">{storyNodes[currentNode].text}</p>
-                </div>
-                
-                <StoryChoices 
-                  choices={storyNodes[currentNode].choices} 
-                  onChoice={handleChoice}
-                />
-              </motion.div>
-            </AnimatePresence>
+        <Card className="max-w-4xl mx-auto overflow-hidden">
+          <CardContent className="p-0">
+            <div className="relative">
+              <div className="absolute top-4 left-4 z-10">
+                <span className="bg-purple-600 text-white px-4 py-2 rounded-full font-medium inline-flex items-center gap-2">
+                  <span className="w-4 h-4 bg-white/20 rounded-full"></span>
+                  Learning Explorer
+                </span>
+              </div>
+              <img 
+                src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6"
+                alt="Learning materials"
+                className="w-full h-[300px] object-cover"
+              />
+            </div>
+            
+            <div className="p-8">
+              <p className="text-lg mb-8 flex items-start gap-3">
+                <span className="text-purple-600 mt-1">✨</span>
+                {storyNodes[currentNode].text}
+              </p>
 
-            {effect && <StoryEffect effect={effect} />}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {storyNodes[currentNode].choices.map((choice, index) => (
+                  <Button
+                    key={index}
+                    variant="outline"
+                    className="w-full justify-between text-left h-auto py-4 px-6 hover:border-purple-400 hover:bg-purple-50 transition-all"
+                    onClick={() => handleChoice(choice.nextNode)}
+                  >
+                    <span>{choice.text}</span>
+                    <ChevronRight className="w-4 h-4 text-purple-600" />
+                  </Button>
+                ))}
+              </div>
+            </div>
           </CardContent>
         </Card>
       </div>
