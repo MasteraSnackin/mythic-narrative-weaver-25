@@ -1,10 +1,10 @@
-interface PerformanceMetrics {
+export interface PerformanceMetrics {
   decisionSpeed: number;  // Average time taken to make decisions (seconds)
   successRate: number;    // Success rate in challenges (0-1)
   engagementTime: number; // Time spent on current section (seconds)
 }
 
-interface DifficultySettings {
+export interface DifficultySettings {
   complexity: number;     // 0-1 scale of narrative complexity
   timeLimit: number;      // Time given for decisions (seconds)
   challengeLevel: number; // 0-1 scale of challenge difficulty

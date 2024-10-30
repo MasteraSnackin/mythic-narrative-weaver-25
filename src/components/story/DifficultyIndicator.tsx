@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { DifficultySettings } from "@/utils/difficultyAdjustment";
 import { Badge } from "@/components/ui/badge";
-import { Tooltip } from "@/components/ui/tooltip";
+import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
 
 interface DifficultyIndicatorProps {
   settings: DifficultySettings;
@@ -25,11 +25,18 @@ export const DifficultyIndicator = ({ settings, label }: DifficultyIndicatorProp
       transition={{ duration: 0.5 }}
       className="fixed top-20 right-4 z-50"
     >
-      <Tooltip content="Current difficulty level based on your performance">
-        <Badge variant="outline" className={`${getColor()} text-white`}>
-          {label}
-        </Badge>
-      </Tooltip>
+      <TooltipProvider>
+        <Tooltip>
+          <TooltipTrigger>
+            <Badge variant="outline" className={`${getColor()} text-white`}>
+              {label}
+            </Badge>
+          </TooltipTrigger>
+          <TooltipContent>
+            <p>Current difficulty level based on your performance</p>
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
     </motion.div>
   );
 };
