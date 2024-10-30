@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ChevronRight, Sparkles } from "lucide-react";
+import { ChevronRight, Sparkles, Wand2 } from "lucide-react";
 
 interface StoryNode {
   text: string;
@@ -11,8 +11,10 @@ interface StoryNode {
     text: string;
     nextNode: string;
     educational?: boolean;
+    effect?: string;
   }[];
   header?: string;
+  animation?: string;
 }
 
 const storyNodes: Record<string, StoryNode> = {
@@ -20,11 +22,31 @@ const storyNodes: Record<string, StoryNode> = {
     text: "Welcome to the Learning Adventure Hub! As a young explorer, you find yourself in a magical space where knowledge comes to life. Where would you like to begin your journey?",
     image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
     header: "Learning Explorer",
+    animation: "fade",
     choices: [
-      { text: "Enter the Science Laboratory", nextNode: "science", educational: true },
-      { text: "Visit the Historical Archives", nextNode: "history", educational: true },
-      { text: "Explore the Creative Writing Studio", nextNode: "writing" },
-      { text: "Join the Problem-Solving Workshop", nextNode: "problemSolving", educational: true }
+      { 
+        text: "Enter the Science Laboratory", 
+        nextNode: "science", 
+        educational: true,
+        effect: "🔬 Discover the wonders of science!"
+      },
+      { 
+        text: "Visit the Historical Archives", 
+        nextNode: "history", 
+        educational: true,
+        effect: "📚 Travel through time!"
+      },
+      { 
+        text: "Explore the Creative Writing Studio", 
+        nextNode: "writing",
+        effect: "✍️ Unleash your creativity!"
+      },
+      { 
+        text: "Join the Problem-Solving Workshop", 
+        nextNode: "problemSolving", 
+        educational: true,
+        effect: "🧩 Challenge your mind!"
+      }
     ]
   },
   science: {
@@ -87,9 +109,14 @@ const storyNodes: Record<string, StoryNode> = {
 export const InteractiveStoryDemo = () => {
   const [currentNode, setCurrentNode] = useState("start");
   const [fadeIn, setFadeIn] = useState(true);
+  const [effect, setEffect] = useState("");
 
-  const handleChoice = (nextNode: string) => {
+  const handleChoice = (nextNode: string, choiceEffect?: string) => {
     setFadeIn(false);
+    if (choiceEffect) {
+      setEffect(choiceEffect);
+      setTimeout(() => setEffect(""), 2000);
+    }
     setTimeout(() => {
       setCurrentNode(nextNode);
       setFadeIn(true);
@@ -112,45 +139,75 @@ export const InteractiveStoryDemo = () => {
           </p>
         </motion.div>
 
-        <Card className="max-w-4xl mx-auto">
+        <Card className="max-w-4xl mx-auto relative overflow-hidden">
           <CardContent className="p-6">
-            <motion.div
-              animate={{ opacity: fadeIn ? 1 : 0 }}
-              transition={{ duration: 0.3 }}
-              className="space-y-6"
-            >
-              <div className="relative aspect-video mb-6 rounded-lg overflow-hidden">
-                <img
-                  src={storyNodes[currentNode].image}
-                  alt="Story scene"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute top-4 left-4 bg-purple-600/90 text-white px-4 py-2 rounded-full text-lg font-semibold">
-                  {storyNodes[currentNode].header}
-                </div>
-              </div>
-              
-              <div className="flex items-start gap-4">
-                <Sparkles className="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
-                <p className="text-lg leading-relaxed">{storyNodes[currentNode].text}</p>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {storyNodes[currentNode].choices.map((choice, index) => (
-                  <Button
-                    key={index}
-                    variant="outline"
-                    className={`justify-between text-left h-auto py-3 ${
-                      choice.educational ? 'border-purple-200 hover:border-purple-400' : ''
-                    }`}
-                    onClick={() => handleChoice(choice.nextNode)}
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentNode}
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                transition={{ duration: 0.3 }}
+                className="space-y-6"
+              >
+                <div className="relative aspect-video mb-6 rounded-lg overflow-hidden">
+                  <motion.img
+                    src={storyNodes[currentNode].image}
+                    alt="Story scene"
+                    className="w-full h-full object-cover"
+                    initial={{ scale: 1.1 }}
+                    animate={{ scale: 1 }}
+                    transition={{ duration: 0.5 }}
+                  />
+                  <motion.div
+                    initial={{ y: -20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    className="absolute top-4 left-4 bg-purple-600/90 text-white px-4 py-2 rounded-full text-lg font-semibold flex items-center gap-2"
                   >
-                    <span>{choice.text}</span>
-                    <ChevronRight className="w-4 h-4" />
-                  </Button>
-                ))}
-              </div>
-            </motion.div>
+                    <Wand2 className="w-5 h-5" />
+                    {storyNodes[currentNode].header}
+                  </motion.div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <Sparkles className="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
+                  <p className="text-lg leading-relaxed">{storyNodes[currentNode].text}</p>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {storyNodes[currentNode].choices.map((choice, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: index * 0.1 }}
+                    >
+                      <Button
+                        variant="outline"
+                        className={`w-full justify-between text-left h-auto py-3 ${
+                          choice.educational ? 'border-purple-200 hover:border-purple-400' : ''
+                        } hover:scale-105 transition-all duration-300`}
+                        onClick={() => handleChoice(choice.nextNode, choice.effect)}
+                      >
+                        <span>{choice.text}</span>
+                        <ChevronRight className="w-4 h-4" />
+                      </Button>
+                    </motion.div>
+                  ))}
+                </div>
+              </motion.div>
+            </AnimatePresence>
+
+            {effect && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0 }}
+                className="absolute top-4 right-4 bg-purple-600 text-white px-4 py-2 rounded-full shadow-lg"
+              >
+                {effect}
+              </motion.div>
+            )}
           </CardContent>
         </Card>
       </div>
