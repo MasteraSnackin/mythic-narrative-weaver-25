@@ -26,6 +26,9 @@ import Pricing from "./pages/Pricing"
 import SchoolPilot from "./pages/SchoolPilot"
 import AIStoryEngine from "./pages/AIStoryEngine"
 import Blog from "./pages/Blog"
+import FAQ from "./pages/FAQ"
+import PrivacyPolicy from "./pages/PrivacyPolicy"
+import Terms from "./pages/Terms"
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -64,6 +67,9 @@ const App = () => (
                 <Route path="/school-pilot" element={<SchoolPilot />} />
                 <Route path="/ai-story-engine" element={<AIStoryEngine />} />
                 <Route path="/blog" element={<Blog />} />
+                <Route path="/faq" element={<FAQ />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                <Route path="/terms" element={<Terms />} />
               </Routes>
             </Suspense>
             <FeedbackDialog />

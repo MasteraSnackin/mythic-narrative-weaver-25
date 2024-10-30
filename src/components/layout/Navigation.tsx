@@ -19,8 +19,13 @@ const Navigation = () => {
     { label: "Community", path: "/community" },
     { label: "Resources", path: "/educator-resources" },
     { label: "Blog", path: "/blog" },
-    { label: "Stay Updated", path: "/stay-updated" },
+    { label: "FAQ", path: "/faq" },
     { label: "Contact", path: "/contact" }
+  ];
+
+  const footerLinks = [
+    { label: "Privacy Policy", path: "/privacy-policy" },
+    { label: "Terms", path: "/terms" }
   ];
 
   return (
@@ -88,6 +93,17 @@ const Navigation = () => {
           <div className="md:hidden" id="mobile-menu" role="menu">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item) => (
+                <Link
+                  key={item.label}
+                  to={item.path}
+                  className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-purple-600 dark:text-gray-300 dark:hover:text-purple-400 transition-colors duration-200"
+                  onClick={() => setIsOpen(false)}
+                  role="menuitem"
+                >
+                  {item.label}
+                </Link>
+              ))}
+              {footerLinks.map((item) => (
                 <Link
                   key={item.label}
                   to={item.path}
