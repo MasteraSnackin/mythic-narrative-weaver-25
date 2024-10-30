@@ -6,25 +6,75 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { ChevronDown, Minimize2, Maximize2 } from "lucide-react";
 
 const themes = [
-  { id: "cyber", name: "Cyber City", image: "/themes/cyber-city.jpg" },
-  { id: "island", name: "Deserted Island", image: "/themes/deserted-island.jpg" },
-  { id: "detective", name: "Detective's Office", image: "/themes/detective-office.jpg" },
-  { id: "forest", name: "Enchanted Forest", image: "/themes/enchanted-forest.jpg" },
-  { id: "haunted", name: "Haunted House", image: "/themes/haunted-house.jpg" },
-  { id: "jungle", name: "Lush Jungle", image: "/themes/lush-jungle.jpg" },
-  { id: "space", name: "Outer Space", image: "/themes/outer-space.jpg" },
-  { id: "underwater", name: "Underwater", image: "/themes/underwater.jpg" }
+  {
+    id: "cyber",
+    name: "Cyber City",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    description: "Navigate through neon-lit streets and hack into mysterious systems in this cyberpunk adventure.",
+    secondaryImage: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+  },
+  {
+    id: "island",
+    name: "Deserted Island",
+    image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67",
+    description: "Survive on a mysterious island filled with ancient secrets and hidden dangers.",
+    secondaryImage: "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151"
+  },
+  {
+    id: "detective",
+    name: "Detective's Office",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+    description: "Solve complex cases in a noir-style detective agency set in the heart of the city.",
+    secondaryImage: "https://images.unsplash.com/photo-1492301936769-b49830bc1d1e"
+  },
+  {
+    id: "forest",
+    name: "Enchanted Forest",
+    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22",
+    description: "Discover magical creatures and solve mystical puzzles in an ancient enchanted woodland.",
+    secondaryImage: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86"
+  },
+  {
+    id: "haunted",
+    name: "Haunted House",
+    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
+    description: "Explore a spine-chilling mansion with dark secrets and supernatural phenomena.",
+    secondaryImage: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+  },
+  {
+    id: "jungle",
+    name: "Lush Jungle",
+    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07",
+    description: "Trek through dense rainforests and encounter exotic wildlife in this tropical adventure.",
+    secondaryImage: "https://images.unsplash.com/photo-1518855727101-fcb8e2b4ac95"
+  },
+  {
+    id: "space",
+    name: "Outer Space",
+    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+    description: "Embark on an interstellar journey through the cosmos and discover alien civilizations.",
+    secondaryImage: "https://images.unsplash.com/photo-1517022812141-23620dba5c23"
+  },
+  {
+    id: "underwater",
+    name: "Underwater",
+    image: "https://images.unsplash.com/photo-1518877593221-1f28583780b4",
+    description: "Dive into the depths of the ocean and uncover mysterious marine phenomena.",
+    secondaryImage: "https://images.unsplash.com/photo-1441057206919-63d19fac2369"
+  }
 ];
 
 const gameTypes = ["Escape Room", "Adventure", "Detective Mystery"];
 const difficulties = ["Easy", "Medium", "Hard"];
 
-export const InteractiveStoryDemo = () => {
+export const InteractiveDemo = () => {
   const [selectedTheme, setSelectedTheme] = useState("");
   const [gameType, setGameType] = useState("");
   const [difficulty, setDifficulty] = useState("");
   const [isGameTypeMinimized, setIsGameTypeMinimized] = useState(false);
   const [isDifficultyMinimized, setIsDifficultyMinimized] = useState(false);
+
+  const selectedThemeData = themes.find(t => t.id === selectedTheme);
 
   return (
     <section className="py-20 bg-black text-white">
@@ -34,9 +84,9 @@ export const InteractiveStoryDemo = () => {
           whileInView={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-[#007AFF] to-[#00C6FF] bg-clip-text text-transparent font-['Poppins']">
+          <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-[#007AFF] to-[#00C6FF] bg-clip-text text-transparent font-['Poppins']">
             Adventure Games
-          </h1>
+          </h2>
           <p className="text-xl mb-6 font-['Poppins']">
             Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!
           </p>
@@ -161,19 +211,44 @@ export const InteractiveStoryDemo = () => {
                 ))}
               </div>
             </h2>
-            <div className="aspect-video rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
-              {!selectedTheme && !gameType && !difficulty ? (
-                <p className="text-gray-400 text-center p-8 font-['Poppins']">
-                  You must select a theme, game type, and difficulty level to get started.
+            {selectedThemeData ? (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.5 }}
+                className="space-y-4"
+              >
+                <div className="aspect-video rounded-lg overflow-hidden">
+                  <img
+                    src={selectedThemeData.image}
+                    alt={selectedThemeData.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <p className="text-lg font-['Poppins'] text-gray-300">
+                  {selectedThemeData.description}
                 </p>
-              ) : (
-                <img
-                  src={themes.find(t => t.id === selectedTheme)?.image || themes[0].image}
-                  alt="Adventure preview"
-                  className="w-full h-full object-cover"
-                />
-              )}
-            </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <img
+                    src={selectedThemeData.secondaryImage}
+                    alt={`${selectedThemeData.name} secondary`}
+                    className="w-full h-32 object-cover rounded-lg"
+                  />
+                  <div className="bg-gray-800 rounded-lg p-4">
+                    <p className="text-sm text-gray-400 mb-2">Selected Options:</p>
+                    <p className="text-[#00FFFF]">Theme: {selectedThemeData.name}</p>
+                    <p className="text-[#00FFFF]">Type: {gameType || "Not selected"}</p>
+                    <p className="text-[#00FFFF]">Difficulty: {difficulty || "Not selected"}</p>
+                  </div>
+                </div>
+              </motion.div>
+            ) : (
+              <div className="aspect-video rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
+                <p className="text-gray-400 text-center p-8 font-['Poppins']">
+                  Select a theme to preview your adventure
+                </p>
+              </div>
+            )}
           </Card>
         </div>
       </div>
