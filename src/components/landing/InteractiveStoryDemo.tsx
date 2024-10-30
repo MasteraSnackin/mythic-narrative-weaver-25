@@ -10,73 +10,72 @@ interface StoryNode {
   choices: {
     text: string;
     nextNode: string;
+    educational?: boolean;
   }[];
 }
 
 const storyNodes: Record<string, StoryNode> = {
   start: {
-    text: "You find yourself in a mysterious tech hub, surrounded by holographic displays and advanced machinery. What catches your attention first?",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    text: "Welcome to the Learning Adventure Hub! As a young explorer, you find yourself in a magical space where knowledge comes to life. Where would you like to begin your journey?",
+    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
     choices: [
-      { text: "The glowing quantum computer", nextNode: "quantum" },
-      { text: "The AI research lab", nextNode: "ai" },
-      { text: "The virtual reality chamber", nextNode: "vr" },
-      { text: "The robotics workshop", nextNode: "robotics" }
+      { text: "Enter the Science Laboratory", nextNode: "science", educational: true },
+      { text: "Visit the Historical Archives", nextNode: "history", educational: true },
+      { text: "Explore the Creative Writing Studio", nextNode: "writing" },
+      { text: "Join the Problem-Solving Workshop", nextNode: "problemSolving", educational: true }
     ]
   },
-  quantum: {
-    text: "The quantum computer hums with otherworldly energy. Its displays show complex calculations that seem to bend reality itself.",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+  science: {
+    text: "The Science Lab buzzes with excitement! Interactive holograms display various experiments and discoveries. What interests you most?",
+    image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d",
     choices: [
-      { text: "Run a quantum simulation", nextNode: "simulation" },
-      { text: "Study the architecture", nextNode: "architecture" },
-      { text: "Check the error rates", nextNode: "errors" },
-      { text: "Return to the hub", nextNode: "start" }
+      { text: "Conduct a Space Exploration", nextNode: "space", educational: true },
+      { text: "Study Marine Biology", nextNode: "marine", educational: true },
+      { text: "Experiment with Chemistry", nextNode: "chemistry", educational: true },
+      { text: "Return to the Hub", nextNode: "start" }
     ]
   },
-  ai: {
-    text: "In the AI lab, multiple screens display neural networks learning and evolving in real-time. The possibilities seem endless.",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+  history: {
+    text: "The Historical Archives come alive with interactive timelines and 3D reconstructions of ancient civilizations. Where would you like to travel?",
+    image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1",
     choices: [
-      { text: "Train a new model", nextNode: "training" },
-      { text: "Analyze the results", nextNode: "analysis" },
-      { text: "Test the AI's creativity", nextNode: "creativity" },
-      { text: "Return to the hub", nextNode: "start" }
+      { text: "Ancient Egypt Adventure", nextNode: "egypt", educational: true },
+      { text: "Medieval Castle Explorer", nextNode: "medieval", educational: true },
+      { text: "Industrial Revolution Journey", nextNode: "industrial", educational: true },
+      { text: "Return to the Hub", nextNode: "start" }
     ]
   },
-  vr: {
-    text: "The VR chamber promises immersive experiences beyond imagination. Various simulations await your command.",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+  writing: {
+    text: "In the Creative Writing Studio, stories come to life as you write them! Magical tools help you craft your own adventures.",
+    image: "https://images.unsplash.com/photo-1532012197267-da84d127e765",
     choices: [
-      { text: "Enter a fantasy world", nextNode: "fantasy" },
-      { text: "Try space exploration", nextNode: "space" },
-      { text: "Start historical simulation", nextNode: "history" },
-      { text: "Return to the hub", nextNode: "start" }
+      { text: "Create a Fantasy Tale", nextNode: "fantasy" },
+      { text: "Write a Mystery Story", nextNode: "mystery" },
+      { text: "Compose Poetry", nextNode: "poetry" },
+      { text: "Return to the Hub", nextNode: "start" }
     ]
   },
-  robotics: {
-    text: "The robotics workshop is filled with various machines in different stages of assembly. What would you like to work on?",
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+  problemSolving: {
+    text: "Welcome to the Problem-Solving Workshop! Here, puzzles and challenges await to test your wit and creativity.",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7",
     choices: [
-      { text: "Program a new robot", nextNode: "program" },
-      { text: "Test the prototypes", nextNode: "test" },
-      { text: "Improve the AI core", nextNode: "improve" },
-      { text: "Return to the hub", nextNode: "start" }
+      { text: "Logic Puzzles Challenge", nextNode: "logic", educational: true },
+      { text: "Mathematical Adventures", nextNode: "math", educational: true },
+      { text: "Strategic Thinking Games", nextNode: "strategy", educational: true },
+      { text: "Return to the Hub", nextNode: "start" }
     ]
   },
-  simulation: {
-    text: "The quantum simulation reveals fascinating patterns in the fabric of reality. Would you like to continue exploring?",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+  space: {
+    text: "The wonders of the cosmos unfold before you! Interactive star maps and planetary systems await your exploration.",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
     choices: [
-      { text: "Try another simulation", nextNode: "quantum" },
-      { text: "Share your findings", nextNode: "share" },
-      { text: "Document the results", nextNode: "document" },
-      { text: "Return to the hub", nextNode: "start" }
+      { text: "Continue Space Exploration", nextNode: "science" },
+      { text: "Study Black Holes", nextNode: "space" },
+      { text: "Visit Mars", nextNode: "space" },
+      { text: "Return to the Hub", nextNode: "start" }
     ]
   }
 };
-
-// Add similar nodes for other paths...
 
 export const InteractiveStoryDemo = () => {
   const [currentNode, setCurrentNode] = useState("start");
@@ -99,10 +98,10 @@ export const InteractiveStoryDemo = () => {
           className="text-center mb-12"
         >
           <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-            Try Our Interactive Story Demo
+            Experience Interactive Learning
           </h2>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">
-            Experience how our AI adapts stories to your choices
+            Embark on an educational adventure where your choices shape the story
           </p>
         </motion.div>
 
@@ -131,7 +130,9 @@ export const InteractiveStoryDemo = () => {
                   <Button
                     key={index}
                     variant="outline"
-                    className="justify-between text-left h-auto py-3"
+                    className={`justify-between text-left h-auto py-3 ${
+                      choice.educational ? 'border-purple-200 hover:border-purple-400' : ''
+                    }`}
                     onClick={() => handleChoice(choice.nextNode)}
                   >
                     <span>{choice.text}</span>
