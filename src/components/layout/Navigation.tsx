@@ -11,9 +11,14 @@ const Navigation = () => {
   const { theme, setTheme } = useTheme();
 
   const navItems = [
-    { label: "Features", path: "/features" },
-    { label: "Library", path: "/library" },
     { label: "About", path: "/about-us" },
+    { label: "Library", path: "/library" },
+    { label: "Pricing", path: "/pricing" },
+    { label: "School Pilot", path: "/school-pilot" },
+    { label: "AI Story Engine", path: "/ai-story-engine" },
+    { label: "Community", path: "/community" },
+    { label: "Resources", path: "/educator-resources" },
+    { label: "Stay Updated", path: "/stay-updated" },
     { label: "Contact", path: "/contact" }
   ];
 
@@ -30,7 +35,7 @@ const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <NavigationMenu>
-              <NavigationMenuList>
+              <NavigationMenuList className="flex flex-wrap gap-1">
                 {navItems.map((item) => (
                   <NavigationMenuItem key={item.label}>
                     <Link to={item.path}>
