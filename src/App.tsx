@@ -11,6 +11,11 @@ import Library from "./pages/Library"
 import ParentDashboard from "./pages/ParentDashboard"
 import StoryCreator from "./pages/StoryCreator"
 import Community from "./pages/Community"
+import AboutUs from "./pages/AboutUs"
+import EducatorResources from "./pages/EducatorResources"
+import Pricing from "./pages/Pricing"
+import SchoolPilot from "./pages/SchoolPilot"
+import AIStoryEngine from "./pages/AIStoryEngine"
 
 const queryClient = new QueryClient()
 
@@ -29,6 +34,11 @@ const App = () => (
           <Route path="/parent-dashboard" element={<ParentDashboard />} />
           <Route path="/story-creator" element={<StoryCreator />} />
           <Route path="/community" element={<Community />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/educator-resources" element={<EducatorResources />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/school-pilot" element={<SchoolPilot />} />
+          <Route path="/ai-story-engine" element={<AIStoryEngine />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
