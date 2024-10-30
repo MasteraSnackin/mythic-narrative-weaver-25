@@ -25,6 +25,7 @@ import EducatorResources from "./pages/EducatorResources"
 import Pricing from "./pages/Pricing"
 import SchoolPilot from "./pages/SchoolPilot"
 import AIStoryEngine from "./pages/AIStoryEngine"
+import Blog from "./pages/Blog"
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -62,6 +63,7 @@ const App = () => (
                 <Route path="/pricing" element={<Pricing />} />
                 <Route path="/school-pilot" element={<SchoolPilot />} />
                 <Route path="/ai-story-engine" element={<AIStoryEngine />} />
+                <Route path="/blog" element={<Blog />} />
               </Routes>
             </Suspense>
             <FeedbackDialog />

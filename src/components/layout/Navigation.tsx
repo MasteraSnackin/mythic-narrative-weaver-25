@@ -18,6 +18,7 @@ const Navigation = () => {
     { label: "AI Story Engine", path: "/ai-story-engine" },
     { label: "Community", path: "/community" },
     { label: "Resources", path: "/educator-resources" },
+    { label: "Blog", path: "/blog" },
     { label: "Stay Updated", path: "/stay-updated" },
     { label: "Contact", path: "/contact" }
   ];

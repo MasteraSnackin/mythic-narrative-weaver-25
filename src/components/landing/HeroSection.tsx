@@ -17,7 +17,7 @@ export const HeroSection = () => (
         transition={{ duration: 0.5 }}
         className="absolute -top-20 -left-20 w-40 h-40 bg-purple-300 rounded-full blur-3xl opacity-30"
       />
-      <h1 className="text-6xl lg:text-7xl font-bold gradient-text">
+      <h1 className="text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-900 via-purple-600 to-purple-400">
         The Future of Storytelling
       </h1>
       <p className="text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
