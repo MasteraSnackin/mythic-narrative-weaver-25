@@ -1,5 +1,6 @@
 import { describe, beforeEach, test, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import { InteractiveDemo } from '../InteractiveStoryDemo';
 import { BrowserRouter } from 'react-router-dom';
 
