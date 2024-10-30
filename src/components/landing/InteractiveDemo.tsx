@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Book, Brain, Sparkles, Map, Code, Microscope, FlaskConical, Calculator } from "lucide-react";
+import { Book, Brain, Sparkles, Map, Code, Microscope, Flask, Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -41,7 +41,7 @@ const demoStories = [
     genre: "Science",
     educationalFocus: "Chemistry & Lab Skills",
     image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69",
-    icon: FlaskConical,
+    icon: Flask,
     difficulty: "Intermediate",
     skills: ["Lab Safety", "Chemical Knowledge", "Scientific Method"]
   },
