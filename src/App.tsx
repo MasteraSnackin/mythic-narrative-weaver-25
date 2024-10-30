@@ -3,6 +3,7 @@ import { TooltipProvider } from "@/components/ui/tooltip"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import { Analytics } from '@vercel/analytics/react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { FeedbackDialog } from "./components/ui/feedback-dialog"
 import Index from "./pages/Index"
 import GetStarted from "./pages/GetStarted"
 import LearnMore from "./pages/LearnMore"
@@ -21,7 +22,7 @@ import AIStoryEngine from "./pages/AIStoryEngine"
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      staleTime: 60 * 1000, // 1 minute
+      staleTime: 60 * 1000,
       retry: 1,
     },
   },
@@ -52,6 +53,7 @@ const App = () => (
             <Route path="/school-pilot" element={<SchoolPilot />} />
             <Route path="/ai-story-engine" element={<AIStoryEngine />} />
           </Routes>
+          <FeedbackDialog />
         </main>
       </BrowserRouter>
       <Analytics />
