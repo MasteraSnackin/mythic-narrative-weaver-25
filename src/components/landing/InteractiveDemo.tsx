@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Book, Brain, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { FANTASY_IMAGE, EDUCATION_IMAGE, SCIFI_IMAGE } from "@/utils/images";
 
 export const InteractiveDemo = () => {
   return (
@@ -26,21 +25,21 @@ export const InteractiveDemo = () => {
             {
               title: "Fantasy Adventure",
               description: "Embark on a magical journey where your choices shape the story",
-              image: FANTASY_IMAGE,
+              image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
               icon: Book,
               difficulty: "Beginner"
             },
             {
               title: "Science Explorer",
               description: "Learn about space and science through interactive storytelling",
-              image: SCIFI_IMAGE,
+              image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
               icon: Brain,
               difficulty: "Intermediate"
             },
             {
               title: "Historical Quest",
               description: "Travel through time and make decisions that change history",
-              image: EDUCATION_IMAGE,
+              image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
               icon: Sparkles,
               difficulty: "Advanced"
             }
