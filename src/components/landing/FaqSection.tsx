@@ -8,24 +8,24 @@ import { motion } from "framer-motion";
 
 const faqs = [
   {
-    question: "How does parametric insurance work?",
-    answer: "Parametric insurance automatically triggers payouts based on predefined weather conditions, such as rainfall amounts or temperature thresholds. When these conditions are met, as verified by our oracle data sources, smart contracts automatically process the payout without requiring traditional claims filing."
+    question: "How does the AI storytelling work?",
+    answer: "Our AI technology analyzes your choices and reading patterns to create personalized narratives that adapt to your preferences. The stories evolve based on your decisions, ensuring each experience is unique and engaging."
   },
   {
-    question: "What types of weather conditions are covered?",
-    answer: "Our insurance covers various weather-related risks including excess rainfall, drought conditions, and extreme temperatures. The specific conditions and thresholds are clearly defined in each policy and can be customized based on your farming needs."
+    question: "What age group is this suitable for?",
+    answer: "Our platform is designed for readers aged 5-14, with content and difficulty levels that automatically adjust to match each reader's abilities and interests."
   },
   {
-    question: "How are payouts calculated and processed?",
-    answer: "Payouts are calculated based on the severity of the weather event and your coverage amount. Our smart contracts automatically process payments when triggered by verified weather data, typically within 24-48 hours of the triggering event."
+    question: "How does the educational aspect work?",
+    answer: "We seamlessly integrate educational elements into our stories, making learning fun and interactive. The AI adapts the content to reinforce learning while maintaining engagement through exciting narratives."
   },
   {
-    question: "Is blockchain technology secure for insurance?",
-    answer: "Yes! Blockchain technology provides enhanced security and transparency. All policy terms, conditions, and transactions are immutably recorded on the blockchain, ensuring that contract terms cannot be altered and payouts are processed exactly as agreed."
+    question: "Can parents monitor their child's progress?",
+    answer: "Yes! Parents have access to a dashboard showing reading progress, comprehension levels, and areas of interest. This helps track educational development while ensuring an enjoyable reading experience."
   },
   {
-    question: "How do I verify weather data accuracy?",
-    answer: "We use multiple trusted oracle sources to gather and verify weather data. This data is pulled from reliable weather stations and meteorological services, and is transparently recorded on the blockchain for verification."
+    question: "How often is new content added?",
+    answer: "Our AI continuously generates new story variations, and we regularly add new base stories to our library. Each story can be experienced multiple times with different outcomes based on your choices."
   }
 ];
 

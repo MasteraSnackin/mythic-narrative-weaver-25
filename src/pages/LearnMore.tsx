@@ -15,10 +15,10 @@ const LearnMore = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              Discover Mythic Mind Labs
+              The Future of Storytelling
             </h1>
             <p className="text-xl text-gray-600">
-              Learn how our AI-powered platform is revolutionizing interactive storytelling
+              Born in a 36-hour hackathon, we're revolutionizing interactive storytelling with AI-powered narratives
             </p>
           </div>
 
@@ -28,9 +28,9 @@ const LearnMore = () => {
                 <div className="p-2 bg-purple-100 rounded-lg w-fit">
                   <Target className="w-6 h-6 text-purple-600" />
                 </div>
-                <h2 className="text-2xl font-semibold">Our Mission</h2>
+                <h2 className="text-2xl font-semibold">Our Vision</h2>
                 <p className="text-gray-600">
-                  We\'re on a mission to transform education through engaging, interactive storytelling that adapts to each reader\'s unique journey.
+                  Every reader becomes the hero of their own epic adventure, with choices that truly matter and shape unique, personalized narratives.
                 </p>
               </CardContent>
             </Card>
@@ -42,7 +42,7 @@ const LearnMore = () => {
                 </div>
                 <h2 className="text-2xl font-semibold">Innovation</h2>
                 <p className="text-gray-600">
-                  Our AI technology creates personalized narratives that evolve with each choice, making every story unique to the reader.
+                  Our AI technology adapts to your choices, skill level, and reading pace, creating an immersive experience that evolves with you.
                 </p>
               </CardContent>
             </Card>
@@ -52,26 +52,26 @@ const LearnMore = () => {
                 <div className="p-2 bg-purple-100 rounded-lg w-fit">
                   <BookOpen className="w-6 h-6 text-purple-600" />
                 </div>
-                <h2 className="text-2xl font-semibold">Educational Impact</h2>
+                <h2 className="text-2xl font-semibold">Market Opportunity</h2>
                 <p className="text-gray-600">
-                  Our platform has helped thousands of students improve their reading comprehension and critical thinking skills through interactive storytelling.
+                  The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-purple-600">10k+</div>
-                    <div className="text-sm text-gray-600">Active Users</div>
+                    <div className="text-3xl font-bold text-purple-600">4.1B</div>
+                    <div className="text-sm text-gray-600">Market Size by 2027</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-purple-600">500+</div>
-                    <div className="text-sm text-gray-600">Stories</div>
+                    <div className="text-3xl font-bold text-purple-600">270M+</div>
+                    <div className="text-sm text-gray-600">CYOA Books Sold</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-purple-600">95%</div>
-                    <div className="text-sm text-gray-600">Satisfaction</div>
+                    <div className="text-3xl font-bold text-purple-600">5-14</div>
+                    <div className="text-sm text-gray-600">Target Age Range</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-purple-600">50+</div>
-                    <div className="text-sm text-gray-600">Schools</div>
+                    <div className="text-3xl font-bold text-purple-600">36hr</div>
+                    <div className="text-sm text-gray-600">Hackathon Origin</div>
                   </div>
                 </div>
               </CardContent>

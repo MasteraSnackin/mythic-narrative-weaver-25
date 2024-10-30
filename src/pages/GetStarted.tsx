@@ -14,7 +14,7 @@ const GetStarted = () => {
           className="max-w-3xl mx-auto space-y-8"
         >
           <h1 className="text-4xl font-bold text-center bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-            Get Started with Mythic Mind Labs
+            Begin Your Adventure
           </h1>
           
           <div className="grid gap-6">
@@ -24,9 +24,9 @@ const GetStarted = () => {
                   <div className="p-2 bg-purple-100 rounded-lg">
                     <Rocket className="w-6 h-6 text-purple-600" />
                   </div>
-                  <h2 className="text-2xl font-semibold">Quick Start Guide</h2>
+                  <h2 className="text-2xl font-semibold">Start Your Journey</h2>
                 </div>
-                <p className="text-gray-600">Begin your journey with our interactive storytelling platform in just a few simple steps.</p>
+                <p className="text-gray-600">Experience AI-powered stories that adapt to your choices and create unique adventures every time.</p>
                 <Button className="w-full">Create Your Account</Button>
               </CardContent>
             </Card>
@@ -37,10 +37,10 @@ const GetStarted = () => {
                   <div className="p-2 bg-purple-100 rounded-lg">
                     <BookOpen className="w-6 h-6 text-purple-600" />
                   </div>
-                  <h2 className="text-2xl font-semibold">Browse Stories</h2>
+                  <h2 className="text-2xl font-semibold">Explore Stories</h2>
                 </div>
-                <p className="text-gray-600">Explore our vast library of interactive stories across various genres and reading levels.</p>
-                <Button variant="outline" className="w-full">View Library</Button>
+                <p className="text-gray-600">Dive into our growing library of interactive stories that blend entertainment with educational value.</p>
+                <Button variant="outline" className="w-full">Browse Library</Button>
               </CardContent>
             </Card>
 
@@ -52,7 +52,7 @@ const GetStarted = () => {
                   </div>
                   <h2 className="text-2xl font-semibold">Join Community</h2>
                 </div>
-                <p className="text-gray-600">Connect with other readers and educators in our growing community.</p>
+                <p className="text-gray-600">Connect with other young readers and educators in our growing storytelling community.</p>
                 <Button variant="outline" className="w-full">Join Discord</Button>
               </CardContent>
             </Card>
