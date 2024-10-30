@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { motion } from "framer-motion"
-import { Brain, Sparkles, Target } from "lucide-react"
+import { Brain, Sparkles, Target, Zap } from "lucide-react"
 
 const AIStoryEngine = () => {
   return (
@@ -13,10 +13,10 @@ const AIStoryEngine = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              AI Story Engine
+              Our AI Story Engine
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Discover how our AI crafts personalized narratives
+              Discover how our proprietary AI crafts personalized narratives that adapt to your choices
             </p>
           </div>
 
@@ -25,10 +25,10 @@ const AIStoryEngine = () => {
               <CardContent className="p-6 space-y-4">
                 <div className="flex items-center gap-4">
                   <Brain className="w-8 h-8 text-purple-600" />
-                  <h2 className="text-2xl font-semibold">Adaptive Learning</h2>
+                  <h2 className="text-2xl font-semibold">Proprietary AI Model</h2>
                 </div>
                 <p className="text-gray-600">
-                  Our AI engine learns from every choice, adapting the story's difficulty and pacing to match your preferences and reading level.
+                  Our custom-built AI is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique training allows it to craft stories that are both engaging and informative, a feat that pre-built AI solutions struggle with.
                 </p>
               </CardContent>
             </Card>
@@ -37,10 +37,10 @@ const AIStoryEngine = () => {
               <CardContent className="p-6 space-y-4">
                 <div className="flex items-center gap-4">
                   <Target className="w-8 h-8 text-purple-600" />
-                  <h2 className="text-2xl font-semibold">Dynamic Narratives</h2>
+                  <h2 className="text-2xl font-semibold">Dynamic Adaptation</h2>
                 </div>
                 <p className="text-gray-600">
-                  Experience stories that evolve based on your decisions, creating unique paths and outcomes every time you read.
+                  The AI engine analyzes your choices and reading patterns to adjust difficulty, pacing, and narrative complexity in real-time. This creates a truly personalized experience that grows with you.
                 </p>
               </CardContent>
             </Card>
@@ -49,10 +49,22 @@ const AIStoryEngine = () => {
               <CardContent className="p-6 space-y-4">
                 <div className="flex items-center gap-4">
                   <Sparkles className="w-8 h-8 text-purple-600" />
-                  <h2 className="text-2xl font-semibold">Educational Integration</h2>
+                  <h2 className="text-2xl font-semibold">Human Touch & Curation</h2>
                 </div>
                 <p className="text-gray-600">
-                  Our AI seamlessly weaves educational content into engaging narratives, making learning a natural part of the adventure.
+                  Our AI is guided by experienced storytellers, educators, and game designers. This human touch ensures stories are not only educational but also captivating and tailored to specific age groups and interests.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardContent className="p-6 space-y-4">
+                <div className="flex items-center gap-4">
+                  <Zap className="w-8 h-8 text-purple-600" />
+                  <h2 className="text-2xl font-semibold">Continuous Learning</h2>
+                </div>
+                <p className="text-gray-600">
+                  Our AI constantly learns and improves based on user interaction and feedback. This ongoing loop ensures our stories stay fresh, relevant, and even more effective over time.
                 </p>
               </CardContent>
             </Card>
