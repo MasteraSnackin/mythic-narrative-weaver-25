@@ -1,6 +1,6 @@
 import { HeroSection } from "@/components/landing/HeroSection";
 import { FeaturesSection } from "@/components/landing/FeaturesSection";
-import { InsuranceDashboard } from "@/components/landing/InsuranceDashboard";
+import { StorytellingDashboard } from "@/components/landing/StorytellingDashboard";
 import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
 import { TrustBadgesSection } from "@/components/landing/TrustBadgesSection";
 import { FaqSection } from "@/components/landing/FaqSection";
@@ -21,7 +21,7 @@ const Index = () => {
           <HeroSection />
           <FeaturesSection />
           <InteractiveDemo />
-          <InsuranceDashboard />
+          <StorytellingDashboard />
           <TrustBadgesSection />
           <TestimonialsSection />
           <FaqSection />
