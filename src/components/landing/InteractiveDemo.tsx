@@ -25,21 +25,21 @@ export const InteractiveDemo = () => {
             {
               title: "Fantasy Adventure",
               description: "Embark on a magical journey where your choices shape the story",
-              image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+              image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96",
               icon: Book,
-              difficulty: "Beginner"
+              difficulty: "Family-Friendly"
             },
             {
               title: "Science Explorer",
               description: "Learn about space and science through interactive storytelling",
-              image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+              image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
               icon: Brain,
-              difficulty: "Intermediate"
+              difficulty: "Educational"
             },
             {
               title: "Historical Quest",
               description: "Travel through time and make decisions that change history",
-              image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+              image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1",
               icon: Sparkles,
               difficulty: "Advanced"
             }
