@@ -5,9 +5,8 @@ import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
 import { TrustBadgesSection } from "@/components/landing/TrustBadgesSection";
 import { FaqSection } from "@/components/landing/FaqSection";
 import { CallToAction } from "@/components/landing/CallToAction";
-import { InteractiveDemo } from "@/components/landing/InteractiveDemo";
+import { InteractiveDemo } from "@/components/landing/InteractiveStoryDemo";
 import { ImageGallery } from "@/components/landing/ImageGallery";
-import { InteractiveStoryDemo } from "@/components/landing/InteractiveStoryDemo";
 import { Toaster } from "@/components/ui/sonner";
 
 const Index = () => {
@@ -16,7 +15,7 @@ const Index = () => {
       <Toaster />
       <main className="pt-16">
         <HeroSection />
-        <InteractiveStoryDemo />
+        <InteractiveDemo />
         <FeaturesSection />
         <InteractiveDemo />
         <ImageGallery />
