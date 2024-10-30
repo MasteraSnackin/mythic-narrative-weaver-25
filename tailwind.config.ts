@@ -20,27 +20,27 @@ const config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#3A86FF", // Electric Blue
-          foreground: "#F5F5F5", // Soft White
+          DEFAULT: "#007BFF", // Electric Blue
+          foreground: "#F8F9FA", // Ivory White
         },
         secondary: {
-          DEFAULT: "#8338EC", // Vibrant Purple
-          foreground: "#F5F5F5",
+          DEFAULT: "#32CD32", // Lime Green
+          foreground: "#F8F9FA",
         },
         accent: {
-          DEFAULT: "#FFBE0B", // Golden Yellow
-          foreground: "#2A2A2A",
+          DEFAULT: "#FF6347", // Sunset Orange
+          foreground: "#212529",
         },
-        success: "#3D9970", // Emerald Green
-        background: "#F5F5F5", // Soft White
-        foreground: "#2A2A2A", // Slate Gray
+        success: "#32CD32", // Lime Green
+        background: "#F8F9FA", // Ivory White
+        foreground: "#212529", // Midnight Black
         card: {
           DEFAULT: "#FFFFFF",
-          foreground: "#2A2A2A",
+          foreground: "#212529",
         },
         popover: {
           DEFAULT: "#FFFFFF",
-          foreground: "#2A2A2A",
+          foreground: "#212529",
         },
         muted: {
           DEFAULT: "#F1F5F9",
@@ -48,11 +48,28 @@ const config = {
         },
         destructive: {
           DEFAULT: "#FF0000",
-          foreground: "#F5F5F5",
+          foreground: "#F8F9FA",
         },
         border: "#E2E8F0",
         input: "#E2E8F0",
-        ring: "#3A86FF",
+        ring: "#007BFF",
+        purple: {
+          DEFAULT: "#8A2BE2", // Violet Purple
+          50: "#F3E8FF",
+          100: "#E9D5FF",
+          200: "#D8B4FE",
+          300: "#C084FC",
+          400: "#A855F7",
+          500: "#8A2BE2",
+          600: "#7C3AED",
+          700: "#6D28D9",
+          800: "#5B21B6",
+          900: "#4C1D95",
+        },
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
       },
       borderRadius: {
         lg: "0.5rem",
