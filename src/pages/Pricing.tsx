@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
-import { Check } from "lucide-react"
+import { Check, Sparkles, Star } from "lucide-react"
 
 const Pricing = () => {
   return (
@@ -14,44 +14,26 @@ const Pricing = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              Simple, Transparent Pricing
+              Choose Your Adventure Plan
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Choose the plan that's right for you
+              Flexible plans for every storyteller
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
             <Card>
               <CardHeader>
-                <CardTitle>Basic</CardTitle>
+                <CardTitle>Free Explorer</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="text-3xl font-bold">$9.99/mo</div>
-                <ul className="space-y-2">
-                  {["5 stories per month", "Basic AI features", "Standard support"].map((feature) => (
-                    <li key={feature} className="flex items-center gap-2">
-                      <Check className="w-4 h-4 text-green-500" />
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                <Button className="w-full">Get Started</Button>
-              </CardContent>
-            </Card>
-
-            <Card className="border-purple-500">
-              <CardHeader>
-                <CardTitle>Pro</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="text-3xl font-bold">$19.99/mo</div>
+                <div className="text-3xl font-bold">£0/mo</div>
                 <ul className="space-y-2">
                   {[
-                    "Unlimited stories",
-                    "Advanced AI features",
-                    "Priority support",
-                    "Custom themes"
+                    "Access to sample stories",
+                    "Basic AI features",
+                    "Limited story choices",
+                    "Community access"
                   ].map((feature) => (
                     <li key={feature} className="flex items-center gap-2">
                       <Check className="w-4 h-4 text-green-500" />
@@ -63,18 +45,49 @@ const Pricing = () => {
               </CardContent>
             </Card>
 
+            <Card className="border-purple-500 relative">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2">
+                <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm flex items-center gap-1">
+                  <Star className="w-4 h-4" /> Most Popular
+                </span>
+              </div>
+              <CardHeader>
+                <CardTitle>Story Weaver</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="text-3xl font-bold">£9.99/mo</div>
+                <ul className="space-y-2">
+                  {[
+                    "Unlimited story access",
+                    "Advanced AI features",
+                    "Priority support",
+                    "Personalized recommendations",
+                    "Progress tracking"
+                  ].map((feature) => (
+                    <li key={feature} className="flex items-center gap-2">
+                      <Check className="w-4 h-4 text-green-500" />
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+                <Button className="w-full">Subscribe Now</Button>
+              </CardContent>
+            </Card>
+
             <Card>
               <CardHeader>
-                <CardTitle>Enterprise</CardTitle>
+                <CardTitle>Education Pro</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="text-3xl font-bold">Custom</div>
                 <ul className="space-y-2">
                   {[
-                    "Custom story creation",
-                    "Dedicated support",
-                    "API access",
-                    "Custom integrations"
+                    "School-wide access",
+                    "Curriculum integration",
+                    "Teacher dashboard",
+                    "Analytics & reporting",
+                    "Custom content creation",
+                    "Training & support"
                   ].map((feature) => (
                     <li key={feature} className="flex items-center gap-2">
                       <Check className="w-4 h-4 text-green-500" />
@@ -83,6 +96,20 @@ const Pricing = () => {
                   ))}
                 </ul>
                 <Button variant="outline" className="w-full">Contact Sales</Button>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-12 text-center">
+            <Card className="max-w-2xl mx-auto">
+              <CardContent className="p-6">
+                <div className="flex items-center justify-center gap-2 mb-4">
+                  <Sparkles className="w-6 h-6 text-purple-600" />
+                  <h2 className="text-xl font-semibold">Coming Soon</h2>
+                </div>
+                <p className="text-gray-600">
+                  Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.
+                </p>
               </CardContent>
             </Card>
           </div>
