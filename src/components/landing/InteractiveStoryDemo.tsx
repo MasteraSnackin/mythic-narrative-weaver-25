@@ -6,6 +6,7 @@ import { ChevronRight, Sparkles } from "lucide-react";
 
 interface StoryNode {
   text: string;
+  image: string;
   choices: {
     text: string;
     nextNode: string;
@@ -14,45 +15,68 @@ interface StoryNode {
 
 const storyNodes: Record<string, StoryNode> = {
   start: {
-    text: "You stand before an ancient library, its doors mysteriously ajar. A soft purple glow emanates from within...",
+    text: "You find yourself in a mysterious tech hub, surrounded by holographic displays and advanced machinery. What catches your attention first?",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     choices: [
-      { text: "Enter the library", nextNode: "library" },
-      { text: "Investigate the surroundings", nextNode: "surroundings" }
+      { text: "The glowing quantum computer", nextNode: "quantum" },
+      { text: "The AI research lab", nextNode: "ai" },
+      { text: "The virtual reality chamber", nextNode: "vr" },
+      { text: "The robotics workshop", nextNode: "robotics" }
     ]
   },
-  library: {
-    text: "Inside, floating books circle around a central pedestal. A magical tablet rests there, displaying strange symbols.",
+  quantum: {
+    text: "The quantum computer hums with otherworldly energy. Its displays show complex calculations that seem to bend reality itself.",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
     choices: [
-      { text: "Touch the tablet", nextNode: "tablet" },
-      { text: "Try to catch a book", nextNode: "book" }
+      { text: "Run a quantum simulation", nextNode: "simulation" },
+      { text: "Study the architecture", nextNode: "architecture" },
+      { text: "Check the error rates", nextNode: "errors" },
+      { text: "Return to the hub", nextNode: "start" }
     ]
   },
-  surroundings: {
-    text: "Around the library, you discover ancient runes carved into the ground, forming a perfect circle.",
+  ai: {
+    text: "In the AI lab, multiple screens display neural networks learning and evolving in real-time. The possibilities seem endless.",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
     choices: [
-      { text: "Trace the runes", nextNode: "runes" },
-      { text: "Return to the entrance", nextNode: "start" }
+      { text: "Train a new model", nextNode: "training" },
+      { text: "Analyze the results", nextNode: "analysis" },
+      { text: "Test the AI's creativity", nextNode: "creativity" },
+      { text: "Return to the hub", nextNode: "start" }
     ]
   },
-  tablet: {
-    text: "The tablet glows brighter at your touch! Words appear: 'Welcome to the Mythic Mind Labs Demo!'",
+  vr: {
+    text: "The VR chamber promises immersive experiences beyond imagination. Various simulations await your command.",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
     choices: [
-      { text: "Start a new story", nextNode: "start" }
+      { text: "Enter a fantasy world", nextNode: "fantasy" },
+      { text: "Try space exploration", nextNode: "space" },
+      { text: "Start historical simulation", nextNode: "history" },
+      { text: "Return to the hub", nextNode: "start" }
     ]
   },
-  book: {
-    text: "The book gently floats into your hands. Its pages contain countless interactive stories waiting to be explored!",
+  robotics: {
+    text: "The robotics workshop is filled with various machines in different stages of assembly. What would you like to work on?",
+    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
     choices: [
-      { text: "Start a new story", nextNode: "start" }
+      { text: "Program a new robot", nextNode: "program" },
+      { text: "Test the prototypes", nextNode: "test" },
+      { text: "Improve the AI core", nextNode: "improve" },
+      { text: "Return to the hub", nextNode: "start" }
     ]
   },
-  runes: {
-    text: "The runes begin to glow! They reveal the magic of AI-powered storytelling that adapts to each reader.",
+  simulation: {
+    text: "The quantum simulation reveals fascinating patterns in the fabric of reality. Would you like to continue exploring?",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
     choices: [
-      { text: "Start a new story", nextNode: "start" }
+      { text: "Try another simulation", nextNode: "quantum" },
+      { text: "Share your findings", nextNode: "share" },
+      { text: "Document the results", nextNode: "document" },
+      { text: "Return to the hub", nextNode: "start" }
     ]
   }
 };
+
+// Add similar nodes for other paths...
 
 export const InteractiveStoryDemo = () => {
   const [currentNode, setCurrentNode] = useState("start");
@@ -82,24 +106,32 @@ export const InteractiveStoryDemo = () => {
           </p>
         </motion.div>
 
-        <Card className="max-w-2xl mx-auto">
+        <Card className="max-w-4xl mx-auto">
           <CardContent className="p-6">
             <motion.div
               animate={{ opacity: fadeIn ? 1 : 0 }}
               transition={{ duration: 0.3 }}
               className="space-y-6"
             >
+              <div className="relative aspect-video mb-6 rounded-lg overflow-hidden">
+                <img
+                  src={storyNodes[currentNode].image}
+                  alt="Story scene"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              
               <div className="flex items-start gap-4">
                 <Sparkles className="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
                 <p className="text-lg leading-relaxed">{storyNodes[currentNode].text}</p>
               </div>
               
-              <div className="space-y-3">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {storyNodes[currentNode].choices.map((choice, index) => (
                   <Button
                     key={index}
                     variant="outline"
-                    className="w-full justify-between text-left h-auto py-3"
+                    className="justify-between text-left h-auto py-3"
                     onClick={() => handleChoice(choice.nextNode)}
                   >
                     <span>{choice.text}</span>

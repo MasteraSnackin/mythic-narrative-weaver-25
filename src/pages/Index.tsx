@@ -15,7 +15,7 @@ import { Toaster } from "@/components/ui/sonner";
 
 const Index = () => {
   return (
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+    <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
       <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-50 to-white dark:from-purple-900 dark:via-gray-900 dark:to-black">
         <Toaster />
         <Navigation />
