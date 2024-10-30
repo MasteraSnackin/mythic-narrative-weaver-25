@@ -77,9 +77,13 @@ export const NewsletterSection = () => {
               className="relative min-w-[120px]"
             >
               {isLoading ? (
-                <LoadingSpinner size="sm" className="mr-2" />
-              ) : null}
-              {isLoading ? "Subscribing..." : "Subscribe"}
+                <div className="flex items-center gap-2">
+                  <LoadingSpinner />
+                  <span>Subscribing...</span>
+                </div>
+              ) : (
+                "Subscribe"
+              )}
             </Button>
           </form>
         </div>
