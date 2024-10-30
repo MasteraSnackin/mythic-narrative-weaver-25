@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,9 +7,11 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400">
-              Mythic Mind Labs
-            </h3>
+            <Link to="/" className="block">
+              <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400">
+                Mythic Mind Labs
+              </h3>
+            </Link>
             <p className="text-gray-600 dark:text-gray-400">
               Revolutionizing storytelling with AI-powered narratives.
             </p>
@@ -17,35 +20,59 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">About</a></li>
-              <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">Careers</a></li>
-              <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">Press</a></li>
+              <li><Link to="/about-us" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">About</Link></li>
+              <li><Link to="/contact" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">Contact</Link></li>
+              <li><Link to="/pricing" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">Pricing</Link></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">Blog</a></li>
-              <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">Documentation</a></li>
-              <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">Help Center</a></li>
+              <li><Link to="/library" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">Library</Link></li>
+              <li><Link to="/educator-resources" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">For Educators</Link></li>
+              <li><Link to="/school-pilot" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">School Pilot</Link></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Connect</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">
-                <Facebook className="h-5 w-5" aria-label="Facebook" />
+              <a 
+                href="https://facebook.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-purple-600"
+                aria-label="Visit our Facebook page"
+              >
+                <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">
-                <Twitter className="h-5 w-5" aria-label="Twitter" />
+              <a 
+                href="https://twitter.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-purple-600"
+                aria-label="Visit our Twitter page"
+              >
+                <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">
-                <Instagram className="h-5 w-5" aria-label="Instagram" />
+              <a 
+                href="https://instagram.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-purple-600"
+                aria-label="Visit our Instagram page"
+              >
+                <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-purple-600">
-                <Linkedin className="h-5 w-5" aria-label="LinkedIn" />
+              <a 
+                href="https://linkedin.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-purple-600"
+                aria-label="Visit our LinkedIn page"
+              >
+                <Linkedin className="h-5 w-5" />
               </a>
             </div>
           </div>

@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 
 export const StorytellingDashboard = () => {
   return (
-    <section className="py-20 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg">
+    <section className="py-20 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg" aria-labelledby="metrics-title">
       <div className="container mx-auto px-4">
         <motion.h2 
+          id="metrics-title"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -16,12 +17,12 @@ export const StorytellingDashboard = () => {
           Platform Metrics
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <Link to="/library">
-            <Card className="hover:shadow-lg transition-all">
+          <Link to="/library" className="block focus:outline-none focus:ring-2 focus:ring-purple-600 rounded-lg">
+            <Card className="hover:shadow-lg transition-all h-full">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <BookOpen className="w-6 h-6 text-purple-600" />
-                  Market Size
+                  <BookOpen className="w-6 h-6 text-purple-600" aria-hidden="true" />
+                  <span>Market Size</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -33,12 +34,12 @@ export const StorytellingDashboard = () => {
             </Card>
           </Link>
 
-          <Link to="/community">
-            <Card className="hover:shadow-lg transition-all">
+          <Link to="/community" className="block focus:outline-none focus:ring-2 focus:ring-purple-600 rounded-lg">
+            <Card className="hover:shadow-lg transition-all h-full">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Users className="w-6 h-6 text-purple-600" />
-                  User Base
+                  <Users className="w-6 h-6 text-purple-600" aria-hidden="true" />
+                  <span>User Base</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -50,12 +51,12 @@ export const StorytellingDashboard = () => {
             </Card>
           </Link>
 
-          <Link to="/parent-dashboard">
-            <Card className="hover:shadow-lg transition-all">
+          <Link to="/parent-dashboard" className="block focus:outline-none focus:ring-2 focus:ring-purple-600 rounded-lg">
+            <Card className="hover:shadow-lg transition-all h-full">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <TrendingUp className="w-6 h-6 text-purple-600" />
-                  Growth
+                  <TrendingUp className="w-6 h-6 text-purple-600" aria-hidden="true" />
+                  <span>Growth</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -67,12 +68,12 @@ export const StorytellingDashboard = () => {
             </Card>
           </Link>
 
-          <Link to="/ai-story-engine">
-            <Card className="hover:shadow-lg transition-all">
+          <Link to="/ai-story-engine" className="block focus:outline-none focus:ring-2 focus:ring-purple-600 rounded-lg">
+            <Card className="hover:shadow-lg transition-all h-full">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Brain className="w-6 h-6 text-purple-600" />
-                  AI Stories
+                  <Brain className="w-6 h-6 text-purple-600" aria-hidden="true" />
+                  <span>AI Stories</span>
                 </CardTitle>
               </CardHeader>
               <CardContent>

@@ -4,38 +4,40 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Moon, Sun } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { theme, setTheme } = useTheme();
 
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    element?.scrollIntoView({ behavior: "smooth" });
-  };
+  const navItems = [
+    { label: "Features", path: "/features" },
+    { label: "Library", path: "/library" },
+    { label: "About", path: "/about-us" },
+    { label: "Contact", path: "/contact" }
+  ];
 
   return (
     <nav className="fixed top-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg z-50 border-b">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
+          <Link to="/" className="flex-shrink-0">
             <span className="text-2xl font-bold text-purple-600 dark:text-purple-400">
               Mythic Mind Labs
             </span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <NavigationMenu>
               <NavigationMenuList>
-                {["Features", "Market", "Contact"].map((item) => (
-                  <NavigationMenuItem key={item}>
-                    <NavigationMenuLink
-                      className="px-3 py-2 text-sm font-medium hover:text-purple-600 cursor-pointer"
-                      onClick={() => scrollToSection(item.toLowerCase())}
-                    >
-                      {item}
-                    </NavigationMenuLink>
+                {navItems.map((item) => (
+                  <NavigationMenuItem key={item.label}>
+                    <Link to={item.path}>
+                      <NavigationMenuLink className="px-3 py-2 text-sm font-medium hover:text-purple-600 cursor-pointer">
+                        {item.label}
+                      </NavigationMenuLink>
+                    </Link>
                   </NavigationMenuItem>
                 ))}
               </NavigationMenuList>
@@ -55,7 +57,9 @@ const Navigation = () => {
                 <Moon className="h-5 w-5" />
               )}
             </Button>
-            <Button>Get Started</Button>
+            <Button asChild>
+              <Link to="/get-started">Get Started</Link>
+            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -75,18 +79,23 @@ const Navigation = () => {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {["Features", "Market", "Contact"].map((item) => (
-                <button
-                  key={item}
+              {navItems.map((item) => (
+                <Link
+                  key={item.label}
+                  to={item.path}
                   className="block px-3 py-2 text-base font-medium hover:text-purple-600 w-full text-left"
-                  onClick={() => {
-                    scrollToSection(item.toLowerCase());
-                    setIsOpen(false);
-                  }}
+                  onClick={() => setIsOpen(false)}
                 >
-                  {item}
-                </button>
+                  {item.label}
+                </Link>
               ))}
+              <Link
+                to="/get-started"
+                className="block px-3 py-2 text-base font-medium hover:text-purple-600 w-full text-left"
+                onClick={() => setIsOpen(false)}
+              >
+                Get Started
+              </Link>
             </div>
           </div>
         )}
