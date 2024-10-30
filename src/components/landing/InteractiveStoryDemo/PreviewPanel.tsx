@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { themes } from "./themes";
+import { Card } from "@/components/ui/card";
 
 interface PreviewPanelProps {
   selectedTheme: string;

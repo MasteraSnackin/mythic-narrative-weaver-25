@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { themes } from "./themes";
+import { ChevronDown } from "lucide-react";
 
 interface ThemeSelectorProps {
   selectedTheme: string;

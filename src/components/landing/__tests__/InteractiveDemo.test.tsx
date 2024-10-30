@@ -1,9 +1,15 @@
+import { describe, beforeEach, test, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { InteractiveDemo } from '../InteractiveStoryDemo';
+import { BrowserRouter } from 'react-router-dom';
 
 describe('InteractiveDemo Component', () => {
   beforeEach(() => {
-    render(<InteractiveDemo />);
+    render(
+      <BrowserRouter>
+        <InteractiveDemo />
+      </BrowserRouter>
+    );
   });
 
   test('renders main heading', () => {
