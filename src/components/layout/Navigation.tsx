@@ -28,7 +28,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex-shrink-0" aria-label="Mythic Mind Labs Home">
-            <span className="text-2xl font-bold text-purple-600 dark:text-purple-400">
+            <span className="text-2xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
               Mythic Mind Labs
             </span>
           </Link>
@@ -40,7 +40,7 @@ const Navigation = () => {
                 {navItems.map((item) => (
                   <NavigationMenuItem key={item.label}>
                     <Link to={item.path}>
-                      <NavigationMenuLink className="px-3 py-2 text-sm font-medium hover:text-purple-600 cursor-pointer" aria-label={item.label}>
+                      <NavigationMenuLink className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-purple-600 dark:text-gray-300 dark:hover:text-purple-400 transition-colors duration-200" aria-label={item.label}>
                         {item.label}
                       </NavigationMenuLink>
                     </Link>
@@ -63,7 +63,7 @@ const Navigation = () => {
                 <Moon className="h-5 w-5" aria-hidden="true" />
               )}
             </Button>
-            <Button asChild>
+            <Button asChild className="bg-purple-600 hover:bg-purple-700 text-white">
               <Link to="/get-started">Get Started</Link>
             </Button>
           </div>
@@ -91,7 +91,7 @@ const Navigation = () => {
                 <Link
                   key={item.label}
                   to={item.path}
-                  className="block px-3 py-2 text-base font-medium hover:text-purple-600 w-full text-left"
+                  className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-purple-600 dark:text-gray-300 dark:hover:text-purple-400 transition-colors duration-200"
                   onClick={() => setIsOpen(false)}
                   role="menuitem"
                 >
@@ -100,7 +100,7 @@ const Navigation = () => {
               ))}
               <Link
                 to="/get-started"
-                className="block px-3 py-2 text-base font-medium hover:text-purple-600 w-full text-left"
+                className="block px-3 py-2 text-base font-medium text-purple-600 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-300"
                 onClick={() => setIsOpen(false)}
                 role="menuitem"
               >
