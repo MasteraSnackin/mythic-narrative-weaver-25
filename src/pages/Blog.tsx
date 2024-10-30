@@ -6,27 +6,43 @@ import { Link } from "react-router-dom"
 const blogPosts = [
   {
     id: 1,
-    title: "The Evolution of AI Storytelling",
-    excerpt: "Discover how artificial intelligence is revolutionizing the way we create and consume stories.",
-    author: "Sarah Johnson",
+    title: "From Hackathon to Innovation: The Birth of Mythic Mind Labs",
+    excerpt: "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.",
+    author: "MML Team",
     date: "2024-03-15",
-    category: "Technology"
+    category: "Company Story"
   },
   {
     id: 2,
-    title: "Creating Immersive Learning Experiences",
-    excerpt: "Learn how interactive storytelling can enhance educational outcomes for young readers.",
-    author: "Michael Chen",
+    title: "The Future of Interactive Fiction: A $4.1B Market Opportunity",
+    excerpt: "The global interactive fiction market is expected to reach $4.1B by 2027, driven by a desire for engaging and personalized learning experiences. Discover how AI is revolutionizing storytelling.",
+    author: "Market Research Team",
     date: "2024-03-12",
-    category: "Education"
+    category: "Market Insights"
   },
   {
     id: 3,
-    title: "The Power of Personalized Narratives",
-    excerpt: "Understanding the impact of AI-driven story adaptation on reader engagement.",
-    author: "Emma Williams",
+    title: "Revolutionizing Education Through AI-Powered Stories",
+    excerpt: "Our AI adapts to each reader's choices, skill level, and pacing, creating truly personalized learning experiences. Learn how we're transforming education through interactive storytelling.",
+    author: "Education Team",
     date: "2024-03-10",
-    category: "Research"
+    category: "Education"
+  },
+  {
+    id: 4,
+    title: "Beyond Traditional CYOA: The Power of AI in Storytelling",
+    excerpt: "Traditional Choose Your Own Adventure books offer limited choices. See how our AI technology creates truly dynamic narratives that adapt to your every decision.",
+    author: "Tech Team",
+    date: "2024-03-08",
+    category: "Technology"
+  },
+  {
+    id: 5,
+    title: "Targeting the Next Generation of Readers",
+    excerpt: "With a focus on young audiences aged 5-14 and educational institutions, we're creating engaging content that combines entertainment with learning.",
+    author: "Product Team",
+    date: "2024-03-05",
+    category: "Product Strategy"
   }
 ];
 
