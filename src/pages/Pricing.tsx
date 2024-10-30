@@ -4,15 +4,38 @@ import { motion } from "framer-motion"
 import { Check, Sparkles, Star } from "lucide-react"
 import { Link } from "react-router-dom"
 import { useToast } from "@/components/ui/use-toast"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { useState } from "react"
+
+const currencies = [
+  { code: "USD", symbol: "$", flag: "🇺🇸" },
+  { code: "EUR", symbol: "€", flag: "🇪🇺" },
+  { code: "GBP", symbol: "£", flag: "🇬🇧" },
+  { code: "JPY", symbol: "¥", flag: "🇯🇵" },
+  { code: "AUD", symbol: "A$", flag: "🇦🇺" },
+  { code: "CAD", symbol: "C$", flag: "🇨🇦" },
+  { code: "CHF", symbol: "Fr", flag: "🇨🇭" },
+  { code: "CNY", symbol: "¥", flag: "🇨🇳" },
+  { code: "INR", symbol: "₹", flag: "🇮🇳" },
+  { code: "SGD", symbol: "S$", flag: "🇸🇬" }
+]
 
 const Pricing = () => {
   const { toast } = useToast()
+  const [selectedCurrency, setSelectedCurrency] = useState(currencies[0])
 
   const handleSubscribe = () => {
     toast({
       title: "Subscription Started! 🎉",
       description: "Welcome to Story Weaver! Your journey begins now.",
     })
+  }
+
+  const handleCurrencyChange = (value: string) => {
+    const currency = currencies.find(c => c.code === value)
+    if (currency) {
+      setSelectedCurrency(currency)
+    }
   }
 
   return (
@@ -30,6 +53,23 @@ const Pricing = () => {
             <p className="text-xl text-gray-600 dark:text-gray-300">
               Flexible plans for every storyteller
             </p>
+            <div className="max-w-xs mx-auto">
+              <Select onValueChange={handleCurrencyChange} defaultValue={selectedCurrency.code}>
+                <SelectTrigger className="w-full">
+                  <SelectValue placeholder="Select currency" />
+                </SelectTrigger>
+                <SelectContent>
+                  {currencies.map((currency) => (
+                    <SelectItem key={currency.code} value={currency.code}>
+                      <span className="flex items-center gap-2">
+                        <span>{currency.flag}</span>
+                        <span>{currency.code}</span>
+                      </span>
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -38,7 +78,7 @@ const Pricing = () => {
                 <CardTitle>Free Explorer</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="text-3xl font-bold">£0/mo</div>
+                <div className="text-3xl font-bold">{selectedCurrency.symbol}0/mo</div>
                 <ul className="space-y-2">
                   {[
                     "Access to sample stories",
@@ -68,7 +108,7 @@ const Pricing = () => {
                 <CardTitle>Story Weaver</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="text-3xl font-bold">£9.99/mo</div>
+                <div className="text-3xl font-bold">{selectedCurrency.symbol}9.99/mo</div>
                 <ul className="space-y-2">
                   {[
                     "Unlimited story access",

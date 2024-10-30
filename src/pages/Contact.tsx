@@ -66,7 +66,7 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-purple-600" />
                 </div>
                 <h3 className="font-semibold">Email</h3>
-                <p className="text-gray-600 dark:text-gray-300">support@mythicmindlabs.com</p>
+                <p className="text-gray-600 dark:text-gray-300">davec@mythicmindlabs.com</p>
               </CardContent>
             </Card>
 
@@ -75,8 +75,8 @@ const Contact = () => {
                 <div className="mx-auto w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-full flex items-center justify-center">
                   <Phone className="w-6 h-6 text-purple-600" />
                 </div>
-                <h3 className="font-semibold">Phone</h3>
-                <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                <h3 className="font-semibold">WhatsApp</h3>
+                <p className="text-gray-600 dark:text-gray-300">+44 0772 782-1753</p>
               </CardContent>
             </Card>
 
@@ -85,8 +85,8 @@ const Contact = () => {
                 <div className="mx-auto w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-full flex items-center justify-center">
                   <MessageSquare className="w-6 h-6 text-purple-600" />
                 </div>
-                <h3 className="font-semibold">Live Chat</h3>
-                <p className="text-gray-600 dark:text-gray-300">Available 24/7</p>
+                <h3 className="font-semibold">Telegram</h3>
+                <p className="text-gray-600 dark:text-gray-300">@MythicMindLabs</p>
               </CardContent>
             </Card>
           </div>
