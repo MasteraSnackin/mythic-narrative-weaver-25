@@ -7,6 +7,7 @@ import { FaqSection } from "@/components/landing/FaqSection";
 import { CallToAction } from "@/components/landing/CallToAction";
 import { InteractiveDemo } from "@/components/landing/InteractiveDemo";
 import { ImageGallery } from "@/components/landing/ImageGallery";
+import { InteractiveStoryDemo } from "@/components/landing/InteractiveStoryDemo";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "next-themes";
@@ -20,6 +21,7 @@ const Index = () => {
         <Navigation />
         <main className="pt-16">
           <HeroSection />
+          <InteractiveStoryDemo />
           <FeaturesSection />
           <InteractiveDemo />
           <ImageGallery />
