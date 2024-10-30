@@ -17,7 +17,6 @@ const Index = () => {
         <HeroSection />
         <InteractiveDemo />
         <FeaturesSection />
-        <InteractiveDemo />
         <ImageGallery />
         <StorytellingDashboard />
         <TrustBadgesSection />
