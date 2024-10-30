@@ -9,6 +9,7 @@ import { LoadingSpinner } from "./components/ui/loading-spinner"
 import { ThemeProvider } from "next-themes"
 import Navigation from "./components/layout/Navigation"
 import Footer from "./components/layout/Footer"
+import "./i18n/config"
 
 // Page imports
 import Index from "./pages/Index"
