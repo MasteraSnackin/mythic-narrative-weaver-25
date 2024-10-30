@@ -2,8 +2,26 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { Check, Sparkles, Star } from "lucide-react"
+import { Link } from "react-router-dom"
+import { useToast } from "@/components/ui/use-toast"
 
 const Pricing = () => {
+  const { toast } = useToast()
+
+  const handleSubscribe = () => {
+    toast({
+      title: "Subscription Started! 🎉",
+      description: "Welcome to Story Weaver! Your journey begins now.",
+    })
+  }
+
+  const handleContactSales = () => {
+    toast({
+      title: "Request Received",
+      description: "Our sales team will contact you within 24 hours.",
+    })
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-50 to-white dark:from-purple-900 dark:via-gray-900 dark:to-black pt-20">
       <div className="container mx-auto px-4">
@@ -41,7 +59,9 @@ const Pricing = () => {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full">Get Started</Button>
+                <Button asChild>
+                  <Link to="/get-started">Get Started</Link>
+                </Button>
               </CardContent>
             </Card>
 
@@ -70,7 +90,7 @@ const Pricing = () => {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full">Subscribe Now</Button>
+                <Button onClick={handleSubscribe}>Subscribe Now</Button>
               </CardContent>
             </Card>
 
@@ -95,7 +115,7 @@ const Pricing = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" className="w-full">Contact Sales</Button>
+                <Button variant="outline" onClick={handleContactSales}>Contact Sales</Button>
               </CardContent>
             </Card>
           </div>
