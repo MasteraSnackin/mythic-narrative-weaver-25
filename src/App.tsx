@@ -7,6 +7,10 @@ import GetStarted from "./pages/GetStarted"
 import LearnMore from "./pages/LearnMore"
 import Contact from "./pages/Contact"
 import StayUpdated from "./pages/StayUpdated"
+import Library from "./pages/Library"
+import ParentDashboard from "./pages/ParentDashboard"
+import StoryCreator from "./pages/StoryCreator"
+import Community from "./pages/Community"
 
 const queryClient = new QueryClient()
 
@@ -21,6 +25,10 @@ const App = () => (
           <Route path="/learn-more" element={<LearnMore />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/stay-updated" element={<StayUpdated />} />
+          <Route path="/library" element={<Library />} />
+          <Route path="/parent-dashboard" element={<ParentDashboard />} />
+          <Route path="/story-creator" element={<StoryCreator />} />
+          <Route path="/community" element={<Community />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
