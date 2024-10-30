@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Book, Brain, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 export const InteractiveDemo = () => {
   return (
@@ -67,7 +68,9 @@ export const InteractiveDemo = () => {
                     <h3 className="text-xl font-semibold">{demo.title}</h3>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">{demo.description}</p>
-                  <Button className="w-full">Try Demo</Button>
+                  <Button asChild className="w-full">
+                    <Link to="/ai-story-engine">Try Demo</Link>
+                  </Button>
                 </CardContent>
               </Card>
             </motion.div>
