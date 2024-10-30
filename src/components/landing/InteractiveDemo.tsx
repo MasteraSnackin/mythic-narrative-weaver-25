@@ -1,45 +1,49 @@
 import { motion } from "framer-motion";
-import { Book, Brain, Sparkles, Map } from "lucide-react";
+import { Book, Brain, Map, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 
 const demoStories = [
   {
-    title: "The Enchanted Library",
-    description: "Journey through a magical library where books come to life! Learn about literature and history as you help the young wizard apprentice solve ancient riddles.",
-    genre: "Fantasy",
-    educationalFocus: "Literature & History",
-    image: "https://images.unsplash.com/photo-1532012197267-da84d127e765",
-    icon: Book,
-    difficulty: "Beginner"
+    title: "Mystery Manor",
+    description: "Step into the shoes of a young detective at Mystery Manor, where each room holds educational puzzles and riddles. Practice deductive reasoning, critical thinking, and problem-solving skills while uncovering the secrets of this enigmatic estate. Perfect for aspiring sleuths who love combining mystery with learning!",
+    genre: "Mystery",
+    educationalFocus: "Logic & Problem Solving",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+    icon: Sparkles,
+    difficulty: "Intermediate",
+    badge: "Most Popular"
   },
   {
     title: "Space Academy 2150",
-    description: "Become a cadet at the Solar System's premier space academy. Master physics and astronomy concepts while navigating through thrilling space missions!",
+    description: "Join the elite Space Academy where science meets adventure! Navigate through interactive astronomy lessons, conduct virtual physics experiments, and pilot your own spacecraft. Learn real scientific concepts while exploring distant galaxies and solving intergalactic challenges.",
     genre: "Science Fiction",
     educationalFocus: "Physics & Astronomy",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
     icon: Brain,
-    difficulty: "Intermediate"
+    difficulty: "Advanced",
+    badge: "Staff Pick"
   },
   {
-    title: "Lost Civilizations",
-    description: "Explore ancient ruins and uncover historical mysteries! Learn about world civilizations while making crucial archaeological discoveries.",
-    genre: "Adventure",
-    educationalFocus: "World History & Archaeology",
-    image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1",
+    title: "Time Traveler's Chronicles",
+    description: "Embark on an educational journey through time! Visit ancient civilizations, witness historical events firsthand, and interact with historical figures. Each adventure combines accurate historical facts with engaging storytelling, making history come alive while you learn.",
+    genre: "Historical Adventure",
+    educationalFocus: "History & Culture",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
     icon: Map,
-    difficulty: "Advanced"
+    difficulty: "Beginner",
+    badge: "New Release"
   },
   {
-    title: "Detective Academy",
-    description: "Solve intriguing cases using logic and deduction! Practice critical thinking and problem-solving skills as you become a master detective.",
-    genre: "Mystery",
-    educationalFocus: "Logic & Problem Solving",
-    image: "https://images.unsplash.com/photo-1546484475-7f7bd55792da",
-    icon: Sparkles,
-    difficulty: "Intermediate"
+    title: "The Enchanted Library",
+    description: "Discover a magical library where books come to life! Each story teaches valuable lessons in literature, vocabulary, and creative writing. Help classic characters solve modern problems while improving your reading comprehension and storytelling skills.",
+    genre: "Fantasy",
+    educationalFocus: "Literature & Language",
+    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+    icon: Book,
+    difficulty: "Intermediate",
+    badge: "Editor's Choice"
   }
 ];
 
@@ -68,14 +72,17 @@ export const InteractiveDemo = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
             >
-              <Card className="overflow-hidden h-full">
+              <Card className="overflow-hidden h-full hover:shadow-xl transition-shadow">
                 <div className="relative h-48">
                   <img
                     src={story.image}
                     alt={story.title}
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-2 right-2 bg-purple-600 text-white px-2 py-1 rounded-full text-sm">
+                  <div className="absolute top-2 right-2 bg-purple-600 text-white px-3 py-1 rounded-full text-sm">
+                    {story.badge}
+                  </div>
+                  <div className="absolute top-2 left-2 bg-purple-600 text-white px-3 py-1 rounded-full text-sm">
                     {story.difficulty}
                   </div>
                 </div>
@@ -84,7 +91,7 @@ export const InteractiveDemo = () => {
                     <story.icon className="w-5 h-5 text-purple-600" />
                     <h3 className="text-xl font-semibold">{story.title}</h3>
                   </div>
-                  <div className="flex gap-2">
+                  <div className="flex flex-wrap gap-2">
                     <span className="text-sm bg-purple-100 dark:bg-purple-900/50 px-2 py-1 rounded-full">
                       {story.genre}
                     </span>
@@ -94,7 +101,7 @@ export const InteractiveDemo = () => {
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">{story.description}</p>
                   <Button asChild className="w-full">
-                    <Link to="/ai-story-engine">Try Demo</Link>
+                    <Link to="/ai-story-engine">Start Adventure</Link>
                   </Button>
                 </CardContent>
               </Card>
