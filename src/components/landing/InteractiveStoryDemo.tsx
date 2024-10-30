@@ -12,12 +12,14 @@ interface StoryNode {
     nextNode: string;
     educational?: boolean;
   }[];
+  header?: string;
 }
 
 const storyNodes: Record<string, StoryNode> = {
   start: {
     text: "Welcome to the Learning Adventure Hub! As a young explorer, you find yourself in a magical space where knowledge comes to life. Where would you like to begin your journey?",
     image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
+    header: "Learning Explorer",
     choices: [
       { text: "Enter the Science Laboratory", nextNode: "science", educational: true },
       { text: "Visit the Historical Archives", nextNode: "history", educational: true },
@@ -28,6 +30,7 @@ const storyNodes: Record<string, StoryNode> = {
   science: {
     text: "The Science Lab buzzes with excitement! Interactive holograms display various experiments and discoveries. What interests you most?",
     image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d",
+    header: "Scientific Discovery",
     choices: [
       { text: "Conduct a Space Exploration", nextNode: "space", educational: true },
       { text: "Study Marine Biology", nextNode: "marine", educational: true },
@@ -38,6 +41,7 @@ const storyNodes: Record<string, StoryNode> = {
   history: {
     text: "The Historical Archives come alive with interactive timelines and 3D reconstructions of ancient civilizations. Where would you like to travel?",
     image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1",
+    header: "Time Traveler",
     choices: [
       { text: "Ancient Egypt Adventure", nextNode: "egypt", educational: true },
       { text: "Medieval Castle Explorer", nextNode: "medieval", educational: true },
@@ -48,6 +52,7 @@ const storyNodes: Record<string, StoryNode> = {
   writing: {
     text: "In the Creative Writing Studio, stories come to life as you write them! Magical tools help you craft your own adventures.",
     image: "https://images.unsplash.com/photo-1532012197267-da84d127e765",
+    header: "Story Weaver",
     choices: [
       { text: "Create a Fantasy Tale", nextNode: "fantasy" },
       { text: "Write a Mystery Story", nextNode: "mystery" },
@@ -58,6 +63,7 @@ const storyNodes: Record<string, StoryNode> = {
   problemSolving: {
     text: "Welcome to the Problem-Solving Workshop! Here, puzzles and challenges await to test your wit and creativity.",
     image: "https://images.unsplash.com/photo-1509062522246-3755977927d7",
+    header: "Mind Master",
     choices: [
       { text: "Logic Puzzles Challenge", nextNode: "logic", educational: true },
       { text: "Mathematical Adventures", nextNode: "math", educational: true },
@@ -68,6 +74,7 @@ const storyNodes: Record<string, StoryNode> = {
   space: {
     text: "The wonders of the cosmos unfold before you! Interactive star maps and planetary systems await your exploration.",
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    header: "Cosmic Explorer",
     choices: [
       { text: "Continue Space Exploration", nextNode: "science" },
       { text: "Study Black Holes", nextNode: "space" },
@@ -118,6 +125,9 @@ export const InteractiveStoryDemo = () => {
                   alt="Story scene"
                   className="w-full h-full object-cover"
                 />
+                <div className="absolute top-4 left-4 bg-purple-600/90 text-white px-4 py-2 rounded-full text-lg font-semibold">
+                  {storyNodes[currentNode].header}
+                </div>
               </div>
               
               <div className="flex items-start gap-4">
