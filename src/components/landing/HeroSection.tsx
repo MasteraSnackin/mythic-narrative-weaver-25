@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { HERO_IMAGE, STORYTELLING_IMAGE, TECHNOLOGY_IMAGE } from "@/utils/images";
 
 export const HeroSection = () => (
   <section className="container mx-auto px-4 py-20 flex flex-col lg:flex-row items-center justify-between gap-12 relative overflow-hidden">
@@ -16,7 +17,7 @@ export const HeroSection = () => (
         transition={{ duration: 0.5 }}
         className="absolute -top-20 -left-20 w-40 h-40 bg-purple-300 rounded-full blur-3xl opacity-30"
       />
-      <h1 className="text-6xl lg:text-7xl font-bold bg-gradient-to-r from-purple-900 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
+      <h1 className="text-6xl lg:text-7xl font-bold gradient-text">
         The Future of Storytelling
       </h1>
       <p className="text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -39,14 +40,29 @@ export const HeroSection = () => (
       initial={{ opacity: 0, scale: 0.8, y: 50 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.3 }}
-      className="flex-1 relative"
+      className="flex-1 relative grid grid-cols-2 gap-4"
     >
-      <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/30 to-transparent rounded-2xl" />
-      <img 
-        src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800" 
-        alt="AI-Powered Storytelling" 
-        className="rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
-      />
+      <div className="relative aspect-square">
+        <img 
+          src={HERO_IMAGE}
+          alt="Interactive Storytelling" 
+          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+      <div className="relative aspect-square mt-8">
+        <img 
+          src={STORYTELLING_IMAGE}
+          alt="AI-Powered Stories" 
+          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+      <div className="relative aspect-square -mt-8">
+        <img 
+          src={TECHNOLOGY_IMAGE}
+          alt="Future of Reading" 
+          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
+        />
+      </div>
     </motion.div>
   </section>
 );
