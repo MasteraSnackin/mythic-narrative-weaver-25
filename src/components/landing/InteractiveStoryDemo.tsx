@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, Gamepad2 } from "lucide-react";
 import { storyNodes } from "@/data/storyNodes";
 
 export const InteractiveStoryDemo = () => {
@@ -28,25 +28,26 @@ export const InteractiveStoryDemo = () => {
           </p>
         </motion.div>
 
-        <Card className="max-w-4xl mx-auto overflow-hidden">
+        <Card className="max-w-4xl mx-auto overflow-hidden bg-gradient-to-br from-purple-900 to-purple-800">
           <CardContent className="p-0">
             <div className="relative">
               <div className="absolute top-4 left-4 z-10">
-                <span className="bg-purple-600 text-white px-4 py-2 rounded-full font-medium inline-flex items-center gap-2">
-                  <span className="w-4 h-4 bg-white/20 rounded-full"></span>
+                <span className="bg-purple-600/80 backdrop-blur-sm text-white px-6 py-3 rounded-full font-medium inline-flex items-center gap-3 shadow-lg">
+                  <Gamepad2 className="w-5 h-5" />
                   Learning Explorer
                 </span>
               </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <img 
                 src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6"
                 alt="Learning materials"
-                className="w-full h-[300px] object-cover"
+                className="w-full h-[400px] object-cover"
               />
             </div>
             
-            <div className="p-8">
-              <p className="text-lg mb-8 flex items-start gap-3">
-                <span className="text-purple-600 mt-1">✨</span>
+            <div className="p-8 text-white">
+              <p className="text-xl mb-8 flex items-start gap-3 leading-relaxed">
+                <span className="text-purple-300 mt-1">✨</span>
                 {storyNodes[currentNode].text}
               </p>
 
@@ -55,11 +56,11 @@ export const InteractiveStoryDemo = () => {
                   <Button
                     key={index}
                     variant="outline"
-                    className="w-full justify-between text-left h-auto py-4 px-6 hover:border-purple-400 hover:bg-purple-50 transition-all"
+                    className="w-full justify-between text-left h-auto py-4 px-6 bg-white/10 hover:bg-white/20 border-white/20 hover:border-white/40 text-white transition-all backdrop-blur-sm"
                     onClick={() => handleChoice(choice.nextNode)}
                   >
                     <span>{choice.text}</span>
-                    <ChevronRight className="w-4 h-4 text-purple-600" />
+                    <ChevronRight className="w-5 h-5 text-purple-300" />
                   </Button>
                 ))}
               </div>
