@@ -15,13 +15,6 @@ const Pricing = () => {
     })
   }
 
-  const handleContactSales = () => {
-    toast({
-      title: "Request Received",
-      description: "Our sales team will contact you within 24 hours.",
-    })
-  }
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-50 to-white dark:from-purple-900 dark:via-gray-900 dark:to-black pt-20">
       <div className="container mx-auto px-4">
@@ -115,7 +108,9 @@ const Pricing = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" onClick={handleContactSales}>Contact Sales</Button>
+                <Button variant="outline" asChild>
+                  <Link to="/contact">Contact Sales</Link>
+                </Button>
               </CardContent>
             </Card>
           </div>
