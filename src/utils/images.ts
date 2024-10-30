@@ -10,6 +10,15 @@ export const CREATIVE_WRITING_IMAGE = "https://images.unsplash.com/photo-1519791
 export const HACKATHON_IMAGE = "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800"; // Developers collaborating
 export const FANTASY_WORLD_IMAGE = "https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=800"; // Fantasy landscape
 
+// New high-quality images
+export const HERO_VIDEO_BG = "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800"; // Abstract tech background
+export const FEATURE_CODE = "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800"; // Colorful code
+export const TEAM_PROFESSIONAL = "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800"; // Professional team
+export const COMPANY_MILESTONE = "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800"; // Company journey
+export const APP_INTERFACE = "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"; // App interface
+export const BLOG_HERO = "https://images.unsplash.com/photo-1452960962994-acf4fd70b632?w=800"; // Blog hero
+export const CONTACT_BG = "https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=800"; // Contact page background
+
 // Story genre images
 export const FANTASY_IMAGE = "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800";
 export const SCIFI_IMAGE = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800";
