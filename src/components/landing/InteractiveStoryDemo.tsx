@@ -1,72 +1,142 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ChevronRight, Gamepad2 } from "lucide-react";
-import { storyNodes } from "@/data/storyNodes";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { ChevronDown } from "lucide-react";
+
+const themes = [
+  { id: "cyber", name: "Cyber City", image: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500" },
+  { id: "tropical", name: "Tropical Island", image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=500" },
+  { id: "haunted", name: "Haunted Mansion", image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500" },
+  { id: "jungle", name: "Jungle Adventure", image: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=500" },
+  { id: "space", name: "Space Odyssey", image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500" },
+  { id: "ocean", name: "Ocean Depths", image: "https://images.unsplash.com/photo-1682687982501-1e58ab814714?w=500" },
+];
+
+const gameTypes = ["Adventure", "Mystery", "Puzzle"];
+const difficulties = ["Easy", "Medium", "Hard"];
 
 export const InteractiveStoryDemo = () => {
-  const [currentNode, setCurrentNode] = useState("start");
-
-  const handleChoice = (nextNode: string) => {
-    setCurrentNode(nextNode);
-  };
+  const [selectedTheme, setSelectedTheme] = useState("");
+  const [gameType, setGameType] = useState("");
+  const [difficulty, setDifficulty] = useState("");
 
   return (
-    <section className="py-20 bg-gradient-to-br from-purple-100 to-white dark:from-purple-900/20 dark:to-black/20">
+    <section className="py-20 bg-black text-white">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <h1 className="text-4xl md:text-5xl font-bold text-purple-600 mb-4">
-            Experience Interactive Learning
+          <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-[#007AFF] to-[#00C6FF] bg-clip-text text-transparent">
+            Adventure Games
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300">
-            Embark on an educational adventure where your choices shape the story
+          <p className="text-xl mb-6">
+            Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!
+          </p>
+          <p className="text-lg text-gray-300">
+            You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.
           </p>
         </motion.div>
 
-        <Card className="max-w-4xl mx-auto overflow-hidden bg-gradient-to-br from-purple-900 to-purple-800">
-          <CardContent className="p-0">
-            <div className="relative">
-              <div className="absolute top-4 left-4 z-10">
-                <span className="bg-purple-600/80 backdrop-blur-sm text-white px-6 py-3 rounded-full font-medium inline-flex items-center gap-3 shadow-lg">
-                  <Gamepad2 className="w-5 h-5" />
-                  Learning Explorer
-                </span>
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              <img 
-                src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6"
-                alt="Learning materials"
-                className="w-full h-[400px] object-cover"
-              />
-            </div>
-            
-            <div className="p-8 text-white">
-              <p className="text-xl mb-8 flex items-start gap-3 leading-relaxed">
-                <span className="text-purple-300 mt-1">✨</span>
-                {storyNodes[currentNode].text}
-              </p>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {storyNodes[currentNode].choices.map((choice, index) => (
-                  <Button
-                    key={index}
-                    variant="outline"
-                    className="w-full justify-between text-left h-auto py-4 px-6 bg-white/10 hover:bg-white/20 border-white/20 hover:border-white/40 text-white transition-all backdrop-blur-sm"
-                    onClick={() => handleChoice(choice.nextNode)}
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="space-y-8">
+            <div>
+              <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2">
+                <span>THEME</span>
+                <ChevronDown className="w-5 h-5" />
+              </h2>
+              <div className="grid grid-cols-2 gap-4">
+                {themes.map((theme) => (
+                  <motion.div
+                    key={theme.id}
+                    whileHover={{ scale: 1.05 }}
+                    className={`relative cursor-pointer rounded-lg overflow-hidden ${
+                      selectedTheme === theme.id ? "ring-2 ring-[#00FFFF] ring-offset-2 ring-offset-black" : ""
+                    }`}
+                    onClick={() => setSelectedTheme(theme.id)}
                   >
-                    <span>{choice.text}</span>
-                    <ChevronRight className="w-5 h-5 text-purple-300" />
-                  </Button>
+                    <img src={theme.image} alt={theme.name} className="w-full h-32 object-cover" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                    <p className="absolute bottom-2 left-2 text-white font-medium">{theme.name}</p>
+                  </motion.div>
                 ))}
               </div>
             </div>
-          </CardContent>
-        </Card>
+
+            <div className="space-y-4">
+              <div>
+                <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2">
+                  <span>GAME TYPE</span>
+                  <ChevronDown className="w-5 h-5" />
+                </h2>
+                <Select onValueChange={setGameType} value={gameType}>
+                  <SelectTrigger className="w-full bg-gray-900 border-gray-700">
+                    <SelectValue placeholder="Select game type" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {gameTypes.map((type) => (
+                      <SelectItem key={type} value={type.toLowerCase()}>
+                        {type}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2">
+                  <span>DIFFICULTY</span>
+                  <ChevronDown className="w-5 h-5" />
+                </h2>
+                <Select onValueChange={setDifficulty} value={difficulty}>
+                  <SelectTrigger className="w-full bg-gray-900 border-gray-700">
+                    <SelectValue placeholder="Select difficulty" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {difficulties.map((level) => (
+                      <SelectItem key={level} value={level.toLowerCase()}>
+                        {level}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+            </div>
+
+            <Button
+              className="w-full py-6 text-lg bg-gradient-to-r from-[#007AFF] to-[#00C6FF] hover:opacity-90 transition-opacity"
+            >
+              PLAY
+            </Button>
+          </div>
+
+          <Card className="bg-gray-900 border-gray-800 p-6">
+            <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center justify-between">
+              <span>MY ADVENTURE</span>
+              <div className="flex gap-1">
+                {[1, 2, 3].map((n) => (
+                  <div key={n} className="w-3 h-3 bg-[#FFD700] rounded-full" />
+                ))}
+              </div>
+            </h2>
+            <div className="aspect-video rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
+              {!selectedTheme && !gameType && !difficulty ? (
+                <p className="text-gray-400 text-center p-8">
+                  You must select a theme, game type, and difficulty level to get started.
+                </p>
+              ) : (
+                <img
+                  src="https://images.unsplash.com/photo-1590955559496-50316bd28ff8?w=800"
+                  alt="Adventure preview"
+                  className="w-full h-full object-cover"
+                />
+              )}
+            </div>
+          </Card>
+        </div>
       </div>
     </section>
   );
