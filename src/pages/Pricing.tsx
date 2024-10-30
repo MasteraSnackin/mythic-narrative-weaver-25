@@ -8,21 +8,23 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useState } from "react"
 
 const currencies = [
-  { code: "USD", symbol: "$", flag: "🇺🇸" },
-  { code: "EUR", symbol: "€", flag: "🇪🇺" },
-  { code: "GBP", symbol: "£", flag: "🇬🇧" },
-  { code: "JPY", symbol: "¥", flag: "🇯🇵" },
-  { code: "AUD", symbol: "A$", flag: "🇦🇺" },
-  { code: "CAD", symbol: "C$", flag: "🇨🇦" },
-  { code: "CHF", symbol: "Fr", flag: "🇨🇭" },
-  { code: "CNY", symbol: "¥", flag: "🇨🇳" },
-  { code: "INR", symbol: "₹", flag: "🇮🇳" },
-  { code: "SGD", symbol: "S$", flag: "🇸🇬" }
+  { code: "USD", symbol: "$", flag: "🇺🇸", rate: 1.27 },
+  { code: "EUR", symbol: "€", flag: "🇪🇺", rate: 1.17 },
+  { code: "GBP", symbol: "£", flag: "🇬🇧", rate: 1.0 },
+  { code: "JPY", symbol: "¥", flag: "🇯🇵", rate: 186.76 },
+  { code: "AUD", symbol: "A$", flag: "🇦🇺", rate: 1.94 },
+  { code: "CAD", symbol: "C$", flag: "🇨🇦", rate: 1.72 },
+  { code: "CHF", symbol: "Fr", flag: "🇨🇭", rate: 1.12 },
+  { code: "CNY", symbol: "¥", flag: "🇨🇳", rate: 9.15 },
+  { code: "INR", symbol: "₹", flag: "🇮🇳", rate: 105.67 },
+  { code: "SGD", symbol: "S$", flag: "🇸🇬", rate: 1.71 }
 ]
+
+const BASE_PRICE = 9.99;
 
 const Pricing = () => {
   const { toast } = useToast()
-  const [selectedCurrency, setSelectedCurrency] = useState(currencies[0])
+  const [selectedCurrency, setSelectedCurrency] = useState(currencies[2]) // Default to GBP
 
   const handleSubscribe = () => {
     toast({
@@ -36,6 +38,11 @@ const Pricing = () => {
     if (currency) {
       setSelectedCurrency(currency)
     }
+  }
+
+  const formatPrice = (price: number) => {
+    const convertedPrice = price * selectedCurrency.rate;
+    return `${selectedCurrency.symbol}${convertedPrice.toFixed(2)}`;
   }
 
   return (
@@ -78,7 +85,7 @@ const Pricing = () => {
                 <CardTitle>Free Explorer</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="text-3xl font-bold">{selectedCurrency.symbol}0/mo</div>
+                <div className="text-3xl font-bold">{formatPrice(0)}/mo</div>
                 <ul className="space-y-2">
                   {[
                     "Access to sample stories",
@@ -93,7 +100,7 @@ const Pricing = () => {
                   ))}
                 </ul>
                 <Button asChild>
-                  <Link to="/get-started">Get Started</Link>
+                  <Link to="/library">Get Started</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -108,7 +115,7 @@ const Pricing = () => {
                 <CardTitle>Story Weaver</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="text-3xl font-bold">{selectedCurrency.symbol}9.99/mo</div>
+                <div className="text-3xl font-bold">{formatPrice(BASE_PRICE)}/mo</div>
                 <ul className="space-y-2">
                   {[
                     "Unlimited story access",

@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input"
 import { motion } from "framer-motion"
 import { Book, Filter, Search } from "lucide-react"
 import { useState } from "react"
+import { useToast } from "@/components/ui/use-toast"
 
 const stories = [
   {
@@ -26,11 +27,54 @@ const stories = [
     readingLevel: "Beginner",
     genre: "Adventure",
     description: "A gentle introduction to reading where young readers help woodland creatures solve simple problems."
+  },
+  {
+    title: "Mystery at Midnight Manor",
+    ageRange: "9-13",
+    readingLevel: "Intermediate",
+    genre: "Mystery",
+    description: "Solve puzzles and uncover clues in this thrilling detective story set in an old mansion."
+  },
+  {
+    title: "Time Travelers Club",
+    ageRange: "11-15",
+    readingLevel: "Advanced",
+    genre: "Historical",
+    description: "Journey through different historical periods and make decisions that could change the course of history."
+  },
+  {
+    title: "Ocean Explorers",
+    ageRange: "7-11",
+    readingLevel: "Intermediate",
+    genre: "Science",
+    description: "Dive deep into marine biology and oceanography while having underwater adventures."
+  },
+  {
+    title: "Robot Friends",
+    ageRange: "6-10",
+    readingLevel: "Beginner",
+    genre: "Science Fiction",
+    description: "Learn about robotics and artificial intelligence through friendly robot characters."
+  },
+  {
+    title: "Ancient Egypt Quest",
+    ageRange: "10-14",
+    readingLevel: "Advanced",
+    genre: "Historical",
+    description: "Explore the pyramids and discover the secrets of ancient Egyptian civilization."
   }
 ];
 
 const Library = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const { toast } = useToast();
+
+  const handleStartReading = (storyTitle: string) => {
+    toast({
+      title: "Starting Story",
+      description: `Beginning "${storyTitle}". Enjoy your adventure!`,
+    });
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-50 to-white dark:from-purple-900 dark:via-gray-900 dark:to-black pt-20">
@@ -67,31 +111,41 @@ const Library = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {stories.map((story) => (
-              <Card key={story.title} className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <Book className="h-5 w-5 text-purple-600" />
-                    {story.title}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <p className="text-gray-600 dark:text-gray-300">{story.description}</p>
-                  <div className="flex gap-2 flex-wrap">
-                    <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/50 rounded-full text-sm">
-                      {story.ageRange}
-                    </span>
-                    <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/50 rounded-full text-sm">
-                      {story.readingLevel}
-                    </span>
-                    <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/50 rounded-full text-sm">
-                      {story.genre}
-                    </span>
-                  </div>
-                  <Button className="w-full">Start Reading</Button>
-                </CardContent>
-              </Card>
-            ))}
+            {stories
+              .filter(story => 
+                story.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                story.genre.toLowerCase().includes(searchTerm.toLowerCase())
+              )
+              .map((story) => (
+                <Card key={story.title} className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Book className="h-5 w-5 text-purple-600" />
+                      {story.title}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p className="text-gray-600 dark:text-gray-300">{story.description}</p>
+                    <div className="flex gap-2 flex-wrap">
+                      <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/50 rounded-full text-sm">
+                        {story.ageRange}
+                      </span>
+                      <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/50 rounded-full text-sm">
+                        {story.readingLevel}
+                      </span>
+                      <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/50 rounded-full text-sm">
+                        {story.genre}
+                      </span>
+                    </div>
+                    <Button 
+                      className="w-full"
+                      onClick={() => handleStartReading(story.title)}
+                    >
+                      Start Reading
+                    </Button>
+                  </CardContent>
+                </Card>
+              ))}
           </div>
         </motion.div>
       </div>
