@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Minimize2, Maximize2 } from "lucide-react";
 
 const themes = [
   { id: "cyber", name: "Cyber City", image: "/themes/cyber-city.jpg" },
@@ -23,6 +23,8 @@ export const InteractiveStoryDemo = () => {
   const [selectedTheme, setSelectedTheme] = useState("");
   const [gameType, setGameType] = useState("");
   const [difficulty, setDifficulty] = useState("");
+  const [isGameTypeMinimized, setIsGameTypeMinimized] = useState(false);
+  const [isDifficultyMinimized, setIsDifficultyMinimized] = useState(false);
 
   return (
     <section className="py-20 bg-black text-white">
@@ -72,42 +74,74 @@ export const InteractiveStoryDemo = () => {
             </div>
 
             <div className="space-y-4">
-              <div>
-                <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2 font-['Poppins']">
-                  <span>GAME TYPE</span>
-                  <ChevronDown className="w-5 h-5" />
-                </h2>
-                <Select onValueChange={setGameType} value={gameType}>
-                  <SelectTrigger className="w-full bg-gray-900 border-gray-700 font-['Poppins']">
-                    <SelectValue placeholder="Select game type" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {gameTypes.map((type) => (
-                      <SelectItem key={type} value={type.toLowerCase()}>
-                        {type}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+              <div className={`transition-all duration-300 ${isGameTypeMinimized ? 'opacity-50' : ''}`}>
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="text-2xl font-bold text-[#00FFFF] flex items-center gap-2 font-['Poppins']">
+                    <span>GAME TYPE</span>
+                    <ChevronDown className="w-5 h-5" />
+                  </h2>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="text-[#00FFFF] hover:bg-[#00FFFF]/10"
+                    onClick={() => setIsGameTypeMinimized(!isGameTypeMinimized)}
+                  >
+                    {isGameTypeMinimized ? (
+                      <Maximize2 className="h-4 w-4" />
+                    ) : (
+                      <Minimize2 className="h-4 w-4" />
+                    )}
+                  </Button>
+                </div>
+                {!isGameTypeMinimized && (
+                  <Select onValueChange={setGameType} value={gameType}>
+                    <SelectTrigger className="w-full bg-gray-900 border-gray-700 font-['Poppins']">
+                      <SelectValue placeholder="Select game type" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {gameTypes.map((type) => (
+                        <SelectItem key={type} value={type.toLowerCase()}>
+                          {type}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                )}
               </div>
 
-              <div>
-                <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2 font-['Poppins']">
-                  <span>DIFFICULTY</span>
-                  <ChevronDown className="w-5 h-5" />
-                </h2>
-                <Select onValueChange={setDifficulty} value={difficulty}>
-                  <SelectTrigger className="w-full bg-gray-900 border-gray-700 font-['Poppins']">
-                    <SelectValue placeholder="Select difficulty" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {difficulties.map((level) => (
-                      <SelectItem key={level} value={level.toLowerCase()}>
-                        {level}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+              <div className={`transition-all duration-300 ${isDifficultyMinimized ? 'opacity-50' : ''}`}>
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="text-2xl font-bold text-[#00FFFF] flex items-center gap-2 font-['Poppins']">
+                    <span>DIFFICULTY</span>
+                    <ChevronDown className="w-5 h-5" />
+                  </h2>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="text-[#00FFFF] hover:bg-[#00FFFF]/10"
+                    onClick={() => setIsDifficultyMinimized(!isDifficultyMinimized)}
+                  >
+                    {isDifficultyMinimized ? (
+                      <Maximize2 className="h-4 w-4" />
+                    ) : (
+                      <Minimize2 className="h-4 w-4" />
+                    )}
+                  </Button>
+                </div>
+                {!isDifficultyMinimized && (
+                  <Select onValueChange={setDifficulty} value={difficulty}>
+                    <SelectTrigger className="w-full bg-gray-900 border-gray-700 font-['Poppins']">
+                      <SelectValue placeholder="Select difficulty" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {difficulties.map((level) => (
+                        <SelectItem key={level} value={level.toLowerCase()}>
+                          {level}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                )}
               </div>
             </div>
 
