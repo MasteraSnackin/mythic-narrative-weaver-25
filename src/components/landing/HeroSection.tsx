@@ -1,7 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { HERO_IMAGE, STORYTELLING_IMAGE, TECHNOLOGY_IMAGE } from "@/utils/images";
+import { 
+  HERO_IMAGE, 
+  STORYTELLING_IMAGE, 
+  TECHNOLOGY_IMAGE, 
+  FANTASY_IMAGE,
+  ADVENTURE_GENRE_IMAGE,
+  CREATIVE_WRITING_IMAGE 
+} from "@/utils/images";
 
 export const HeroSection = () => (
   <section className="container mx-auto px-4 py-20 flex flex-col lg:flex-row items-center justify-between gap-12 relative overflow-hidden">
@@ -36,30 +43,52 @@ export const HeroSection = () => (
         </Button>
       </motion.div>
     </motion.div>
+
     <motion.div 
       initial={{ opacity: 0, scale: 0.8, y: 50 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.3 }}
-      className="flex-1 relative grid grid-cols-2 gap-4"
+      className="flex-1 relative grid grid-cols-3 gap-4"
     >
       <div className="relative aspect-square">
         <img 
-          src={HERO_IMAGE}
-          alt="Interactive Storytelling" 
+          src={FANTASY_IMAGE}
+          alt="Fantasy Storytelling" 
           className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
         />
       </div>
       <div className="relative aspect-square mt-8">
         <img 
+          src={CREATIVE_WRITING_IMAGE}
+          alt="Creative Writing" 
+          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+      <div className="relative aspect-square">
+        <img 
           src={STORYTELLING_IMAGE}
-          alt="AI-Powered Stories" 
+          alt="Interactive Stories" 
           className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
         />
       </div>
       <div className="relative aspect-square -mt-8">
         <img 
           src={TECHNOLOGY_IMAGE}
-          alt="Future of Reading" 
+          alt="AI Technology" 
+          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+      <div className="relative aspect-square mt-4">
+        <img 
+          src={ADVENTURE_GENRE_IMAGE}
+          alt="Adventure Stories" 
+          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+      <div className="relative aspect-square -mt-8">
+        <img 
+          src={HERO_IMAGE}
+          alt="Reading Experience" 
           className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
         />
       </div>
