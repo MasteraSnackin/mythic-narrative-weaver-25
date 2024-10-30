@@ -1,27 +1,27 @@
 import { motion } from "framer-motion";
-import { Shield, Users, Award, Star } from "lucide-react";
+import { BookOpen, Target, Users, Award } from "lucide-react";
 
 export const TrustBadgesSection = () => {
   const badges = [
     {
-      icon: Shield,
-      title: "Secure Platform",
-      description: "Enterprise-grade security"
+      icon: Target,
+      title: "4.1B Market",
+      description: "Expected market size by 2027"
     },
     {
       icon: Users,
-      title: "10k+ Users",
-      description: "Trusted by educators"
+      title: "270M+",
+      description: "CYOA books sold worldwide"
     },
     {
       icon: Award,
-      title: "Award Winning",
-      description: "EdTech Innovation 2024"
+      title: "36-Hour",
+      description: "Hackathon origin story"
     },
     {
-      icon: Star,
-      title: "4.9/5 Rating",
-      description: "From 1000+ reviews"
+      icon: BookOpen,
+      title: "5-14 yrs",
+      description: "Target age range"
     }
   ];
 

@@ -17,10 +17,10 @@ export const HeroSection = () => (
         className="absolute -top-20 -left-20 w-40 h-40 bg-purple-300 rounded-full blur-3xl opacity-30"
       />
       <h1 className="text-6xl lg:text-7xl font-bold bg-gradient-to-r from-purple-900 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-        Decentralized Parametric Insurance
+        The Future of Storytelling
       </h1>
       <p className="text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
-        Protect your crops with automated, transparent insurance powered by real-time weather data and blockchain technology
+        Our AI crafts dynamic "Choose Your Own Adventure" experiences that adapt to your choices, creating a truly immersive and personalized journey. Every decision shapes the story.
       </p>
       <motion.div 
         className="space-x-4"
@@ -28,7 +28,7 @@ export const HeroSection = () => (
         transition={{ duration: 0.2 }}
       >
         <Button asChild size="lg" className="bg-purple-600 hover:bg-purple-700 text-lg px-8 py-6">
-          <Link to="/get-started">Get Protected Now</Link>
+          <Link to="/get-started">Start Your Adventure</Link>
         </Button>
         <Button asChild size="lg" variant="outline" className="text-lg px-8 py-6">
           <Link to="/learn-more">Learn More</Link>
@@ -43,8 +43,8 @@ export const HeroSection = () => (
     >
       <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/30 to-transparent rounded-2xl" />
       <img 
-        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800" 
-        alt="Parametric Crop Insurance" 
+        src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800" 
+        alt="AI-Powered Storytelling" 
         className="rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
       />
     </motion.div>
