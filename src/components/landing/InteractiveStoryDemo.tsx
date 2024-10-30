@@ -6,15 +6,17 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { ChevronDown } from "lucide-react";
 
 const themes = [
-  { id: "cyber", name: "Cyber City", image: "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500" },
-  { id: "tropical", name: "Tropical Island", image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=500" },
-  { id: "haunted", name: "Haunted Mansion", image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500" },
-  { id: "jungle", name: "Jungle Adventure", image: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=500" },
-  { id: "space", name: "Space Odyssey", image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500" },
-  { id: "ocean", name: "Ocean Depths", image: "https://images.unsplash.com/photo-1682687982501-1e58ab814714?w=500" },
+  { id: "cyber", name: "Cyber City", image: "/themes/cyber-city.jpg" },
+  { id: "island", name: "Deserted Island", image: "/themes/deserted-island.jpg" },
+  { id: "detective", name: "Detective's Office", image: "/themes/detective-office.jpg" },
+  { id: "forest", name: "Enchanted Forest", image: "/themes/enchanted-forest.jpg" },
+  { id: "haunted", name: "Haunted House", image: "/themes/haunted-house.jpg" },
+  { id: "jungle", name: "Lush Jungle", image: "/themes/lush-jungle.jpg" },
+  { id: "space", name: "Outer Space", image: "/themes/outer-space.jpg" },
+  { id: "underwater", name: "Underwater", image: "/themes/underwater.jpg" }
 ];
 
-const gameTypes = ["Adventure", "Mystery", "Puzzle"];
+const gameTypes = ["Escape Room", "Adventure", "Detective Mystery"];
 const difficulties = ["Easy", "Medium", "Hard"];
 
 export const InteractiveStoryDemo = () => {
@@ -30,13 +32,13 @@ export const InteractiveStoryDemo = () => {
           whileInView={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-[#007AFF] to-[#00C6FF] bg-clip-text text-transparent">
+          <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-[#007AFF] to-[#00C6FF] bg-clip-text text-transparent font-['Poppins']">
             Adventure Games
           </h1>
-          <p className="text-xl mb-6">
+          <p className="text-xl mb-6 font-['Poppins']">
             Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!
           </p>
-          <p className="text-lg text-gray-300">
+          <p className="text-lg text-gray-300 font-['Poppins']">
             You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.
           </p>
         </motion.div>
@@ -44,7 +46,7 @@ export const InteractiveStoryDemo = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-8">
             <div>
-              <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2">
+              <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2 font-['Poppins']">
                 <span>THEME</span>
                 <ChevronDown className="w-5 h-5" />
               </h2>
@@ -52,7 +54,10 @@ export const InteractiveStoryDemo = () => {
                 {themes.map((theme) => (
                   <motion.div
                     key={theme.id}
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ 
+                      scale: 1.05,
+                      boxShadow: "0 0 15px #00FFFF"
+                    }}
                     className={`relative cursor-pointer rounded-lg overflow-hidden ${
                       selectedTheme === theme.id ? "ring-2 ring-[#00FFFF] ring-offset-2 ring-offset-black" : ""
                     }`}
@@ -60,7 +65,7 @@ export const InteractiveStoryDemo = () => {
                   >
                     <img src={theme.image} alt={theme.name} className="w-full h-32 object-cover" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
-                    <p className="absolute bottom-2 left-2 text-white font-medium">{theme.name}</p>
+                    <p className="absolute bottom-2 left-2 text-white font-medium font-['Poppins']">{theme.name}</p>
                   </motion.div>
                 ))}
               </div>
@@ -68,12 +73,12 @@ export const InteractiveStoryDemo = () => {
 
             <div className="space-y-4">
               <div>
-                <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2">
+                <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2 font-['Poppins']">
                   <span>GAME TYPE</span>
                   <ChevronDown className="w-5 h-5" />
                 </h2>
                 <Select onValueChange={setGameType} value={gameType}>
-                  <SelectTrigger className="w-full bg-gray-900 border-gray-700">
+                  <SelectTrigger className="w-full bg-gray-900 border-gray-700 font-['Poppins']">
                     <SelectValue placeholder="Select game type" />
                   </SelectTrigger>
                   <SelectContent>
@@ -87,12 +92,12 @@ export const InteractiveStoryDemo = () => {
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2">
+                <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center gap-2 font-['Poppins']">
                   <span>DIFFICULTY</span>
                   <ChevronDown className="w-5 h-5" />
                 </h2>
                 <Select onValueChange={setDifficulty} value={difficulty}>
-                  <SelectTrigger className="w-full bg-gray-900 border-gray-700">
+                  <SelectTrigger className="w-full bg-gray-900 border-gray-700 font-['Poppins']">
                     <SelectValue placeholder="Select difficulty" />
                   </SelectTrigger>
                   <SelectContent>
@@ -107,14 +112,14 @@ export const InteractiveStoryDemo = () => {
             </div>
 
             <Button
-              className="w-full py-6 text-lg bg-gradient-to-r from-[#007AFF] to-[#00C6FF] hover:opacity-90 transition-opacity"
+              className="w-full py-6 text-lg bg-gradient-to-r from-[#007AFF] to-[#00C6FF] hover:opacity-90 transition-opacity font-['Poppins']"
             >
               PLAY
             </Button>
           </div>
 
           <Card className="bg-gray-900 border-gray-800 p-6">
-            <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center justify-between">
+            <h2 className="text-2xl font-bold mb-4 text-[#00FFFF] flex items-center justify-between font-['Poppins']">
               <span>MY ADVENTURE</span>
               <div className="flex gap-1">
                 {[1, 2, 3].map((n) => (
@@ -124,12 +129,12 @@ export const InteractiveStoryDemo = () => {
             </h2>
             <div className="aspect-video rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
               {!selectedTheme && !gameType && !difficulty ? (
-                <p className="text-gray-400 text-center p-8">
+                <p className="text-gray-400 text-center p-8 font-['Poppins']">
                   You must select a theme, game type, and difficulty level to get started.
                 </p>
               ) : (
                 <img
-                  src="https://images.unsplash.com/photo-1590955559496-50316bd28ff8?w=800"
+                  src={themes.find(t => t.id === selectedTheme)?.image || themes[0].image}
                   alt="Adventure preview"
                   className="w-full h-full object-cover"
                 />
