@@ -9,6 +9,45 @@ import {
   ADVENTURE_GENRE_IMAGE,
   CREATIVE_WRITING_IMAGE 
 } from "@/utils/images";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+
+const imageInfo = [
+  {
+    src: FANTASY_IMAGE,
+    alt: "Fantasy Storytelling",
+    tooltip: "Dive into magical worlds where your choices shape the narrative. Our AI adapts the story to your decisions, creating unique adventures every time."
+  },
+  {
+    src: CREATIVE_WRITING_IMAGE,
+    alt: "Creative Writing",
+    tooltip: "Experience stories that evolve with your choices. Our AI crafts personalized narratives that keep you engaged and entertained."
+  },
+  {
+    src: STORYTELLING_IMAGE,
+    alt: "Interactive Stories",
+    tooltip: "Join a growing community of young readers exploring AI-powered stories. Over 270 million CYOA books sold worldwide!"
+  },
+  {
+    src: TECHNOLOGY_IMAGE,
+    alt: "AI Technology",
+    tooltip: "Cutting-edge AI technology adapts difficulty and pacing to your skill level, ensuring an engaging experience every time."
+  },
+  {
+    src: ADVENTURE_GENRE_IMAGE,
+    alt: "Adventure Stories",
+    tooltip: "Part of a $4.1B interactive fiction market by 2027. Join us in shaping the future of storytelling!"
+  },
+  {
+    src: HERO_IMAGE,
+    alt: "Reading Experience",
+    tooltip: "Perfect for ages 5-14, our stories combine entertainment with educational value, making learning fun and interactive."
+  }
+];
 
 export const HeroSection = () => (
   <section className="container mx-auto px-4 py-20 flex flex-col lg:flex-row items-center justify-between gap-12 relative overflow-hidden">
@@ -50,48 +89,36 @@ export const HeroSection = () => (
       transition={{ duration: 0.8, delay: 0.3 }}
       className="flex-1 relative grid grid-cols-3 gap-4"
     >
-      <div className="relative aspect-square">
-        <img 
-          src={FANTASY_IMAGE}
-          alt="Fantasy Storytelling" 
-          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
-        />
-      </div>
-      <div className="relative aspect-square mt-8">
-        <img 
-          src={CREATIVE_WRITING_IMAGE}
-          alt="Creative Writing" 
-          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
-        />
-      </div>
-      <div className="relative aspect-square">
-        <img 
-          src={STORYTELLING_IMAGE}
-          alt="Interactive Stories" 
-          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
-        />
-      </div>
-      <div className="relative aspect-square -mt-8">
-        <img 
-          src={TECHNOLOGY_IMAGE}
-          alt="AI Technology" 
-          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
-        />
-      </div>
-      <div className="relative aspect-square mt-4">
-        <img 
-          src={ADVENTURE_GENRE_IMAGE}
-          alt="Adventure Stories" 
-          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
-        />
-      </div>
-      <div className="relative aspect-square -mt-8">
-        <img 
-          src={HERO_IMAGE}
-          alt="Reading Experience" 
-          className="rounded-2xl shadow-2xl object-cover w-full h-full transform hover:scale-105 transition-transform duration-500"
-        />
-      </div>
+      <TooltipProvider>
+        {imageInfo.map((image, index) => (
+          <Tooltip key={image.alt}>
+            <TooltipTrigger asChild>
+              <motion.div 
+                className={`relative aspect-square ${
+                  index === 1 ? "mt-8" : 
+                  index === 3 ? "-mt-8" : 
+                  index === 4 ? "mt-4" : 
+                  index === 5 ? "-mt-8" : ""
+                }`}
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+              >
+                <img 
+                  src={image.src}
+                  alt={image.alt}
+                  className="rounded-2xl shadow-2xl object-cover w-full h-full cursor-pointer"
+                />
+              </motion.div>
+            </TooltipTrigger>
+            <TooltipContent 
+              side="top"
+              className="max-w-[200px] p-4 text-sm bg-white/90 backdrop-blur-sm border border-purple-200"
+            >
+              {image.tooltip}
+            </TooltipContent>
+          </Tooltip>
+        ))}
+      </TooltipProvider>
     </motion.div>
   </section>
 );
