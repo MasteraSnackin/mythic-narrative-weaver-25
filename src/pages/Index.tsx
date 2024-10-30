@@ -5,6 +5,7 @@ import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
 import { TrustBadgesSection } from "@/components/landing/TrustBadgesSection";
 import { FaqSection } from "@/components/landing/FaqSection";
 import { CallToAction } from "@/components/landing/CallToAction";
+import { InteractiveDemo } from "@/components/landing/InteractiveDemo";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "next-themes";
@@ -19,6 +20,7 @@ const Index = () => {
         <main className="pt-16">
           <HeroSection />
           <FeaturesSection />
+          <InteractiveDemo />
           <InsuranceDashboard />
           <TrustBadgesSection />
           <TestimonialsSection />
