@@ -54,65 +54,13 @@ export default {
   "Learn about robotics and artificial intelligence through friendly robot characters.": "通过友好的机器人角色学习机器人技术和人工智能。",
   "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "探索金字塔，发现古埃及文明的秘密。",
 
-  // About Page
-  "Our Story": "我们的故事",
-  "Born in a hackathon": "诞生于黑客马拉松",
-  "The Hackathon Origin": "黑客马拉松起源",
-  "Our Vision": "我们的愿景",
-  "Technology & Innovation": "技术与创新",
-  "Growing Together": "共同成长",
-  "Born in a 36-hour hackathon, fueled by passion and innovation": "诞生于36小时的黑客马拉松，由激情和创新驱动",
-  "Three passionate developers": "三位充满激情的开发者",
+  // Hero Section
+  "Interactive Learning Adventures": "互动学习冒险",
+  "Experience AI-powered stories": "体验AI驱动的故事",
+  "Learn More": "了解更多",
 
-  // Library Page
-  "Browse Stories": "浏览故事",
-  "Filter by Age": "按年龄筛选",
-  "Filter by Genre": "按类型筛选",
-  "Filter by Reading Level": "按阅读水平筛选",
-  "Recently Added": "最近添加",
-  "Popular Stories": "热门故事",
-  "Reading Time": "阅读时间",
-  "minutes": "分钟",
-
-  // School Pilot Page
-  "School Pilot Program": "学校试点计划",
-  "Partner with us": "与我们合作",
-  "Educational Innovation": "教育创新",
-  "What You Get": "您将获得",
-  "Program Duration": "项目期限",
-  "Free access during pilot period": "试点期间免费访问",
-  "Customized content": "定制内容",
-  "Teacher training": "教师培训",
-  "Progress reports": "进度报告",
-  "3-month initial pilot": "3个月初始试点",
-  "Optional extension": "可选延期",
-  "Flexible implementation": "灵活实施",
-  "Ongoing support": "持续支持",
-
-  // AI Story Engine Page
-  "AI Story Engine": "AI故事引擎",
-  "Powered by Advanced AI": "由先进AI驱动",
-  "Real-time Adaptation": "实时适应",
-  "Personalized Learning": "个性化学习",
-  "Natural Language Processing": "自然语言处理",
-  "Machine Learning": "机器学习",
-  "Content Generation": "内容生成",
-
-  // Community Page
-  "Join Our Community": "加入我们的社区",
-  "Connect with Others": "与他人联系",
-  "Share Stories": "分享故事",
-  "Get Feedback": "获取反馈",
-  "Community Guidelines": "社区准则",
-  "Discussion Forums": "讨论论坛",
-  "Events": "活动",
-
-  // Resources Page
-  "Educational Resources": "教育资源",
-  "Teaching Materials": "教学材料",
-  "Lesson Plans": "课程计划",
-  "Worksheets": "工作表",
-  "Parent Guides": "家长指南",
-  "Teacher Guides": "教师指南",
-  "Download Resources": "下载资源",
+  // Adventure Games Section
+  "Adventure Games": "冒险游戏",
+  "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!": "使用AI的力量生成您自己的冒险游戏。这些基于文本的冒险将让您寻找线索、探索异域景点、解决谜题等等！",
+  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "您可以选择主题、游戏类型和难度级别来生成您的冒险，或者从我们随机选择的冒险开始。"
 };
