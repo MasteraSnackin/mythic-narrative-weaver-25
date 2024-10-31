@@ -61,5 +61,30 @@ export default {
   "Message sent successfully! 📬": "Message sent successfully! 📬",
   "We'll get back to you within 24 hours.": "We'll get back to you within 24 hours.",
   "Error": "Error",
-  "Something went wrong. Please try again.": "Something went wrong. Please try again."
+  "Something went wrong. Please try again.": "Something went wrong. Please try again.",
+
+  // FAQ Page
+  "Frequently Asked Questions": "Frequently Asked Questions",
+  "Find answers to common questions about our platform": "Find answers to common questions about our platform",
+  "Common Questions": "Common Questions",
+  "What age group is this suitable for?": "What age group is this suitable for?",
+  "Our interactive stories are designed for readers aged 5-14, with content and difficulty levels that automatically adjust to match each reader's abilities and interests.": "Our interactive stories are designed for readers aged 5-14, with content and difficulty levels that automatically adjust to match each reader's abilities and interests.",
+  "How does the AI storytelling work?": "How does the AI storytelling work?",
+  "Our AI analyzes your choices and reading patterns to create personalized narratives that adapt to your preferences and learning style. Each decision shapes the story's direction and outcome.": "Our AI analyzes your choices and reading patterns to create personalized narratives that adapt to your preferences and learning style. Each decision shapes the story's direction and outcome.",
+  "Is it safe for children?": "Is it safe for children?",
+  "Yes! We prioritize safety with age-appropriate content, parental controls, and secure data protection. All content is reviewed and monitored for educational value and appropriateness.": "Yes! We prioritize safety with age-appropriate content, parental controls, and secure data protection. All content is reviewed and monitored for educational value and appropriateness.",
+  "Can teachers use it in classrooms?": "Can teachers use it in classrooms?",
+  "Absolutely! We offer special educational licenses with features like progress tracking, classroom management tools, and curriculum integration support.": "Absolutely! We offer special educational licenses with features like progress tracking, classroom management tools, and curriculum integration support.",
+  "How much does it cost?": "How much does it cost?",
+  "We offer various subscription plans starting from $9.99/month, with special pricing for educational institutions. A free trial is available to explore our platform.": "We offer various subscription plans starting from $9.99/month, with special pricing for educational institutions. A free trial is available to explore our platform.",
+
+  // Blog Page
+  "Latest Stories & Insights": "Latest Stories & Insights",
+  "Explore the latest developments in AI storytelling and education": "Explore the latest developments in AI storytelling and education",
+  "Read More": "Read More",
+  "Company Story": "Company Story",
+  "Market Insights": "Market Insights",
+  "Education": "Education",
+  "Technology": "Technology",
+  "Product Strategy": "Product Strategy"
 };

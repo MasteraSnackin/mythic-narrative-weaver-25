@@ -61,5 +61,30 @@ export default {
   "Message sent successfully! 📬": "消息发送成功！📬",
   "We'll get back to you within 24 hours.": "我们会在24小时内回复您。",
   "Error": "错误",
-  "Something went wrong. Please try again.": "出现错误。请重试。"
+  "Something went wrong. Please try again.": "出现错误。请重试。",
+
+  // FAQ Page
+  "Frequently Asked Questions": "常见问题",
+  "Find answers to common questions about our platform": "查找关于我们平台的常见问题解答",
+  "Common Questions": "常见问题",
+  "What age group is this suitable for?": "适合哪个年龄段？",
+  "Our interactive stories are designed for readers aged 5-14, with content and difficulty levels that automatically adjust to match each reader's abilities and interests.": "我们的互动故事专为5-14岁的读者设计，内容和难度级别会自动调整以匹配每个读者的能力和兴趣。",
+  "How does the AI storytelling work?": "AI讲故事是如何运作的？",
+  "Our AI analyzes your choices and reading patterns to create personalized narratives that adapt to your preferences and learning style. Each decision shapes the story's direction and outcome.": "我们的AI分析您的选择和阅读模式，创建适应您的偏好和学习风格的个性化叙事。每个决定都会影响故事的方向和结果。",
+  "Is it safe for children?": "对儿童安全吗？",
+  "Yes! We prioritize safety with age-appropriate content, parental controls, and secure data protection. All content is reviewed and monitored for educational value and appropriateness.": "是的！我们通过适合年龄的内容、家长控制和安全的数据保护来优先考虑安全性。所有内容都经过审查和监控，确保教育价值和适当性。",
+  "Can teachers use it in classrooms?": "教师可以在课堂上使用吗？",
+  "Absolutely! We offer special educational licenses with features like progress tracking, classroom management tools, and curriculum integration support.": "当然可以！我们提供特殊的教育许可证，包括进度跟踪、课堂管理工具和课程整合支持等功能。",
+  "How much does it cost?": "费用是多少？",
+  "We offer various subscription plans starting from $9.99/month, with special pricing for educational institutions. A free trial is available to explore our platform.": "我们提供多种订阅计划，起价9.99美元/月，为教育机构提供特别定价。可以免费试用我们的平台。",
+
+  // Blog Page
+  "Latest Stories & Insights": "最新故事与见解",
+  "Explore the latest developments in AI storytelling and education": "探索AI讲故事和教育领域的最新发展",
+  "Read More": "阅读更多",
+  "Company Story": "公司故事",
+  "Market Insights": "市场洞察",
+  "Education": "教育",
+  "Technology": "技术",
+  "Product Strategy": "产品策略"
 };

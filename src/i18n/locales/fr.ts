@@ -61,5 +61,30 @@ export default {
   "Message sent successfully! 📬": "Message envoyé avec succès ! 📬",
   "We'll get back to you within 24 hours.": "Nous vous répondrons dans les 24 heures.",
   "Error": "Erreur",
-  "Something went wrong. Please try again.": "Une erreur s'est produite. Veuillez réessayer."
+  "Something went wrong. Please try again.": "Une erreur s'est produite. Veuillez réessayer.",
+
+  // FAQ Page
+  "Frequently Asked Questions": "Questions Fréquemment Posées",
+  "Find answers to common questions about our platform": "Trouvez des réponses aux questions courantes sur notre plateforme",
+  "Common Questions": "Questions Courantes",
+  "What age group is this suitable for?": "Pour quelle tranche d'âge est-ce adapté ?",
+  "Our interactive stories are designed for readers aged 5-14, with content and difficulty levels that automatically adjust to match each reader's abilities and interests.": "Nos histoires interactives sont conçues pour les lecteurs de 5 à 14 ans, avec des contenus et des niveaux de difficulté qui s'ajustent automatiquement aux capacités et aux intérêts de chaque lecteur.",
+  "How does the AI storytelling work?": "Comment fonctionne la narration par IA ?",
+  "Our AI analyzes your choices and reading patterns to create personalized narratives that adapt to your preferences and learning style. Each decision shapes the story's direction and outcome.": "Notre IA analyse vos choix et vos habitudes de lecture pour créer des récits personnalisés qui s'adaptent à vos préférences et à votre style d'apprentissage. Chaque décision influence la direction et le résultat de l'histoire.",
+  "Is it safe for children?": "Est-ce sûr pour les enfants ?",
+  "Yes! We prioritize safety with age-appropriate content, parental controls, and secure data protection. All content is reviewed and monitored for educational value and appropriateness.": "Oui ! Nous privilégions la sécurité avec du contenu adapté à l'âge, des contrôles parentaux et une protection sécurisée des données. Tout le contenu est examiné et surveillé pour sa valeur éducative et son caractère approprié.",
+  "Can teachers use it in classrooms?": "Les enseignants peuvent-ils l'utiliser en classe ?",
+  "Absolutely! We offer special educational licenses with features like progress tracking, classroom management tools, and curriculum integration support.": "Absolument ! Nous proposons des licences éducatives spéciales avec des fonctionnalités comme le suivi des progrès, des outils de gestion de classe et le support d'intégration au programme scolaire.",
+  "How much does it cost?": "Combien ça coûte ?",
+  "We offer various subscription plans starting from $9.99/month, with special pricing for educational institutions. A free trial is available to explore our platform.": "Nous proposons différents plans d'abonnement à partir de 9,99$/mois, avec des tarifs spéciaux pour les établissements d'enseignement. Un essai gratuit est disponible pour explorer notre plateforme.",
+
+  // Blog Page
+  "Latest Stories & Insights": "Dernières Histoires et Perspectives",
+  "Explore the latest developments in AI storytelling and education": "Découvrez les derniers développements en matière de narration IA et d'éducation",
+  "Read More": "Lire la Suite",
+  "Company Story": "Histoire de l'Entreprise",
+  "Market Insights": "Aperçus du Marché",
+  "Education": "Éducation",
+  "Technology": "Technologie",
+  "Product Strategy": "Stratégie Produit"
 };
