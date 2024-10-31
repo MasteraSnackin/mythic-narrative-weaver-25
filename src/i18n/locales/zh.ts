@@ -118,5 +118,17 @@ export default {
   "Ready to Join?": "准备加入？",
   "Limited spots available for our pilot program. Contact us to learn more about bringing interactive storytelling to your school.": "试点计划名额有限。联系我们了解更多关于为您的学校引入互动故事的信息。",
   "Apply Now": "立即申请",
-  "Learn More": "了解更多"
+  "Learn More": "了解更多",
+
+  // AI Story Engine Page
+  "Our AI Story Engine": "我们的AI故事引擎",
+  "Discover how our proprietary AI crafts personalized narratives that adapt to your choices": "了解我们的专有AI如何制作适应您选择的个性化叙事",
+  "Proprietary AI Model": "专有AI模型",
+  "Our custom-built AI is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique training allows it to craft stories that are both engaging and informative.": "我们的定制AI在大量创意写作、教育材料和互动游戏设计的数据集上进行训练。这种独特的训练使其能够创作出既引人入胜又富有教育意义的故事。",
+  "Dynamic Adaptation": "动态适应",
+  "The AI engine analyzes your choices and reading patterns to adjust difficulty, pacing, and narrative complexity in real-time. This creates a truly personalized experience that grows with you.": "AI引擎分析您的选择和阅读模式，实时调整难度、节奏和叙事复杂性。这创造了一个真正的个性化体验，与您一起成长。",
+  "Human Touch & Curation": "人性化触感与策划",
+  "Our AI is guided by experienced storytellers, educators, and game designers. This human touch ensures stories are not only educational but also captivating and tailored to specific age groups and interests.": "我们的AI由经验丰富的故事讲述者、教育工作者和游戏设计师指导。这种人性化的触感确保故事不仅具有教育意义，而且引人入胜，并针对特定年龄组和兴趣量身定制。",
+  "Continuous Learning": "持续学习",
+  "Our AI constantly learns and improves based on user interaction and feedback. This ongoing loop ensures our stories stay fresh, relevant, and even more effective over time.": "我们的AI根据用户互动和反馈不断学习和改进。这种持续的循环确保我们的故事保持新鲜、相关，并随着时间推移变得更加有效。"
 };

@@ -34,7 +34,7 @@ export default {
 
   // About Us Page
   "Our Story": "Nuestra Historia",
-  "Born in a 36-hour hackathon, fueled by passion and innovation": "Nacido lors d'un hackathon de 36 horas, alimenté par la pasión et l'innovation",
+  "Born in a 36-hour hackathon, fueled by passion and innovation": "Nacido lors d'un hackathon de 36 heures, alimenté par la pasión et l'innovation",
   "The Hackathon Origin": "L'Origine du Hackathon",
   "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "Notre voyage a commencé dans le creuset électrisant d'un hackathon de 36 heures. Trois développeurs passionnés, unis par une vision commune de l'avenir de la narration avec l'IA, se sont réunis pour créer quelque chose de révolutionnaire.",
   "Our Vision": "Nuestra Visión",
@@ -118,5 +118,17 @@ export default {
   "Ready to Join?": "¿Listo para Unirte?",
   "Limited spots available for our pilot program. Contact us to learn more about bringing interactive storytelling to your school.": "Plazas limitadas disponibles para nuestro programa piloto. Contáctanos para saber más sobre cómo llevar la narración interactiva a tu escuela.",
   "Apply Now": "Aplicar Ahora",
-  "Learn More": "Saber Más"
+  "Learn More": "Saber Más",
+
+  // AI Story Engine Page
+  "Our AI Story Engine": "Nuestro Motor de Historias IA",
+  "Discover how our proprietary AI crafts personalized narratives that adapt to your choices": "Descubre cómo nuestra IA propietaria crea narrativas personalizadas que se adaptan a tus elecciones",
+  "Proprietary AI Model": "Modelo de IA Propietario",
+  "Our custom-built AI is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique training allows it to craft stories that are both engaging and informative.": "Nuestra IA personalizada está entrenada con un conjunto masivo de datos de escritura creativa, materiales educativos y diseño de juegos interactivos. Este entrenamiento único le permite crear historias que son tanto atractivas como informativas.",
+  "Dynamic Adaptation": "Adaptación Dinámica",
+  "The AI engine analyzes your choices and reading patterns to adjust difficulty, pacing, and narrative complexity in real-time. This creates a truly personalized experience that grows with you.": "El motor de IA analiza tus elecciones y patrones de lectura para ajustar la dificultad, el ritmo y la complejidad narrativa en tiempo real. Esto crea una experiencia verdaderamente personalizada que crece contigo.",
+  "Human Touch & Curation": "Toque Humano y Curación",
+  "Our AI is guided by experienced storytellers, educators, and game designers. This human touch ensures stories are not only educational but also captivating and tailored to specific age groups and interests.": "Nuestra IA está guiada por narradores, educadores y diseñadores de juegos experimentados. Este toque humano asegura que las historias no solo sean educativas sino también cautivadoras y adaptadas a grupos de edad e intereses específicos.",
+  "Continuous Learning": "Aprendizaje Continuo",
+  "Our AI constantly learns and improves based on user interaction and feedback. This ongoing loop ensures our stories stay fresh, relevant, and even more effective over time.": "Nuestra IA aprende y mejora constantemente basándose en la interacción y retroalimentación del usuario. Este ciclo continuo asegura que nuestras historias se mantengan frescas, relevantes y cada vez más efectivas con el tiempo."
 };
