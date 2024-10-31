@@ -22,7 +22,7 @@ export default {
   "Discover interactive stories tailored to your reading level": "Découvrez des histoires interactives adaptées à votre niveau de lecture",
   "Starting Story": "Démarrage de l'Histoire",
   "Beginning '{{title}}'. Enjoy your adventure!": "Début de '{{title}}'. Bonne aventure !",
-  
+
   // Reading Levels
   "Beginner": "Débutant",
   "Intermediate": "Intermédiaire",
@@ -54,13 +54,73 @@ export default {
   "Learn about robotics and artificial intelligence through friendly robot characters.": "Apprenez la robotique et l'intelligence artificielle à travers des personnages robots sympathiques.",
   "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "Explorez les pyramides et découvrez les secrets de la civilisation égyptienne antique.",
 
-  // Hero Section
-  "Interactive Learning Adventures": "Aventures d'Apprentissage Interactives",
-  "Experience AI-powered stories": "Découvrez des histoires alimentées par l'IA",
-  "Learn More": "En Savoir Plus",
+  // UI Elements
+  "THEME": "THÈME",
+  "MY ADVENTURE": "MON AVENTURE",
+  "Select a theme to preview your adventure": "Sélectionnez un thème pour prévisualiser votre aventure",
+  "GAME TYPE": "TYPE DE JEU",
+  "Select game type": "Sélectionnez le type de jeu",
+  "DIFFICULTY": "Difficulté",
+  "Select difficulty": "Sélectionnez la difficulté",
+  "PLAY": "JOUER",
 
-  // Adventure Games Section
-  "Adventure Games": "Jeux d'Aventure",
-  "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!": "Générez votre propre Jeu d'Aventure en utilisant la puissance de l'IA. Ces aventures textuelles vous feront chercher des indices, explorer des lieux exotiques, résoudre des mystères et plus encore !",
-  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "Vous pouvez choisir un thème, un type de jeu et un niveau de difficulté pour générer votre Aventure ou commencer avec l'Aventure sélectionnée aléatoirement que nous avons choisie pour vous."
+  // Features Section
+  "Why Choose Mythic Mind Labs?": "Pourquoi Choisir Mythic Mind Labs ?",
+  "AI-Powered Narratives": "Récits Alimentés par l'IA",
+  "Dynamic Difficulty & Pacing": "Difficulté et Rythme Dynamiques",
+  "Immersive Storytelling": "Narration Immersive",
+  "Educational Value": "Valeur Éducative",
+  "Endless Possibilities": "Possibilités Infinies",
+  "Community Focused": "Axé sur la Communauté",
+
+  // Platform Metrics
+  "Platform Metrics": "Métriques de la Plateforme",
+  "Market Size": "Taille du Marché",
+  "User Base": "Base d'Utilisateurs",
+  "Growth": "Croissance",
+  "AI Stories": "Histoires IA",
+  "Expected market size by 2027": "Taille de marché prévue d'ici 2027",
+  "CYOA books sold worldwide": "Livres CYOA vendus dans le monde",
+  "User retention rate": "Taux de rétention des utilisateurs",
+  "Unique story possibilities": "Possibilités d'histoires uniques",
+
+  // Pricing
+  "Choose Your Adventure Plan": "Choisissez Votre Plan d'Aventure",
+  "Flexible plans for every storyteller": "Des plans flexibles pour chaque conteur",
+  "Free Explorer": "Explorateur Gratuit",
+  "Story Weaver": "Tisseur d'Histoires",
+  "Education Pro": "Éducation Pro",
+  "Most Popular": "Le Plus Populaire",
+  "Custom": "Personnalisé",
+  "Access to sample stories": "Accès aux histoires d'exemple",
+  "Basic AI features": "Fonctionnalités IA de base",
+  "Limited story choices": "Choix d'histoires limités",
+  "Community access": "Accès communautaire",
+  "Unlimited story access": "Accès illimité aux histoires",
+  "Advanced AI features": "Fonctionnalités IA avancées",
+  "Priority support": "Support prioritaire",
+  "Personalized recommendations": "Recommandations personnalisées",
+  "Progress tracking": "Suivi des progrès",
+  "School-wide access": "Accès à toute l'école",
+  "Curriculum integration": "Intégration au programme",
+  "Teacher dashboard": "Tableau de bord enseignant",
+  "Analytics & reporting": "Analyses et rapports",
+  "Custom content creation": "Création de contenu personnalisé",
+  "Training & support": "Formation et support",
+  "Subscribe Now": "S'abonner Maintenant",
+  "Contact Sales": "Contacter les Ventes",
+  "Coming Soon": "Bientôt Disponible",
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Restez à l'écoute de notre programme de partenariat éducatif, offrant des tarifs spéciaux pour les écoles et les institutions éducatives.",
+
+  // Contact Form
+  "Send us a message": "Envoyez-nous un message",
+  "Name": "Nom",
+  "Your name": "Votre nom",
+  "Email": "Email",
+  "your@email.com": "votre@email.com",
+  "Message": "Message",
+  "Your message": "Votre message",
+  "Send Message": "Envoyer le Message",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram"
 };

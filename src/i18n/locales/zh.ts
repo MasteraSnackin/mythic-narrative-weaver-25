@@ -54,13 +54,73 @@ export default {
   "Learn about robotics and artificial intelligence through friendly robot characters.": "通过友好的机器人角色学习机器人技术和人工智能。",
   "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "探索金字塔，发现古埃及文明的秘密。",
 
-  // Hero Section
-  "Interactive Learning Adventures": "互动学习冒险",
-  "Experience AI-powered stories": "体验AI驱动的故事",
-  "Learn More": "了解更多",
+  // UI Elements
+  "THEME": "主题",
+  "MY ADVENTURE": "我的冒险",
+  "Select a theme to preview your adventure": "选择主题预览您的冒险",
+  "GAME TYPE": "游戏类型",
+  "Select game type": "选择游戏类型",
+  "DIFFICULTY": "难度",
+  "Select difficulty": "选择难度",
+  "PLAY": "开始游戏",
 
-  // Adventure Games Section
-  "Adventure Games": "冒险游戏",
-  "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!": "使用AI的力量生成您自己的冒险游戏。这些基于文本的冒险将让您寻找线索、探索异域景点、解决谜题等等！",
-  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "您可以选择主题、游戏类型和难度级别来生成您的冒险，或者从我们随机选择的冒险开始。"
+  // Features Section
+  "Why Choose Mythic Mind Labs?": "为什么选择神话思维实验室？",
+  "AI-Powered Narratives": "AI驱动的叙事",
+  "Dynamic Difficulty & Pacing": "动态难度和节奏",
+  "Immersive Storytelling": "沉浸式讲故事",
+  "Educational Value": "教育价值",
+  "Endless Possibilities": "无限可能",
+  "Community Focused": "以社区为中心",
+
+  // Platform Metrics
+  "Platform Metrics": "平台指标",
+  "Market Size": "市场规模",
+  "User Base": "用户基础",
+  "Growth": "增长",
+  "AI Stories": "AI故事",
+  "Expected market size by 2027": "预计2027年市场规模",
+  "CYOA books sold worldwide": "全球CYOA图书销量",
+  "User retention rate": "用户留存率",
+  "Unique story possibilities": "独特故事可能性",
+
+  // Pricing
+  "Choose Your Adventure Plan": "选择您的冒险计划",
+  "Flexible plans for every storyteller": "为每个讲故事者提供灵活的计划",
+  "Free Explorer": "免费探索者",
+  "Story Weaver": "故事编织者",
+  "Education Pro": "教育专业版",
+  "Most Popular": "最受欢迎",
+  "Custom": "定制",
+  "Access to sample stories": "访问示例故事",
+  "Basic AI features": "基本AI功能",
+  "Limited story choices": "有限的故事选择",
+  "Community access": "社区访问",
+  "Unlimited story access": "无限故事访问",
+  "Advanced AI features": "高级AI功能",
+  "Priority support": "优先支持",
+  "Personalized recommendations": "个性化推荐",
+  "Progress tracking": "进度跟踪",
+  "School-wide access": "全校访问",
+  "Curriculum integration": "课程整合",
+  "Teacher dashboard": "教师仪表板",
+  "Analytics & reporting": "分析和报告",
+  "Custom content creation": "自定义内容创建",
+  "Training & support": "培训和支持",
+  "Subscribe Now": "立即订阅",
+  "Contact Sales": "联系销售",
+  "Coming Soon": "即将推出",
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "敬请期待我们的教育合作计划，为学校和教育机构提供特别定价。",
+
+  // Contact Form
+  "Send us a message": "给我们发送消息",
+  "Name": "姓名",
+  "Your name": "您的姓名",
+  "Email": "电子邮件",
+  "your@email.com": "your@email.com",
+  "Message": "消息",
+  "Your message": "您的消息",
+  "Send Message": "发送消息",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram"
 };
