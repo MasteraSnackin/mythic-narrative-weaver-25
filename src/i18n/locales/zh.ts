@@ -94,29 +94,23 @@ export default {
   "Coming Soon": "即将推出",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "敬请期待我们的教育合作计划，为学校和教育机构提供特别定价。",
 
-  // Blog Page
-  "latest_stories_insights": "最新故事与见解",
-  "explore_ai_storytelling": "探索AI讲故事和教育领域的最新发展",
-  "read_more": "阅读更多",
-  "company_story": "公司故事",
-  "market_insights": "市场洞察",
-  "education": "教育",
-  "technology": "技术",
-  "product_strategy": "产品策略",
+  // FAQ Page
+  "frequently_asked_questions": "常见问题",
+  "find_answers_common_questions": "查找有关我们平台的常见问题的答案",
+  "common_questions": "常见问题",
   
-  // Blog Posts
-  "hackathon_story_title": "从黑客马拉松到创新：Mythic Mind Labs的诞生",
-  "hackathon_story_excerpt": "我们的旅程始于一场36小时的黑客马拉松。三位充满激情的开发者，因对AI讲故事的未来有着共同的愿景，聚在一起创造了革命性的产品。",
+  "faq_age_group": "适合哪个年龄段？",
+  "faq_age_group_answer": "我们的互动故事是为5-14岁的读者设计的，内容和难度级别会自动调整以适应每位读者的能力和兴趣。",
   
-  "market_opportunity_title": "互动小说的未来：41亿美元的市场机遇",
-  "market_opportunity_excerpt": "在人们对引人入胜和个性化学习体验的需求推动下，全球互动小说市场预计到2027年将达到41亿美元。了解AI如何革新讲故事。",
+  "faq_ai_storytelling": "AI叙事如何运作？",
+  "faq_ai_storytelling_answer": "我们的AI分析您的选择和阅读模式，以创建个性化的叙事，适应您的偏好和学习风格。每个决定都会影响故事的方向和结果。",
   
-  "education_revolution_title": "通过AI驱动的故事革新教育",
-  "education_revolution_excerpt": "我们的AI会根据每个读者的选择、技能水平和节奏进行调整，创造真正个性化的学习体验。了解我们如何通过互动讲故事转变教育。",
+  "faq_educational_aspect": "教育方面如何运作？",
+  "faq_educational_aspect_answer": "我们将教育元素无缝地整合到我们的故事中，使学习变得有趣和互动。AI调整内容以加强学习，同时通过激动人心的叙事保持参与感。",
   
-  "ai_storytelling_title": "超越传统CYOA：AI讲故事的力量",
-  "ai_storytelling_excerpt": "传统的选择你自己的冒险书提供有限的选择。看看我们的AI技术如何创造真正动态的叙事，适应你的每一个决定。",
+  "faq_parent_monitoring": "父母可以监控他们孩子的进步吗？",
+  "faq_parent_monitoring_answer": "是的！父母可以访问一个仪表板，显示阅读进度、理解水平和兴趣领域。这有助于跟踪教育发展，同时确保愉快的阅读体验。",
   
-  "next_gen_readers_title": "针对下一代读者",
-  "next_gen_readers_excerpt": "我们专注于5-14岁的年轻受众和教育机构，创造将娱乐与学习相结合的引人入胜的内容。"
+  "faq_new_content": "新内容多久添加一次？",
+  "faq_new_content_answer": "我们的AI不断生成新的故事变体，并且我们定期向我们的库中添加新的基本故事。每个故事可以经历多次，有不同的结果，取决于您的选择。"
 };

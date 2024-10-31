@@ -31,7 +31,7 @@ export default {
   "Sending relevant updates and recommendations": "Sending relevant updates and recommendations",
   "Data Protection:": "Data Protection:",
   "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent.": "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent.",
-
+  
   // About Us Page
   "Our Story": "Our Story",
   "Born in a 36-hour hackathon, fueled by passion and innovation": "Born in a 36-hour hackathon, fueled by passion and innovation",
@@ -94,23 +94,136 @@ export default {
   "Coming Soon": "Coming Soon",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.",
 
-  // FAQ Page
-  "frequently_asked_questions": "Frequently Asked Questions",
-  "find_answers_common_questions": "Find answers to common questions about our platform",
-  "common_questions": "Common Questions",
-  
-  "faq_age_group": "What age group is this suitable for?",
-  "faq_age_group_answer": "Our interactive stories are designed for readers aged 5-14, with content and difficulty levels that automatically adjust to match each reader's abilities and interests.",
-  
-  "faq_ai_storytelling": "How does the AI storytelling work?",
-  "faq_ai_storytelling_answer": "Our AI analyzes your choices and reading patterns to create personalized narratives that adapt to your preferences and learning style. Each decision shapes the story's direction and outcome.",
-  
-  "faq_educational_aspect": "How does the educational aspect work?",
-  "faq_educational_aspect_answer": "We seamlessly integrate educational elements into our stories, making learning fun and interactive. The AI adapts the content to reinforce learning while maintaining engagement through exciting narratives.",
-  
-  "faq_parent_monitoring": "Can parents monitor their child's progress?",
-  "faq_parent_monitoring_answer": "Yes! Parents have access to a dashboard showing reading progress, comprehension levels, and areas of interest. This helps track educational development while ensuring an enjoyable reading experience.",
-  
-  "faq_new_content": "How often is new content added?",
-  "faq_new_content_answer": "Our AI continuously generates new story variations, and we regularly add new base stories to our library. Each story can be experienced multiple times with different outcomes based on your choices."
+  // Get Started Page
+  "begin_your_adventure": "Begin Your Adventure",
+  "start_your_journey": "Start Your Journey",
+  "experience_ai_stories": "Experience AI-powered stories",
+  "create_your_account": "Create Your Account",
+  "explore_stories": "Explore Stories",
+  "dive_into_library": "Dive into our growing library",
+  "browse_library": "Browse Library",
+  "join_community": "Join Community",
+  "connect_with_readers": "Connect with other readers",
+  "join_discord": "Join Discord",
+  "back_to_home": "Back to Home",
+
+  // Learn More Page
+  "future_storytelling": "The Future of Storytelling",
+  "born_in_hackathon": "Born in a 36-hour hackathon, fueled by passion and innovation",
+  "our_vision": "Our Vision",
+  "vision_description": "We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys.",
+  "technology_innovation": "Technology & Innovation",
+  "tech_description": "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design.",
+  "market_opportunity": "Market Opportunity",
+  "market_description": "The global interactive fiction market is expected to reach $4.1B by 2027.",
+  "market_size": "Market Size by 2027",
+  "books_sold": "CYOA Books Sold Worldwide",
+  "target_age": "Target Age Range",
+  "hackathon_origin": "Hackathon Origin",
+
+  // Stay Updated Page
+  "stay_updated": "Stay Updated",
+  "join_newsletter": "Join our newsletter and never miss an update about new stories and features.",
+  "weekly_updates": "Weekly Updates",
+  "get_notified": "Get notified about new stories and features",
+  "exclusive_content": "Exclusive Content",
+  "subscriber_only": "Access to subscriber-only stories",
+  "direct_updates": "Direct Updates",
+  "important_announcements": "Important announcements straight to your inbox",
+  "subscribe_newsletter": "Subscribe to Our Newsletter",
+  "email_address": "Email Address",
+  "subscribing": "Subscribing...",
+  "subscribe_now": "Subscribe Now",
+
+  // Parent Dashboard Page
+  "parent_dashboard": "Parent Dashboard",
+  "track_progress": "Track your child's reading progress and achievements",
+  "books_read": "Books Read",
+  "reading_time": "Reading Time",
+  "comprehension": "Comprehension",
+  "achievements": "Achievements",
+  "this_week": "this week",
+  "improvement": "improvement",
+  "latest": "Latest",
+  "recent_activity": "Recent Activity",
+  "ago": "ago",
+  "earned": "Earned",
+
+  // Story Creator Page
+  "story_creator": "Story Creator",
+  "create_interactive": "Create interactive stories with AI assistance",
+  "story_title": "Story Title",
+  "enter_title": "Enter your story title...",
+  "story_content": "Story Content",
+  "start_writing": "Start writing your story...",
+  "save_draft": "Save Draft",
+  "ai_assist": "AI Assist",
+  "preview": "Preview",
+
+  // Community Page
+  "community_hub": "Community Hub",
+  "connect_storytellers": "Connect with fellow storytellers, educators, and readers",
+  "featured_stories": "Featured Stories",
+  "discussion_forums": "Discussion Forums",
+  "educational_resources": "Educational Resources",
+  "community_events": "Community Events",
+  "read": "Read",
+  "join": "Join",
+  "download": "Download",
+  "register": "Register",
+
+  // Educator Resources Page
+  "educator_resources": "Educator Resources",
+  "tools_enhance": "Tools and resources to enhance your teaching experience",
+  "lesson_plans": "Lesson Plans",
+  "teaching_guides": "Teaching Guides",
+  "ready_to_use": "Ready-to-use lesson plans integrated with our interactive stories",
+  "comprehensive_guides": "Comprehensive guides to maximize learning outcomes",
+  "connect_educators": "Connect with other educators using our platform",
+
+  // School Pilot Page
+  "school_pilot": "School Pilot Program",
+  "partner_ai_learning": "Partner with us to bring AI-powered interactive learning to your school",
+  "educational_innovation": "Educational Innovation",
+  "pilot_description": "Join our pilot program and be among the first schools to experience the future of interactive learning.",
+  "what_you_get": "What You Get:",
+  "free_pilot": "Free access during pilot period",
+  "custom_content": "Customized content for your curriculum",
+  "teacher_training": "Teacher training and support",
+  "progress_reports": "Regular progress reports",
+  "program_duration": "Program Duration:",
+  "initial_pilot": "3-month initial pilot",
+  "optional_extension": "Optional extension",
+  "flexible_implementation": "Flexible implementation",
+  "ongoing_support": "Ongoing support",
+  "ready_to_join": "Ready to Join?",
+  "limited_spots": "Limited spots available for our pilot program.",
+  "apply_now": "Apply Now",
+
+  // AI Story Engine Page
+  "ai_story_engine": "Our AI Story Engine",
+  "discover_ai": "Discover how our proprietary AI crafts personalized narratives that adapt to your choices",
+  "proprietary_model": "Proprietary AI Model",
+  "model_description": "Our custom-built AI is trained on a massive dataset of creative writing, educational materials, and interactive game design.",
+  "dynamic_adaptation": "Dynamic Adaptation",
+  "adaptation_description": "The AI engine analyzes your choices and reading patterns to adjust difficulty, pacing, and narrative complexity in real-time.",
+  "human_touch": "Human Touch & Curation",
+  "curation_description": "Our AI is guided by experienced storytellers, educators, and game designers.",
+  "continuous_learning": "Continuous Learning",
+  "learning_description": "Our AI constantly learns and improves based on user interaction and feedback.",
+
+  // Terms Page
+  "terms_conditions": "Terms and Conditions",
+  "platform_guidelines": "Guidelines for using our platform",
+  "platform_terms": "Platform Usage Terms",
+  "account_usage": "Account Usage",
+  "account_terms": "By creating an account, you agree to provide accurate information and maintain the security of your login credentials.",
+  "content_guidelines": "Content Guidelines",
+  "content_terms": "All content must be appropriate for our target age group (5-14 years).",
+  "intellectual_property": "Intellectual Property",
+  "ip_terms": "The stories, artwork, and AI technology on our platform are protected by copyright.",
+  "educational_use": "Educational Use",
+  "education_terms": "Educational institutions must obtain appropriate licenses for classroom use.",
+  "termination": "Termination",
+  "termination_terms": "We reserve the right to terminate accounts that violate these terms."
 };

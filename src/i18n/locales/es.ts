@@ -18,7 +18,7 @@ export default {
   // Privacy Policy Page
   "How we protect and handle your data": "Cómo protegemos y manejamos tus datos",
   "Data Collection & Usage": "Recopilación y Uso de Datos",
-  "At Mythic Mind Labs, we take your privacy seriously. We collect only essential information needed to provide you with the best interactive storytelling experience.": "En Mythic Mind Labs, nos tomamos en serio tu privacidad. Solo recopilamos la información esencial necesaria para brindarte la mejor experiencia de narración interactiva.",
+  "At Mythic Mind Labs, we take your privacy seriously. We collect only essential information needed to provide you with the best interactive storytelling experience.": "En Mythic Mind Labs, nos tomamos tu privacidad en serio. Solo recopilamos la información esencial necesaria para brindarte la mejor experiencia de narración interactiva.",
   "Information We Collect:": "Información que Recopilamos:",
   "Basic account information (name, email)": "Información básica de la cuenta (nombre, correo electrónico)",
   "Reading preferences and progress": "Preferencias de lectura y progreso",
@@ -26,7 +26,7 @@ export default {
   "Learning analytics for educational purposes": "Análisis de aprendizaje con fines educativos",
   "How We Use Your Data:": "Cómo Usamos tus Datos:",
   "Personalizing your story experience": "Personalizando tu experiencia de historias",
-  "Improving our AI storytelling engine": "Mejorando nuestro motor de narración con IA",
+  "Improving our AI storytelling engine": "Mejorando nuestro motor de narración IA",
   "Providing progress reports for educational accounts": "Proporcionando informes de progreso para cuentas educativas",
   "Sending relevant updates and recommendations": "Enviando actualizaciones y recomendaciones relevantes",
   "Data Protection:": "Protección de Datos:",
@@ -34,22 +34,22 @@ export default {
 
   // About Us Page
   "Our Story": "Nuestra Historia",
-  "Born in a 36-hour hackathon, fueled by passion and innovation": "Nacido lors d'un hackathon de 36 heures, alimenté par la pasión et l'innovation",
-  "The Hackathon Origin": "L'Origine du Hackathon",
-  "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "Notre voyage a commencé dans le creuset électrisant d'un hackathon de 36 heures. Trois développeurs passionnés, unis par une vision commune de l'avenir de la narration avec l'IA, se sont réunis pour créer quelque chose de révolutionnaire.",
+  "Born in a 36-hour hackathon, fueled by passion and innovation": "Nacido en un hackathon de 36 horas, impulsado por la pasión y la innovación",
+  "The Hackathon Origin": "El Origen del Hackathon",
+  "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "Nuestro viaje comenzó en el electrizante crisol de un hackathon de 36 horas. Tres desarrolladores apasionados, unidos por una visión compartida del futuro de la narración con IA, se unieron para crear algo revolucionario.",
   "Our Vision": "Nuestra Visión",
-  "We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys. Every decision shapes the story, making each experience unique.": "Nous révolutionnons la narration avec des récits alimentés par l'IA qui s'adaptent à vos choix, créant des voyages véritablement immersifs et personnalisés. Chaque décision façonne l'histoire, rendant chaque expérience unique.",
+  "We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys. Every decision shapes the story, making each experience unique.": "Estamos revolucionando la narración con narrativas impulsadas por IA que se adaptan a tus elecciones, creando viajes verdaderamente inmersivos y personalizados. Cada decisión modela la historia, haciendo que cada experiencia sea única.",
   "Technology & Innovation": "Tecnología e Innovación",
-  "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.": "Notre modèle d'IA propriétaire est entraîné sur un ensemble massif de données d'écriture créative, de matériels éducatifs et de conception de jeux interactifs. Cette combinaison unique nous permet de créer des histoires à la fois captivantes et informatives.",
+  "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.": "Nuestro modelo de IA propietario está entrenado en un conjunto de datos masivo de escritura creativa, materiales educativos y diseño de juegos interactivos. Esta combinación única nos permite crear historias que son tanto atractivas como informativas.",
   "Growing Together": "Creciendo Juntos",
-  "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "Nous recherchons activement des collaborateurs qui partagent notre passion pour la narration et l'éducation. Rejoignez-nous pour façonner l'avenir de la fiction interactive et faire de l'apprentissage une aventure.",
-  "CYOA Books Sold Worldwide": "Livres CYOA Vendus dans le Monde",
-  "Market Size by 2027": "Taille du Marché pour 2027",
+  "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "Estamos buscando activamente colaboradores que compartan nuestra pasión por la narración y la educación. Únete a nosotros para dar forma al futuro de la ficción interactiva y hacer del aprendizaje una aventura.",
+  "CYOA Books Sold Worldwide": "Libros CYOA Vendidos en Todo el Mundo",
+  "Market Size by 2027": "Tamaño del Mercado para 2027",
 
   // Contact Page
   "Contact Us": "Contáctanos",
   "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "Nos encantaría saber de ti. Envíanos un mensaje y te responderemos lo antes posible.",
-  "Email": "Correo electrónico",
+  "Email": "Correo Electrónico",
   "WhatsApp": "WhatsApp",
   "Telegram": "Telegram",
   "Send us a message": "Envíanos un mensaje",
@@ -92,7 +92,7 @@ export default {
   "Subscribe Now": "Suscribirse Ahora",
   "Contact Sales": "Contactar Ventas",
   "Coming Soon": "Próximamente",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas y instituciones educativas.",
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas e instituciones educativas.",
 
   // FAQ Page
   "frequently_asked_questions": "Preguntas Frecuentes",

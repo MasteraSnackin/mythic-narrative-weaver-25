@@ -41,7 +41,7 @@ export default {
   "We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys. Every decision shapes the story, making each experience unique.": "Nous révolutionnons la narration avec des récits alimentés par l'IA qui s'adaptent à vos choix, créant des voyages véritablement immersifs et personnalisés. Chaque décision façonne l'histoire, rendant chaque expérience unique.",
   "Technology & Innovation": "Technologie et Innovation",
   "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.": "Notre modèle d'IA propriétaire est entraîné sur un ensemble massif de données d'écriture créative, de matériels éducatifs et de conception de jeux interactifs. Cette combinaison unique nous permet de créer des histoires à la fois captivantes et informatives.",
-  "Growing Together": "Creciendo Juntos",
+  "Growing Together": "Ensemble",
   "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "Nous recherchons activement des collaborateurs qui partagent notre passion pour la narration et l'éducation. Rejoignez-nous pour façonner l'avenir de la fiction interactive et faire de l'apprentissage une aventure.",
   "CYOA Books Sold Worldwide": "Livres CYOA Vendus dans le Monde",
   "Market Size by 2027": "Taille du Marché pour 2027",

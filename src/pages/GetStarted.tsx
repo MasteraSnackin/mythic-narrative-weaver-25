@@ -17,7 +17,7 @@ const GetStarted = () => {
           className="max-w-3xl mx-auto space-y-8"
         >
           <h1 className="text-4xl font-bold text-center bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-            {t("Begin Your Adventure")}
+            {t("begin_your_adventure")}
           </h1>
           
           <div className="grid gap-6">
@@ -27,10 +27,10 @@ const GetStarted = () => {
                   <div className="p-2 bg-purple-100 rounded-lg">
                     <Rocket className="w-6 h-6 text-purple-600" />
                   </div>
-                  <h2 className="text-2xl font-semibold">{t("Start Your Journey")}</h2>
+                  <h2 className="text-2xl font-semibold">{t("start_your_journey")}</h2>
                 </div>
-                <p className="text-gray-600">{t("Experience AI-powered stories")}</p>
-                <Button className="w-full">{t("Create Your Account")}</Button>
+                <p className="text-gray-600">{t("experience_ai_stories")}</p>
+                <Button className="w-full">{t("create_your_account")}</Button>
               </CardContent>
             </Card>
 
@@ -40,10 +40,10 @@ const GetStarted = () => {
                   <div className="p-2 bg-purple-100 rounded-lg">
                     <BookOpen className="w-6 h-6 text-purple-600" />
                   </div>
-                  <h2 className="text-2xl font-semibold">{t("Explore Stories")}</h2>
+                  <h2 className="text-2xl font-semibold">{t("explore_stories")}</h2>
                 </div>
-                <p className="text-gray-600">{t("Dive into our growing library")}</p>
-                <Button variant="outline" className="w-full">{t("Browse Library")}</Button>
+                <p className="text-gray-600">{t("dive_into_library")}</p>
+                <Button variant="outline" className="w-full">{t("browse_library")}</Button>
               </CardContent>
             </Card>
 
@@ -53,10 +53,10 @@ const GetStarted = () => {
                   <div className="p-2 bg-purple-100 rounded-lg">
                     <Users className="w-6 h-6 text-purple-600" />
                   </div>
-                  <h2 className="text-2xl font-semibold">{t("Join Community")}</h2>
+                  <h2 className="text-2xl font-semibold">{t("join_community")}</h2>
                 </div>
-                <p className="text-gray-600">{t("Connect with other readers")}</p>
-                <Button variant="outline" className="w-full">{t("Join Discord")}</Button>
+                <p className="text-gray-600">{t("connect_with_readers")}</p>
+                <Button variant="outline" className="w-full">{t("join_discord")}</Button>
               </CardContent>
             </Card>
           </div>
@@ -64,7 +64,7 @@ const GetStarted = () => {
           <div className="text-center">
             <Link to="/" className="inline-flex items-center text-purple-600 hover:text-purple-700">
               <ArrowRight className="w-4 h-4 mr-2" />
-              {t("Back to Home")}
+              {t("back_to_home")}
             </Link>
           </div>
         </motion.div>

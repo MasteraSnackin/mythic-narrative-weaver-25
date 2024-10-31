@@ -18,10 +18,10 @@ const LearnMore = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              {t("The Future of Storytelling")}
+              {t("future_storytelling")}
             </h1>
             <p className="text-xl text-gray-600">
-              {t("Born in a 36-hour hackathon, fueled by passion and innovation")}
+              {t("born_in_hackathon")}
             </p>
           </div>
 
@@ -31,9 +31,9 @@ const LearnMore = () => {
                 <div className="p-2 bg-purple-100 rounded-lg w-fit">
                   <Target className="w-6 h-6 text-purple-600" />
                 </div>
-                <h2 className="text-2xl font-semibold">{t("Our Vision")}</h2>
+                <h2 className="text-2xl font-semibold">{t("our_vision")}</h2>
                 <p className="text-gray-600">
-                  {t("We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys. Every decision shapes the story, making each experience unique.")}
+                  {t("vision_description")}
                 </p>
               </CardContent>
             </Card>
@@ -43,9 +43,9 @@ const LearnMore = () => {
                 <div className="p-2 bg-purple-100 rounded-lg w-fit">
                   <Lightbulb className="w-6 h-6 text-purple-600" />
                 </div>
-                <h2 className="text-2xl font-semibold">{t("Technology & Innovation")}</h2>
+                <h2 className="text-2xl font-semibold">{t("technology_innovation")}</h2>
                 <p className="text-gray-600">
-                  {t("Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.")}
+                  {t("tech_description")}
                 </p>
               </CardContent>
             </Card>
@@ -55,26 +55,26 @@ const LearnMore = () => {
                 <div className="p-2 bg-purple-100 rounded-lg w-fit">
                   <BookOpen className="w-6 h-6 text-purple-600" />
                 </div>
-                <h2 className="text-2xl font-semibold">{t("Market Opportunity")}</h2>
+                <h2 className="text-2xl font-semibold">{t("market_opportunity")}</h2>
                 <p className="text-gray-600">
-                  {t("The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.")}
+                  {t("market_description")}
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-purple-600">4.1B</div>
-                    <div className="text-sm text-gray-600">{t("Market Size by 2027")}</div>
+                    <div className="text-sm text-gray-600">{t("market_size")}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-purple-600">270M+</div>
-                    <div className="text-sm text-gray-600">{t("CYOA Books Sold Worldwide")}</div>
+                    <div className="text-sm text-gray-600">{t("books_sold")}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-purple-600">5-14</div>
-                    <div className="text-sm text-gray-600">{t("Target Age Range")}</div>
+                    <div className="text-sm text-gray-600">{t("target_age")}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-purple-600">36hr</div>
-                    <div className="text-sm text-gray-600">{t("Hackathon Origin")}</div>
+                    <div className="text-sm text-gray-600">{t("hackathon_origin")}</div>
                   </div>
                 </div>
               </CardContent>
@@ -83,12 +83,12 @@ const LearnMore = () => {
 
           <div className="flex justify-center gap-4">
             <Button asChild>
-              <Link to="/get-started">{t("Get Started")}</Link>
+              <Link to="/get-started">{t("get_started")}</Link>
             </Button>
             <Button variant="outline" asChild>
               <Link to="/" className="inline-flex items-center">
                 <ArrowRight className="w-4 h-4 mr-2" />
-                {t("Back to Home")}
+                {t("back_to_home")}
               </Link>
             </Button>
           </div>
