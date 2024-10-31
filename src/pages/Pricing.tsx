@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 import { useToast } from "@/components/ui/use-toast"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { useState } from "react"
+import { useTranslation } from "react-i18next"
 
 const currencies = [
   { code: "USD", symbol: "$", flag: "🇺🇸", rate: 1.27 },
@@ -25,11 +26,12 @@ const BASE_PRICE = 9.99;
 const Pricing = () => {
   const { toast } = useToast()
   const [selectedCurrency, setSelectedCurrency] = useState(currencies[2]) // Default to GBP
+  const { t } = useTranslation()
 
   const handleSubscribe = () => {
     toast({
-      title: "Subscription Started! 🎉",
-      description: "Welcome to Story Weaver! Your journey begins now.",
+      title: t("Subscription Started! 🎉"),
+      description: t("Welcome to Story Weaver! Your journey begins now."),
     })
   }
 
@@ -55,15 +57,15 @@ const Pricing = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              Choose Your Adventure Plan
+              {t("Choose Your Adventure Plan")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Flexible plans for every storyteller
+              {t("Flexible plans for every storyteller")}
             </p>
             <div className="max-w-xs mx-auto">
               <Select onValueChange={handleCurrencyChange} defaultValue={selectedCurrency.code}>
                 <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Select currency" />
+                  <SelectValue placeholder={t("Select currency")} />
                 </SelectTrigger>
                 <SelectContent>
                   {currencies.map((currency) => (
@@ -82,16 +84,16 @@ const Pricing = () => {
           <div className="grid md:grid-cols-3 gap-6">
             <Card>
               <CardHeader>
-                <CardTitle>Free Explorer</CardTitle>
+                <CardTitle>{t("Free Explorer")}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="text-3xl font-bold">{formatPrice(0)}/mo</div>
                 <ul className="space-y-2">
                   {[
-                    "Access to sample stories",
-                    "Basic AI features",
-                    "Limited story choices",
-                    "Community access"
+                    t("Access to sample stories"),
+                    t("Basic AI features"),
+                    t("Limited story choices"),
+                    t("Community access")
                   ].map((feature) => (
                     <li key={feature} className="flex items-center gap-2">
                       <Check className="w-4 h-4 text-green-500" />
@@ -100,7 +102,7 @@ const Pricing = () => {
                   ))}
                 </ul>
                 <Button asChild>
-                  <Link to="/library">Get Started</Link>
+                  <Link to="/library">{t("Get Started")}</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -108,21 +110,21 @@ const Pricing = () => {
             <Card className="border-purple-500 relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                 <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm flex items-center gap-1">
-                  <Star className="w-4 h-4" /> Most Popular
+                  <Star className="w-4 h-4" /> {t("Most Popular")}
                 </span>
               </div>
               <CardHeader>
-                <CardTitle>Story Weaver</CardTitle>
+                <CardTitle>{t("Story Weaver")}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="text-3xl font-bold">{formatPrice(BASE_PRICE)}/mo</div>
                 <ul className="space-y-2">
                   {[
-                    "Unlimited story access",
-                    "Advanced AI features",
-                    "Priority support",
-                    "Personalized recommendations",
-                    "Progress tracking"
+                    t("Unlimited story access"),
+                    t("Advanced AI features"),
+                    t("Priority support"),
+                    t("Personalized recommendations"),
+                    t("Progress tracking")
                   ].map((feature) => (
                     <li key={feature} className="flex items-center gap-2">
                       <Check className="w-4 h-4 text-green-500" />
@@ -130,24 +132,24 @@ const Pricing = () => {
                     </li>
                   ))}
                 </ul>
-                <Button onClick={handleSubscribe}>Subscribe Now</Button>
+                <Button onClick={handleSubscribe}>{t("Subscribe Now")}</Button>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle>Education Pro</CardTitle>
+                <CardTitle>{t("Education Pro")}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="text-3xl font-bold">Custom</div>
+                <div className="text-3xl font-bold">{t("Custom")}</div>
                 <ul className="space-y-2">
                   {[
-                    "School-wide access",
-                    "Curriculum integration",
-                    "Teacher dashboard",
-                    "Analytics & reporting",
-                    "Custom content creation",
-                    "Training & support"
+                    t("School-wide access"),
+                    t("Curriculum integration"),
+                    t("Teacher dashboard"),
+                    t("Analytics & reporting"),
+                    t("Custom content creation"),
+                    t("Training & support")
                   ].map((feature) => (
                     <li key={feature} className="flex items-center gap-2">
                       <Check className="w-4 h-4 text-green-500" />
@@ -156,7 +158,7 @@ const Pricing = () => {
                   ))}
                 </ul>
                 <Button variant="outline" asChild>
-                  <Link to="/contact">Contact Sales</Link>
+                  <Link to="/contact">{t("Contact Sales")}</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -167,10 +169,10 @@ const Pricing = () => {
               <CardContent className="p-6">
                 <div className="flex items-center justify-center gap-2 mb-4">
                   <Sparkles className="w-6 h-6 text-purple-600" />
-                  <h2 className="text-xl font-semibold">Coming Soon</h2>
+                  <h2 className="text-xl font-semibold">{t("Coming Soon")}</h2>
                 </div>
                 <p className="text-gray-600">
-                  Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.
+                  {t("Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.")}
                 </p>
               </CardContent>
             </Card>
