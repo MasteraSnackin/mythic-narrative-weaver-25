@@ -22,7 +22,7 @@ export default {
   "Our Vision": "Notre Vision",
   "Technology & Innovation": "Technologie & Innovation",
   "Growing Together": "Grandir Ensemble",
-  "Born in a 36-hour hackathon, fueled by passion and innovation": "Né d'un hackathon de 36 heures, alimenté par la passion et l'innovation",
+  "Born in a 36-hour hackathon": "Né d'un hackathon de 36 heures",
   "Three passionate developers": "Trois développeurs passionnés",
 
   // Library Page
@@ -50,34 +50,7 @@ export default {
   "Flexible implementation": "Mise en œuvre flexible",
   "Ongoing support": "Support continu",
 
-  // AI Story Engine Page
-  "AI Story Engine": "Moteur d'Histoires IA",
-  "Powered by Advanced AI": "Propulsé par l'IA Avancée",
-  "Real-time Adaptation": "Adaptation en Temps Réel",
-  "Personalized Learning": "Apprentissage Personnalisé",
-  "Natural Language Processing": "Traitement du Langage Naturel",
-  "Machine Learning": "Apprentissage Automatique",
-  "Content Generation": "Génération de Contenu",
-
-  // Community Page
-  "Join Our Community": "Rejoignez Notre Communauté",
-  "Connect with Others": "Connectez-vous avec d'Autres",
-  "Share Stories": "Partagez des Histoires",
-  "Get Feedback": "Obtenez des Retours",
-  "Community Guidelines": "Règles de la Communauté",
-  "Discussion Forums": "Forums de Discussion",
-  "Events": "Événements",
-
-  // Resources Page
-  "Educational Resources": "Ressources Éducatives",
-  "Teaching Materials": "Matériel Pédagogique",
-  "Lesson Plans": "Plans de Cours",
-  "Worksheets": "Fiches de Travail",
-  "Parent Guides": "Guides Parents",
-  "Teacher Guides": "Guides Enseignants",
-  "Download Resources": "Télécharger les Ressources",
-
-  // Remaining translations
+  // Features & Platform
   "AI-Powered Narratives": "Narratives alimentées par IA",
   "Dynamic Difficulty & Pacing": "Difficulté et rythme dynamiques",
   "Immersive Storytelling": "Narration immersive",
@@ -93,6 +66,8 @@ export default {
   "CYOA books sold worldwide": "Livres CYOA vendus dans le monde",
   "User retention rate": "Taux de fidélisation des utilisateurs",
   "Unique story possibilities": "Possibilités d'histoires uniques",
+
+  // Pricing & Plans
   "Choose Your Adventure Plan": "Choisissez votre plan d'aventure",
   "Flexible plans for every storyteller": "Plans flexibles pour chaque conteur",
   "Free Explorer": "Explorateur gratuit",
@@ -118,6 +93,8 @@ export default {
   "Subscribe Now": "Abonnez-vous maintenant",
   "Contact Sales": "Contacter les ventes",
   "Coming Soon": "Bientôt disponible",
+
+  // Contact Form
   "Send us a message": "Envoyez-nous un message",
   "Name": "Nom",
   "Your name": "Votre nom",
@@ -127,5 +104,5 @@ export default {
   "Your message": "Votre message",
   "Send Message": "Envoyer le message",
   "WhatsApp": "WhatsApp",
-  "Telegram": "Telegram",
+  "Telegram": "Telegram"
 };
