@@ -17,11 +17,11 @@ export default {
 
   // Library Page
   "Start Reading": "Empezar a Leer",
-  "Search stories...": "Buscar historias...",
+  "Search stories": "Buscar historias",
   "Filters": "Filtros",
+  "Discover interactive stories tailored to your reading level": "Descubre historias interactivas adaptadas a tu nivel de lectura",
   "Starting Story": "Iniciando Historia",
   "Beginning '{{title}}'. Enjoy your adventure!": "Comenzando '{{title}}'. ¡Disfruta tu aventura!",
-  "Discover interactive stories tailored to your reading level": "Descubre historias interactivas adaptadas a tu nivel de lectura",
 
   // Reading Levels
   "Beginner": "Principiante",
@@ -36,7 +36,7 @@ export default {
   "Historical": "Histórico",
   "Science": "Ciencia",
 
-  // Story Titles
+  // Story Titles & Descriptions
   "The Dragon's Riddle": "El Acertijo del Dragón",
   "Space Explorer Academy": "Academia de Exploradores Espaciales",
   "The Friendly Forest": "El Bosque Amigable",
@@ -45,8 +45,6 @@ export default {
   "Ocean Explorers": "Exploradores del Océano",
   "Robot Friends": "Amigos Robot",
   "Ancient Egypt Quest": "Aventura en el Antiguo Egipto",
-
-  // Story Descriptions
   "An interactive tale of wit and wisdom where your choices determine the outcome of a young wizard's journey.": "Un cuento interactivo de ingenio y sabiduría donde tus decisiones determinan el resultado del viaje de un joven mago.",
   "Navigate through the cosmos and learn about space while making crucial decisions as a cadet at the Space Academy.": "Navega por el cosmos y aprende sobre el espacio mientras tomas decisiones cruciales como cadete en la Academia Espacial.",
   "A gentle introduction to reading where young readers help woodland creatures solve simple problems.": "Una suave introducción a la lectura donde los jóvenes lectores ayudan a las criaturas del bosque a resolver problemas simples.",
@@ -54,13 +52,12 @@ export default {
   "Journey through different historical periods and make decisions that could change the course of history.": "Viaja a través de diferentes períodos históricos y toma decisiones que podrían cambiar el curso de la historia.",
   "Dive deep into marine biology and oceanography while having underwater adventures.": "Sumérgete en la biología marina y la oceanografía mientras vives aventuras submarinas.",
   "Learn about robotics and artificial intelligence through friendly robot characters.": "Aprende sobre robótica e inteligencia artificial a través de simpáticos personajes robot.",
-  "Explore the pyramids and discover the secrets of the ancient Egyptian civilization.": "Explora las pirámides y descubre los secretos de la antigua civilización egipcia.",
+  "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "Explora las pirámides y descubre los secretos de la antigua civilización egipcia.",
 
   // Hero Section
   "Interactive Learning Adventures": "Aventuras de Aprendizaje Interactivas",
   "Experience AI-powered stories": "Experimenta historias impulsadas por IA",
   "Learn More": "Más Información",
-  "Get Started": "Comenzar",
 
   // Adventure Games Section
   "Adventure Games": "Juegos de Aventura",

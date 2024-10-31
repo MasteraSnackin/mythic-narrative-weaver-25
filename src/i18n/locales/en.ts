@@ -36,7 +36,7 @@ export default {
   "Historical": "Historical",
   "Science": "Science",
 
-  // Story Titles
+  // Story Titles & Descriptions
   "The Dragon's Riddle": "The Dragon's Riddle",
   "Space Explorer Academy": "Space Explorer Academy",
   "The Friendly Forest": "The Friendly Forest",
@@ -45,8 +45,6 @@ export default {
   "Ocean Explorers": "Ocean Explorers",
   "Robot Friends": "Robot Friends",
   "Ancient Egypt Quest": "Ancient Egypt Quest",
-
-  // Story Descriptions
   "An interactive tale of wit and wisdom where your choices determine the outcome of a young wizard's journey.": "An interactive tale of wit and wisdom where your choices determine the outcome of a young wizard's journey.",
   "Navigate through the cosmos and learn about space while making crucial decisions as a cadet at the Space Academy.": "Navigate through the cosmos and learn about space while making crucial decisions as a cadet at the Space Academy.",
   "A gentle introduction to reading where young readers help woodland creatures solve simple problems.": "A gentle introduction to reading where young readers help woodland creatures solve simple problems.",
@@ -60,7 +58,6 @@ export default {
   "Interactive Learning Adventures": "Interactive Learning Adventures",
   "Experience AI-powered stories": "Experience AI-powered stories",
   "Learn More": "Learn More",
-  "Get Started": "Get Started",
 
   // Adventure Games Section
   "Adventure Games": "Adventure Games",

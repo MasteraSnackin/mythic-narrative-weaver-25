@@ -36,7 +36,7 @@ export default {
   "Historical": "Historique",
   "Science": "Science",
 
-  // Story Titles
+  // Story Titles & Descriptions
   "The Dragon's Riddle": "L'Énigme du Dragon",
   "Space Explorer Academy": "Académie des Explorateurs Spatiaux",
   "The Friendly Forest": "La Forêt Amicale",
@@ -45,8 +45,6 @@ export default {
   "Ocean Explorers": "Explorateurs des Océans",
   "Robot Friends": "Amis Robots",
   "Ancient Egypt Quest": "Quête en Égypte Ancienne",
-
-  // Story Descriptions
   "An interactive tale of wit and wisdom where your choices determine the outcome of a young wizard's journey.": "Un conte interactif d'esprit et de sagesse où vos choix déterminent le destin du voyage d'un jeune sorcier.",
   "Navigate through the cosmos and learn about space while making crucial decisions as a cadet at the Space Academy.": "Naviguez à travers le cosmos et apprenez l'espace tout en prenant des décisions cruciales en tant que cadet à l'Académie Spatiale.",
   "A gentle introduction to reading where young readers help woodland creatures solve simple problems.": "Une douce introduction à la lecture où les jeunes lecteurs aident les créatures de la forêt à résoudre des problèmes simples.",
@@ -60,7 +58,6 @@ export default {
   "Interactive Learning Adventures": "Aventures d'Apprentissage Interactives",
   "Experience AI-powered stories": "Découvrez des histoires alimentées par l'IA",
   "Learn More": "En Savoir Plus",
-  "Get Started": "Commencer",
 
   // Adventure Games Section
   "Adventure Games": "Jeux d'Aventure",

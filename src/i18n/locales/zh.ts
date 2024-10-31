@@ -36,7 +36,7 @@ export default {
   "Historical": "历史",
   "Science": "科学",
 
-  // Story Titles
+  // Story Titles & Descriptions
   "The Dragon's Riddle": "龙的谜题",
   "Space Explorer Academy": "太空探索学院",
   "The Friendly Forest": "友好森林",
@@ -45,8 +45,6 @@ export default {
   "Ocean Explorers": "海洋探索者",
   "Robot Friends": "机器人朋友",
   "Ancient Egypt Quest": "古埃及探险",
-
-  // Story Descriptions
   "An interactive tale of wit and wisdom where your choices determine the outcome of a young wizard's journey.": "一个智慧与机智的互动故事，您的选择将决定年轻巫师旅程的结局。",
   "Navigate through the cosmos and learn about space while making crucial decisions as a cadet at the Space Academy.": "作为太空学院的学员，在探索宇宙的同时学习太空知识并做出关键决策。",
   "A gentle introduction to reading where young readers help woodland creatures solve simple problems.": "一个温和的阅读入门，年轻读者帮助森林生物解决简单问题。",
@@ -60,7 +58,6 @@ export default {
   "Interactive Learning Adventures": "互动学习冒险",
   "Experience AI-powered stories": "体验AI驱动的故事",
   "Learn More": "了解更多",
-  "Get Started": "开始使用",
 
   // Adventure Games Section
   "Adventure Games": "冒险游戏",
