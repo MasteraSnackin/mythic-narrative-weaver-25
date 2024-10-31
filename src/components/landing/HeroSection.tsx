@@ -21,37 +21,37 @@ const imageInfo = [
   {
     src: FANTASY_IMAGE,
     alt: "Fantasy Storytelling",
-    tooltip: "Dive into magical worlds where your choices shape the narrative. Our AI adapts the story to your decisions, creating unique adventures every time."
+    tooltip: "Dive into magical worlds where your choices shape the narrative."
   },
   {
     src: CREATIVE_WRITING_IMAGE,
     alt: "Creative Writing",
-    tooltip: "Experience stories that evolve with your choices. Our AI crafts personalized narratives that keep you engaged and entertained."
+    tooltip: "Experience stories that evolve with your choices."
   },
   {
     src: STORYTELLING_IMAGE,
     alt: "Interactive Stories",
-    tooltip: "Join a growing community of young readers exploring AI-powered stories. Over 270 million CYOA books sold worldwide!"
+    tooltip: "Join a growing community of young readers."
   },
   {
     src: TECHNOLOGY_IMAGE,
     alt: "AI Technology",
-    tooltip: "Cutting-edge AI technology adapts difficulty and pacing to your skill level, ensuring an engaging experience every time."
+    tooltip: "Cutting-edge AI technology adapts to your skill level."
   },
   {
     src: ADVENTURE_GENRE_IMAGE,
     alt: "Adventure Stories",
-    tooltip: "Part of a $4.1B interactive fiction market by 2027. Join us in shaping the future of storytelling!"
+    tooltip: "Part of a growing interactive fiction market."
   },
   {
     src: HERO_IMAGE,
     alt: "Reading Experience",
-    tooltip: "Perfect for ages 5-14, our stories combine entertainment with educational value, making learning fun and interactive."
+    tooltip: "Perfect for ages 5-14, making learning fun and interactive."
   }
 ];
 
 export const HeroSection = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation(['home', 'common']);
   
   return (
     <section className="container mx-auto px-4 py-20 flex flex-col lg:flex-row items-center justify-between gap-12 relative overflow-hidden">
@@ -68,10 +68,10 @@ export const HeroSection = () => {
           className="absolute -top-20 -left-20 w-40 h-40 bg-purple-300 rounded-full blur-3xl opacity-30"
         />
         <h1 className="text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-900 via-purple-600 to-purple-400">
-          {t("Interactive Learning Adventures")}
+          {t('home:Hero Title')}
         </h1>
         <p className="text-2xl text-gray-700 dark:text-gray-300 leading-relaxed">
-          {t("Experience AI-powered stories")}
+          {t('home:Hero Subtitle')}
         </p>
         <motion.div 
           className="space-x-4"
@@ -79,10 +79,10 @@ export const HeroSection = () => {
           transition={{ duration: 0.2 }}
         >
           <Button asChild size="lg" className="bg-purple-600 hover:bg-purple-700 text-lg px-8 py-6">
-            <Link to="/get-started">{t("Get Started")}</Link>
+            <Link to="/get-started">{t('home:Get Started CTA')}</Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="text-lg px-8 py-6">
-            <Link to="/learn-more">{t("Learn More")}</Link>
+            <Link to="/learn-more">{t('home:Learn More CTA')}</Link>
           </Button>
         </motion.div>
       </motion.div>

@@ -1,0 +1,36 @@
+export default {
+  // Navigation
+  "Get Started": "Get Started",
+  "Story Library": "Story Library",
+  "Pricing": "Pricing",
+  "Contact": "Contact",
+  "About": "About",
+  "Library": "Library",
+  "School Pilot": "School Pilot",
+  "AI Story Engine": "AI Story Engine",
+  "Community": "Community",
+  "Resources": "Resources",
+  "Blog": "Blog",
+  "FAQ": "FAQ",
+  "Privacy Policy": "Privacy Policy",
+  "Terms": "Terms",
+
+  // Common UI Elements
+  "Loading": "Loading...",
+  "Error": "Error",
+  "Success": "Success",
+  "Submit": "Submit",
+  "Cancel": "Cancel",
+  "Save": "Save",
+  "Delete": "Delete",
+  "Edit": "Edit",
+  "Back": "Back",
+  "Next": "Next",
+  "Previous": "Previous",
+  "Close": "Close",
+  "Search": "Search",
+  "Filter": "Filter",
+  "Sort": "Sort",
+  "View All": "View All",
+  "Learn More": "Learn More"
+};
