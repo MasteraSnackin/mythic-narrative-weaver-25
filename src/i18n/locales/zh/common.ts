@@ -1,0 +1,36 @@
+export default {
+  // Navigation
+  "Get Started": "开始使用",
+  "Story Library": "故事库",
+  "Pricing": "定价",
+  "Contact": "联系我们",
+  "About": "关于我们",
+  "Library": "图书馆",
+  "School Pilot": "学校试点",
+  "AI Story Engine": "AI故事引擎",
+  "Community": "社区",
+  "Resources": "资源",
+  "Blog": "博客",
+  "FAQ": "常见问题",
+  "Privacy Policy": "隐私政策",
+  "Terms": "使用条款",
+
+  // Common UI Elements
+  "Loading": "加载中...",
+  "Error": "错误",
+  "Success": "成功",
+  "Submit": "提交",
+  "Cancel": "取消",
+  "Save": "保存",
+  "Delete": "删除",
+  "Edit": "编辑",
+  "Back": "返回",
+  "Next": "下一步",
+  "Previous": "上一步",
+  "Close": "关闭",
+  "Search": "搜索",
+  "Filter": "筛选",
+  "Sort": "排序",
+  "View All": "查看全部",
+  "Learn More": "了解更多"
+};
