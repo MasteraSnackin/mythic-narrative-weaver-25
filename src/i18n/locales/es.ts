@@ -34,7 +34,7 @@ export default {
 
   // About Us Page
   "Our Story": "Nuestra Historia",
-  "Born in a 36-hour hackathon, fueled by passion and innovation": "Nacido lors d'un hackathon de 36 heures, alimenté par la passion et l'innovation",
+  "Born in a 36-hour hackathon, fueled by passion and innovation": "Nacido lors d'un hackathon de 36 heures, alimenté par la pasión et l'innovation",
   "The Hackathon Origin": "L'Origine du Hackathon",
   "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "Notre voyage a commencé dans le creuset électrisant d'un hackathon de 36 heures. Trois développeurs passionnés, unis par une vision commune de l'avenir de la narration avec l'IA, se sont réunis pour créer quelque chose de révolutionnaire.",
   "Our Vision": "Nuestra Visión",
@@ -94,10 +94,18 @@ export default {
   "Coming Soon": "Próximamente",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas y instituciones educativas.",
   
-  // Learn More Page
-  "The Future of Storytelling": "El Futuro de la Narración",
-  "Market Opportunity": "Oportunidad de Mercado",
-  "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.": "Se espera que el mercado global de ficción interactiva alcance los $4.1B para 2027, con más de 270M de copias de libros CYOA vendidas en todo el mundo.",
-  "Target Age Range": "Rango de Edad Objetivo",
-  "Hackathon Origin": "Origen del Hackathon",
+  // Stay Updated Page
+  "Stay Updated": "Mantente Actualizado",
+  "Join our newsletter and never miss an update about new stories and features.": "Únete a nuestro boletín y no te pierdas ninguna actualización sobre nuevas historias y funciones.",
+  "Weekly Updates": "Actualizaciones Semanales",
+  "Get notified about new stories and features": "Recibe notificaciones sobre nuevas historias y funciones",
+  "Exclusive Content": "Contenido Exclusivo",
+  "Access to subscriber-only stories": "Acceso a historias exclusivas para suscriptores",
+  "Direct Updates": "Actualizaciones Directas",
+  "Important announcements straight to your inbox": "Anuncios importantes directamente en tu bandeja de entrada",
+  "Subscribe to Our Newsletter": "Suscríbete a Nuestro Boletín",
+  "Email Address": "Correo Electrónico",
+  "Successfully subscribed! 🎉": "¡Suscripción exitosa! 🎉",
+  "Welcome to our newsletter community!": "¡Bienvenido a nuestra comunidad de boletines!",
+  "Subscribing...": "Suscribiendo...",
 };

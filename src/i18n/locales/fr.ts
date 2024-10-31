@@ -94,23 +94,18 @@ export default {
   "Coming Soon": "Bientôt Disponible",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Restez à l'écoute pour notre programme de partenariat éducatif, offrant des tarifs spéciaux pour les écoles et les institutions éducatives.",
   
-  // Get Started Page
-  "Begin Your Adventure": "Commencez Votre Aventure",
-  "Start Your Journey": "Débutez Votre Voyage",
-  "Experience AI-powered stories": "Découvrez des histoires alimentées par l'IA qui s'adaptent à vos choix et créent des aventures uniques à chaque fois.",
-  "Create Your Account": "Créez Votre Compte",
-  "Explore Stories": "Explorez les Histoires",
-  "Browse Library": "Parcourir la Bibliothèque",
-  "Dive into our growing library": "Plongez dans notre bibliothèque grandissante d'histoires interactives qui mêlent divertissement et valeur éducative.",
-  "Join Community": "Rejoignez la Communauté",
-  "Connect with other readers": "Connectez-vous avec d'autres jeunes lecteurs et éducateurs dans notre communauté narrative grandissante.",
-  "Join Discord": "Rejoindre Discord",
-  "Back to Home": "Retour à l'Accueil",
-
-  // Learn More Page
-  "The Future of Storytelling": "L'Avenir de la Narration",
-  "Market Opportunity": "Opportunité de Marché",
-  "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.": "Le marché mondial de la fiction interactive devrait atteindre 4,1 milliards de dollars d'ici 2027, avec plus de 270 millions de livres CYOA vendus dans le monde.",
-  "Target Age Range": "Tranche d'Âge Cible",
-  "Hackathon Origin": "Origine du Hackathon",
+  // Stay Updated Page
+  "Stay Updated": "Restez Informé",
+  "Join our newsletter and never miss an update about new stories and features.": "Rejoignez notre newsletter et ne manquez aucune mise à jour sur les nouvelles histoires et fonctionnalités.",
+  "Weekly Updates": "Mises à Jour Hebdomadaires",
+  "Get notified about new stories and features": "Soyez informé des nouvelles histoires et fonctionnalités",
+  "Exclusive Content": "Contenu Exclusif",
+  "Access to subscriber-only stories": "Accès aux histoires réservées aux abonnés",
+  "Direct Updates": "Mises à Jour Directes",
+  "Important announcements straight to your inbox": "Annonces importantes directement dans votre boîte de réception",
+  "Subscribe to Our Newsletter": "Abonnez-vous à Notre Newsletter",
+  "Email Address": "Adresse E-mail",
+  "Successfully subscribed! 🎉": "Inscription réussie ! 🎉",
+  "Welcome to our newsletter community!": "Bienvenue dans notre communauté de newsletter !",
+  "Subscribing...": "Inscription en cours...",
 };

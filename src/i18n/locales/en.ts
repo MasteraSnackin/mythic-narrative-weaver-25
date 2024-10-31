@@ -100,4 +100,19 @@ export default {
   "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.": "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.",
   "Target Age Range": "Target Age Range",
   "Hackathon Origin": "Hackathon Origin",
+
+  // Stay Updated Page
+  "Stay Updated": "Stay Updated",
+  "Join our newsletter and never miss an update about new stories and features.": "Join our newsletter and never miss an update about new stories and features.",
+  "Weekly Updates": "Weekly Updates",
+  "Get notified about new stories and features": "Get notified about new stories and features",
+  "Exclusive Content": "Exclusive Content",
+  "Access to subscriber-only stories": "Access to subscriber-only stories",
+  "Direct Updates": "Direct Updates",
+  "Important announcements straight to your inbox": "Important announcements straight to your inbox",
+  "Subscribe to Our Newsletter": "Subscribe to Our Newsletter",
+  "Email Address": "Email Address",
+  "Successfully subscribed! 🎉": "Successfully subscribed! 🎉",
+  "Welcome to our newsletter community!": "Welcome to our newsletter community!",
+  "Subscribing...": "Subscribing...",
 };

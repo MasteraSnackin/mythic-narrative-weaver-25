@@ -5,11 +5,13 @@ import { motion } from "framer-motion"
 import { Bell, Mail, Star } from "lucide-react"
 import { useState } from "react"
 import { useToast } from "@/components/ui/use-toast"
+import { useTranslation } from "react-i18next"
 
 const StayUpdated = () => {
   const [email, setEmail] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)
   const { toast } = useToast()
+  const { t } = useTranslation()
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -20,15 +22,15 @@ const StayUpdated = () => {
       await new Promise(resolve => setTimeout(resolve, 1000))
       
       toast({
-        title: "Successfully subscribed! 🎉",
-        description: "Welcome to our newsletter community!",
+        title: t("Successfully subscribed! 🎉"),
+        description: t("Welcome to our newsletter community!"),
       })
       
       setEmail("")
     } catch (error) {
       toast({
-        title: "Error",
-        description: "Something went wrong. Please try again.",
+        title: t("Error"),
+        description: t("Something went wrong. Please try again."),
         variant: "destructive",
       })
     } finally {
@@ -46,10 +48,10 @@ const StayUpdated = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              Stay Updated
+              {t("Stay Updated")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Join our newsletter and never miss an update about new stories and features.
+              {t("Join our newsletter and never miss an update about new stories and features.")}
             </p>
           </div>
 
@@ -59,8 +61,8 @@ const StayUpdated = () => {
                 <div className="mx-auto w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-full flex items-center justify-center">
                   <Bell className="w-6 h-6 text-purple-600" />
                 </div>
-                <h3 className="font-semibold">Weekly Updates</h3>
-                <p className="text-gray-600 dark:text-gray-300">Get notified about new stories and features</p>
+                <h3 className="font-semibold">{t("Weekly Updates")}</h3>
+                <p className="text-gray-600 dark:text-gray-300">{t("Get notified about new stories and features")}</p>
               </CardContent>
             </Card>
 
@@ -69,8 +71,8 @@ const StayUpdated = () => {
                 <div className="mx-auto w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-full flex items-center justify-center">
                   <Star className="w-6 h-6 text-purple-600" />
                 </div>
-                <h3 className="font-semibold">Exclusive Content</h3>
-                <p className="text-gray-600 dark:text-gray-300">Access to subscriber-only stories</p>
+                <h3 className="font-semibold">{t("Exclusive Content")}</h3>
+                <p className="text-gray-600 dark:text-gray-300">{t("Access to subscriber-only stories")}</p>
               </CardContent>
             </Card>
 
@@ -79,31 +81,31 @@ const StayUpdated = () => {
                 <div className="mx-auto w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-full flex items-center justify-center">
                   <Mail className="w-6 h-6 text-purple-600" />
                 </div>
-                <h3 className="font-semibold">Direct Updates</h3>
-                <p className="text-gray-600 dark:text-gray-300">Important announcements straight to your inbox</p>
+                <h3 className="font-semibold">{t("Direct Updates")}</h3>
+                <p className="text-gray-600 dark:text-gray-300">{t("Important announcements straight to your inbox")}</p>
               </CardContent>
             </Card>
           </div>
 
           <Card>
             <CardHeader>
-              <CardTitle>Subscribe to Our Newsletter</CardTitle>
+              <CardTitle>{t("Subscribe to Our Newsletter")}</CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="space-y-2">
-                  <label htmlFor="email" className="text-sm font-medium">Email Address</label>
+                  <label htmlFor="email" className="text-sm font-medium">{t("Email Address")}</label>
                   <Input
                     id="email"
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    placeholder="your@email.com"
+                    placeholder={t("your@email.com")}
                   />
                 </div>
                 <Button type="submit" className="w-full" disabled={isSubmitting}>
-                  {isSubmitting ? "Subscribing..." : "Subscribe Now"}
+                  {isSubmitting ? t("Subscribing...") : t("Subscribe Now")}
                 </Button>
               </form>
             </CardContent>
