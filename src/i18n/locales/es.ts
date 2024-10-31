@@ -32,17 +32,22 @@ export default {
   "Data Protection:": "Protección de Datos:",
   "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent.": "Empleamos medidas de seguridad estándar de la industria para proteger tus datos. Toda la información está encriptada y almacenada de forma segura. Nunca compartimos tu información personal con terceros sin tu consentimiento explícito.",
 
-  // About Us Page
-  "Our Story": "Nuestra Historia",
-  "Born in a 36-hour hackathon, fueled by passion and innovation": "Nacido en un hackathon de 36 horas, impulsado por la pasión y la innovación",
-  "The Hackathon Origin": "El Origen del Hackathon",
-  "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "Nuestro viaje comenzó en el electrizante crisol de un hackathon de 36 horas. Tres desarrolladores apasionados, unidos por una visión compartida del futuro de la narración con IA, se unieron para crear algo revolucionario.",
-  "Our Vision": "Nuestra Visión",
-  "We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys. Every decision shapes the story, making each experience unique.": "Estamos revolucionando la narración con narrativas impulsadas por IA que se adaptan a tus elecciones, creando viajes verdaderamente inmersivos y personalizados. Cada decisión da forma a la historia, haciendo única cada experiencia.",
-  "Technology & Innovation": "Tecnología e Innovación",
-  "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.": "Nuestro modelo de IA propietario está entrenado con un conjunto masivo de datos de escritura creativa, materiales educativos y diseño de juegos interactivos. Esta combinación única nos permite crear historias que son tanto atractivas como informativas.",
-  "Growing Together": "Creciendo Juntos",
-  "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "Estamos buscando activamente colaboradores que compartan nuestra pasión por la narración y la educación. Únete a nosotros para dar forma al futuro de la ficción interactiva y hacer del aprendizaje una aventura.",
-  "CYOA Books Sold Worldwide": "Libros CYOA Vendidos Mundialmente",
-  "Market Size by 2027": "Tamaño del Mercado para 2027"
+  // Contact Page
+  "Contact Us": "Contáctanos",
+  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "Nos encantaría saber de ti. Envíanos un mensaje y te responderemos lo antes posible.",
+  "Email": "Correo electrónico",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram",
+  "Send us a message": "Envíanos un mensaje",
+  "Name": "Nombre",
+  "Your name": "Tu nombre",
+  "your@email.com": "tu@correo.com",
+  "Message": "Mensaje",
+  "Your message": "Tu mensaje",
+  "Sending...": "Enviando...",
+  "Send Message": "Enviar Mensaje",
+  "Message sent successfully! 📬": "¡Mensaje enviado con éxito! 📬",
+  "We'll get back to you within 24 hours.": "Te responderemos dentro de las próximas 24 horas.",
+  "Error": "Error",
+  "Something went wrong. Please try again.": "Algo salió mal. Por favor, inténtalo de nuevo."
 };

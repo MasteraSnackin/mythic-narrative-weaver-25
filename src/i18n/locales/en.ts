@@ -44,5 +44,24 @@ export default {
   "Growing Together": "Growing Together",
   "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.",
   "CYOA Books Sold Worldwide": "CYOA Books Sold Worldwide",
-  "Market Size by 2027": "Market Size by 2027"
+  "Market Size by 2027": "Market Size by 2027",
+
+  // Contact Page
+  "Contact Us": "Contact Us",
+  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+  "Email": "Email",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram",
+  "Send us a message": "Send us a message",
+  "Name": "Name",
+  "Your name": "Your name",
+  "your@email.com": "your@email.com",
+  "Message": "Message",
+  "Your message": "Your message",
+  "Sending...": "Sending...",
+  "Send Message": "Send Message",
+  "Message sent successfully! 📬": "Message sent successfully! 📬",
+  "We'll get back to you within 24 hours.": "We'll get back to you within 24 hours.",
+  "Error": "Error",
+  "Something went wrong. Please try again.": "Something went wrong. Please try again."
 };

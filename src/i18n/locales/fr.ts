@@ -44,5 +44,24 @@ export default {
   "Growing Together": "Grandir Ensemble",
   "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "Nous recherchons activement des collaborateurs qui partagent notre passion pour la narration et l'éducation. Rejoignez-nous pour façonner l'avenir de la fiction interactive et faire de l'apprentissage une aventure.",
   "CYOA Books Sold Worldwide": "Livres CYOA Vendus dans le Monde",
-  "Market Size by 2027": "Taille du Marché d'ici 2027"
+  "Market Size by 2027": "Taille du Marché d'ici 2027",
+
+  // Contact Page
+  "Contact Us": "Contactez-nous",
+  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "Nous aimerions avoir de vos nouvelles. Envoyez-nous un message et nous vous répondrons dès que possible.",
+  "Email": "E-mail",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram",
+  "Send us a message": "Envoyez-nous un message",
+  "Name": "Nom",
+  "Your name": "Votre nom",
+  "your@email.com": "votre@email.com",
+  "Message": "Message",
+  "Your message": "Votre message",
+  "Sending...": "Envoi en cours...",
+  "Send Message": "Envoyer le message",
+  "Message sent successfully! 📬": "Message envoyé avec succès ! 📬",
+  "We'll get back to you within 24 hours.": "Nous vous répondrons dans les 24 heures.",
+  "Error": "Erreur",
+  "Something went wrong. Please try again.": "Une erreur s'est produite. Veuillez réessayer."
 };

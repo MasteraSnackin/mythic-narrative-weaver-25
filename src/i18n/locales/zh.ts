@@ -44,5 +44,24 @@ export default {
   "Growing Together": "共同成长",
   "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "我们正在积极寻找与我们一样对讲故事和教育充满热情的合作者。加入我们，一起塑造互动小说的未来，让学习成为一场冒险。",
   "CYOA Books Sold Worldwide": "全球销售的CYOA图书",
-  "Market Size by 2027": "2027年市场规模"
+  "Market Size by 2027": "2027年市场规模",
+
+  // Contact Page
+  "Contact Us": "联系我们",
+  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "我们很乐意听取您的意见。给我们发送消息，我们会尽快回复。",
+  "Email": "电子邮件",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram",
+  "Send us a message": "给我们发消息",
+  "Name": "姓名",
+  "Your name": "您的姓名",
+  "your@email.com": "your@email.com",
+  "Message": "消息",
+  "Your message": "您的消息",
+  "Sending...": "发送中...",
+  "Send Message": "发送消息",
+  "Message sent successfully! 📬": "消息发送成功！📬",
+  "We'll get back to you within 24 hours.": "我们会在24小时内回复您。",
+  "Error": "错误",
+  "Something went wrong. Please try again.": "出现错误。请重试。"
 };
