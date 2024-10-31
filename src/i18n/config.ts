@@ -4,10 +4,6 @@ import enCommon from './locales/en/common';
 import enHome from './locales/en/home';
 import esCommon from './locales/es/common';
 import esHome from './locales/es/home';
-import frCommon from './locales/fr/common';
-import frHome from './locales/fr/home';
-import zhCommon from './locales/zh/common';
-import zhHome from './locales/zh/home';
 
 const resources = {
   en: {
@@ -17,14 +13,6 @@ const resources = {
   es: {
     common: esCommon,
     home: esHome
-  },
-  fr: {
-    common: frCommon,
-    home: frHome
-  },
-  zh: {
-    common: zhCommon,
-    home: zhHome
   }
 };
 
