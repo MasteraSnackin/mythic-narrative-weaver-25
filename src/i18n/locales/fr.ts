@@ -93,32 +93,17 @@ export default {
   "Contact Sales": "Contacter les Ventes",
   "Coming Soon": "Bientôt Disponible",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Restez à l'écoute pour notre programme de partenariat éducatif, offrant des tarifs spéciaux pour les écoles et les institutions éducatives.",
-  
-  // Library Page
-  "Discover interactive stories tailored to your reading level": "Découvrez des histoires interactives adaptées à votre niveau de lecture",
-  "Search stories...": "Rechercher des histoires...",
-  "Filters": "Filtres",
-  "Start Reading": "Commencer la Lecture",
-  "Starting Story": "Démarrage de l'Histoire",
-  "Beginning '{{title}}'. Enjoy your adventure!": "Début de '{{title}}'. Bonne aventure !",
 
-  // Parent Dashboard
-  "Parent Dashboard": "Tableau de Bord des Parents",
-  "Track your child's reading progress and achievements": "Suivez les progrès et les réalisations de lecture de votre enfant",
-  "Books Read": "Livres Lus",
-  "Reading Time": "Temps de Lecture",
-  "Comprehension": "Compréhension",
-  "Achievements": "Réalisations",
-  "this week": "cette semaine",
-  "improvement": "amélioration",
-  "Latest": "Dernier",
-  "Speed Reader": "Lecteur Rapide",
-  "Recent Activity": "Activité Récente",
-  "ago": "il y a",
-  "The Dragon's Riddle": "L'Énigme du Dragon",
-  "Space Explorer Academy": "Académie des Explorateurs de l'Espace",
-  "The Friendly Forest": "La Forêt Amicale",
-  "Story Explorer": "Explorateur d'Histoires",
-  "Word Master": "Maître des Mots",
-  "Earned": "Obtenu"
+  // Story Creator
+  "Story Creator": "Créateur d'Histoires",
+  "Create interactive stories with AI assistance": "Créez des histoires interactives avec l'assistance de l'IA",
+  "Story Title": "Titre de l'Histoire",
+  "Story Content": "Contenu de l'Histoire",
+  "Enter your story title...": "Entrez le titre de votre histoire...",
+  "Start writing your story...": "Commencez à écrire votre histoire...",
+  "Save Draft": "Enregistrer le Brouillon",
+  "AI Assist": "Assistance IA",
+  "Preview": "Aperçu",
+  "Story saved! 📚": "Histoire enregistrée ! 📚",
+  "Your story has been saved successfully.": "Votre histoire a été enregistrée avec succès."
 };

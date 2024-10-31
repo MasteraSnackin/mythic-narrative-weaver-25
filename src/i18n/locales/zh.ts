@@ -120,5 +120,18 @@ export default {
   "The Friendly Forest": "友好森林",
   "Story Explorer": "故事探索者",
   "Word Master": "词汇大师",
-  "Earned": "已获得"
+  "Earned": "已获得",
+
+  // Story Creator
+  "Story Creator": "故事创作器",
+  "Create interactive stories with AI assistance": "使用AI辅助创作互动故事",
+  "Story Title": "故事标题",
+  "Story Content": "故事内容",
+  "Enter your story title...": "输入您的故事标题...",
+  "Start writing your story...": "开始写您的故事...",
+  "Save Draft": "保存草稿",
+  "AI Assist": "AI辅助",
+  "Preview": "预览",
+  "Story saved! 📚": "故事已保存！📚",
+  "Your story has been saved successfully.": "您的故事已成功保存。"
 };

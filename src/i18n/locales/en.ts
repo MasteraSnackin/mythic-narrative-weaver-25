@@ -108,9 +108,22 @@ export default {
   "Recent Activity": "Recent Activity",
   "ago": "ago",
   "The Dragon's Riddle": "The Dragon's Riddle",
-  "Space Explorer Academy": "Space Explorer Academy",
+  "Space Explorer Academy": "The Space Explorer Academy",
   "The Friendly Forest": "The Friendly Forest",
   "Story Explorer": "Story Explorer",
   "Word Master": "Word Master",
-  "Earned": "Earned"
+  "Earned": "Earned",
+
+  // Story Creator
+  "Story Creator": "Story Creator",
+  "Create interactive stories with AI assistance": "Create interactive stories with AI assistance",
+  "Story Title": "Story Title",
+  "Story Content": "Story Content",
+  "Enter your story title...": "Enter your story title...",
+  "Start writing your story...": "Start writing your story...",
+  "Save Draft": "Save Draft",
+  "AI Assist": "AI Assist",
+  "Preview": "Preview",
+  "Story saved! 📚": "Story saved! 📚",
+  "Your story has been saved successfully.": "Your story has been saved successfully."
 };

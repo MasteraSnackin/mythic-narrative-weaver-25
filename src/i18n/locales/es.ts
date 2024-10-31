@@ -43,8 +43,8 @@ export default {
   "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.": "Notre modèle d'IA propriétaire est entraîné sur un ensemble massif de données d'écriture créative, de matériels éducatifs et de conception de jeux interactifs. Cette combinaison unique nous permet de créer des histoires à la fois captivantes et informatives.",
   "Growing Together": "Creciendo Juntos",
   "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "Nous recherchons activement des collaborateurs qui partagent notre passion pour la narration et l'éducation. Rejoignez-nous pour façonner l'avenir de la fiction interactive et faire de l'apprentissage une aventure.",
-  "CYOA Books Sold Worldwide": "Livros CYOA Vendidos en Todo el Mundo",
-  "Market Size by 2027": "Tamaño del Mercado para 2027",
+  "CYOA Books Sold Worldwide": "Livres CYOA Vendus dans le Monde",
+  "Market Size by 2027": "Taille du Marché pour 2027",
 
   // Contact Page
   "Contact Us": "Contáctanos",
@@ -93,24 +93,17 @@ export default {
   "Contact Sales": "Contactar Ventas",
   "Coming Soon": "Próximamente",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas y instituciones educativas.",
-
-  // Parent Dashboard
-  "Parent Dashboard": "Panel de Padres",
-  "Track your child's reading progress and achievements": "Sigue el progreso de lectura y logros de tu hijo",
-  "Books Read": "Libros Leídos",
-  "Reading Time": "Tiempo de Lectura",
-  "Comprehension": "Comprensión",
-  "Achievements": "Logros",
-  "this week": "esta semana",
-  "improvement": "mejora",
-  "Latest": "Último",
-  "Speed Reader": "Lector Veloz",
-  "Recent Activity": "Actividad Reciente",
-  "ago": "atrás",
-  "The Dragon's Riddle": "El Acertijo del Dragón",
-  "Space Explorer Academy": "Academia de Exploradores Espaciales",
-  "The Friendly Forest": "El Bosque Amistoso",
-  "Story Explorer": "Explorador de Historias",
-  "Word Master": "Maestro de Palabras",
-  "Earned": "Obtenido"
+  
+  // Story Creator
+  "Story Creator": "Creador de Historias",
+  "Create interactive stories with AI assistance": "Crea historias interactivas con asistencia de IA",
+  "Story Title": "Título de la Historia",
+  "Story Content": "Contenido de la Historia",
+  "Enter your story title...": "Ingresa el título de tu historia...",
+  "Start writing your story...": "Comienza a escribir tu historia...",
+  "Save Draft": "Guardar Borrador",
+  "AI Assist": "Asistencia IA",
+  "Preview": "Vista Previa",
+  "Story saved! 📚": "¡Historia guardada! 📚",
+  "Your story has been saved successfully.": "Tu historia se ha guardado exitosamente."
 };
