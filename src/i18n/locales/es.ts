@@ -54,9 +54,16 @@ export default {
   "Journey through different historical periods and make decisions that could change the course of history.": "Viaja a través de diferentes períodos históricos y toma decisiones que podrían cambiar el curso de la historia.",
   "Dive deep into marine biology and oceanography while having underwater adventures.": "Sumérgete en la biología marina y la oceanografía mientras vives aventuras submarinas.",
   "Learn about robotics and artificial intelligence through friendly robot characters.": "Aprende sobre robótica e inteligencia artificial a través de simpáticos personajes robot.",
-  "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "Explora las pirámides y descubre los secretos de la antigua civilización egipcia.",
+  "Explore the pyramids and discover the secrets of the ancient Egyptian civilization.": "Explora las pirámides y descubre los secretos de la antigua civilización egipcia.",
 
-  // Contact
-  "WhatsApp": "WhatsApp",
-  "Telegram": "Telegram"
+  // Hero Section
+  "Interactive Learning Adventures": "Aventuras de Aprendizaje Interactivas",
+  "Experience AI-powered stories": "Experimenta historias impulsadas por IA",
+  "Learn More": "Más Información",
+  "Get Started": "Comenzar",
+
+  // Adventure Games Section
+  "Adventure Games": "Juegos de Aventura",
+  "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!": "Genera tu propio Juego de Aventura usando el poder de la IA. ¡Estas aventuras basadas en texto te harán buscar pistas, explorar lugares exóticos, resolver misterios y más!",
+  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "Puedes elegir un tema, tipo de juego y nivel de dificultad para generar tu Aventura o comenzar con la Aventura seleccionada aleatoriamente que hemos elegido para ti."
 };

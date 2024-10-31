@@ -54,5 +54,16 @@ export default {
   "Journey through different historical periods and make decisions that could change the course of history.": "Journey through different historical periods and make decisions that could change the course of history.",
   "Dive deep into marine biology and oceanography while having underwater adventures.": "Dive deep into marine biology and oceanography while having underwater adventures.",
   "Learn about robotics and artificial intelligence through friendly robot characters.": "Learn about robotics and artificial intelligence through friendly robot characters.",
-  "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "Explore the pyramids and discover the secrets of ancient Egyptian civilization."
+  "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "Explore the pyramids and discover the secrets of ancient Egyptian civilization.",
+
+  // Hero Section
+  "Interactive Learning Adventures": "Interactive Learning Adventures",
+  "Experience AI-powered stories": "Experience AI-powered stories",
+  "Learn More": "Learn More",
+  "Get Started": "Get Started",
+
+  // Adventure Games Section
+  "Adventure Games": "Adventure Games",
+  "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!": "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!",
+  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you."
 };

@@ -5,6 +5,7 @@ import { ThemeSelector } from "./InteractiveStoryDemo/ThemeSelector";
 import { GameControls } from "./InteractiveStoryDemo/GameControls";
 import { PreviewPanel } from "./InteractiveStoryDemo/PreviewPanel";
 import { themes } from "./InteractiveStoryDemo/themes";
+import { useTranslation } from "react-i18next";
 
 export const InteractiveDemo = () => {
   const [selectedTheme, setSelectedTheme] = useState("");
@@ -13,6 +14,7 @@ export const InteractiveDemo = () => {
   const [isGameTypeMinimized, setIsGameTypeMinimized] = useState(false);
   const [isDifficultyMinimized, setIsDifficultyMinimized] = useState(false);
   const [generatedStory, setGeneratedStory] = useState<string>();
+  const { t } = useTranslation();
 
   const handlePlay = () => {
     const theme = themes.find(t => t.id === selectedTheme);
@@ -30,13 +32,13 @@ export const InteractiveDemo = () => {
           className="text-center mb-12"
         >
           <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-[#007AFF] to-[#00C6FF] bg-clip-text text-transparent font-['Poppins']">
-            Adventure Games
+            {t("Adventure Games")}
           </h2>
           <p className="text-xl mb-6 font-['Poppins']">
-            Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!
+            {t("Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!")}
           </p>
           <p className="text-lg text-gray-300 font-['Poppins']">
-            You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.
+            {t("You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.")}
           </p>
         </motion.div>
 

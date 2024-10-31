@@ -17,12 +17,12 @@ export default {
 
   // Library Page
   "Start Reading": "Commencer la Lecture",
-  "Search stories...": "Rechercher des histoires...",
+  "Search stories": "Rechercher des histoires",
   "Filters": "Filtres",
+  "Discover interactive stories tailored to your reading level": "Découvrez des histoires interactives adaptées à votre niveau de lecture",
   "Starting Story": "Démarrage de l'Histoire",
   "Beginning '{{title}}'. Enjoy your adventure!": "Début de '{{title}}'. Bonne aventure !",
-  "Discover interactive stories tailored to your reading level": "Découvrez des histoires interactives adaptées à votre niveau de lecture",
-
+  
   // Reading Levels
   "Beginner": "Débutant",
   "Intermediate": "Intermédiaire",
@@ -56,7 +56,14 @@ export default {
   "Learn about robotics and artificial intelligence through friendly robot characters.": "Apprenez la robotique et l'intelligence artificielle à travers des personnages robots sympathiques.",
   "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "Explorez les pyramides et découvrez les secrets de la civilisation égyptienne antique.",
 
-  // Contact
-  "WhatsApp": "WhatsApp",
-  "Telegram": "Telegram"
+  // Hero Section
+  "Interactive Learning Adventures": "Aventures d'Apprentissage Interactives",
+  "Experience AI-powered stories": "Découvrez des histoires alimentées par l'IA",
+  "Learn More": "En Savoir Plus",
+  "Get Started": "Commencer",
+
+  // Adventure Games Section
+  "Adventure Games": "Jeux d'Aventure",
+  "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!": "Générez votre propre Jeu d'Aventure en utilisant la puissance de l'IA. Ces aventures textuelles vous feront chercher des indices, explorer des lieux exotiques, résoudre des mystères et plus encore !",
+  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "Vous pouvez choisir un thème, un type de jeu et un niveau de difficulté pour générer votre Aventure ou commencer avec l'Aventure sélectionnée aléatoirement que nous avons choisie pour vous."
 };

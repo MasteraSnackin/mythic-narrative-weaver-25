@@ -54,5 +54,16 @@ export default {
   "Journey through different historical periods and make decisions that could change the course of history.": "穿越不同的历史时期，做出可能改变历史进程的决定。",
   "Dive deep into marine biology and oceanography while having underwater adventures.": "在水下冒险的同时深入了解海洋生物学和海洋学。",
   "Learn about robotics and artificial intelligence through friendly robot characters.": "通过友好的机器人角色学习机器人技术和人工智能。",
-  "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "探索金字塔，发现古埃及文明的秘密。"
+  "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "探索金字塔，发现古埃及文明的秘密。",
+
+  // Hero Section
+  "Interactive Learning Adventures": "互动学习冒险",
+  "Experience AI-powered stories": "体验AI驱动的故事",
+  "Learn More": "了解更多",
+  "Get Started": "开始使用",
+
+  // Adventure Games Section
+  "Adventure Games": "冒险游戏",
+  "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!": "使用AI的力量生成您自己的冒险游戏。这些基于文本的冒险将让您寻找线索、探索异域景点、解决谜题等等！",
+  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "您可以选择主题、游戏类型和难度级别来生成您的冒险，或者从我们随机选择的冒险开始。"
 };
