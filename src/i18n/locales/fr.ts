@@ -27,7 +27,6 @@ export default {
   "Basic AI features": "Fonctionnalités IA de base",
   "Limited story choices": "Choix d'histoires limités",
   "Community access": "Accès à la communauté",
-  "Get Started": "Commencer",
   "Unlimited story access": "Accès illimité aux histoires",
   "Advanced AI features": "Fonctionnalités IA avancées",
   "Priority support": "Support prioritaire",
@@ -44,8 +43,7 @@ export default {
   "Coming Soon": "Bientôt Disponible",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Restez à l'écoute pour notre programme de partenariat éducatif, offrant des tarifs spéciaux pour les écoles et les institutions éducatives.",
 
-  // Privacy Policy Page
-  "Privacy Policy": "Politique de Confidentialité",
+  // Privacy Policy Section
   "How we protect and handle your data": "Comment nous protégeons et gérons vos données",
   "Data Collection & Usage": "Collecte et Utilisation des Données",
   "Information We Collect": "Informations que nous Collectons",
@@ -61,7 +59,7 @@ export default {
   "Data Protection": "Protection des Données",
   "We employ industry-standard security measures": "Nous employons des mesures de sécurité standard de l'industrie",
 
-  // School Pilot Page
+  // School Pilot Section
   "School Pilot Program": "Programme Pilote Scolaire",
   "Partner with us": "Collaborez avec nous",
   "Educational Innovation": "Innovation Éducative",
@@ -81,7 +79,7 @@ export default {
   "Ready to Join?": "Prêt à nous Rejoindre ?",
   "Apply Now": "Postuler Maintenant",
 
-  // Pricing Page
+  // Extended Pricing Section
   "Choose Your Plan": "Choisissez votre Plan",
   "Monthly": "Mensuel",
   "Yearly": "Annuel",
@@ -91,15 +89,11 @@ export default {
   "Enterprise": "Entreprise",
   "per month": "par mois",
   "per user/month": "par utilisateur/mois",
-  "Get Started": "Commencer",
-  "Contact Sales": "Contacter les Ventes",
-  "Most Popular": "Le Plus Populaire",
   "Features included": "Fonctionnalités incluses",
   "All Free features, plus": "Toutes les fonctionnalités gratuites, plus",
   "All Pro features, plus": "Toutes les fonctionnalités Pro, plus",
   "Custom pricing": "Prix personnalisé",
   "Unlimited stories": "Histoires illimitées",
   "Advanced analytics": "Analyses avancées",
-  "Priority support": "Support prioritaire",
   "Custom integrations": "Intégrations personnalisées"
 };

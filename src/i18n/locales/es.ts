@@ -15,54 +15,6 @@ export default {
   "Privacy Policy": "Política de Privacidad",
   "Terms": "Términos",
 
-  // Pricing Page
-  "Choose Your Adventure Plan": "Elige Tu Plan de Aventura",
-  "Flexible plans for every storyteller": "Planes flexibles para cada narrador",
-  "Free Explorer": "Explorador Gratuito",
-  "Story Weaver": "Tejedor de Historias",
-  "Education Pro": "Educación Pro",
-  "Most Popular": "Más Popular",
-  "Custom": "Personalizado",
-  "Access to sample stories": "Acceso a historias de muestra",
-  "Basic AI features": "Funciones básicas de IA",
-  "Limited story choices": "Opciones limitadas de historias",
-  "Community access": "Acceso a la comunidad",
-  "GetStarted": "Comenzar",
-  "Unlimited story access": "Acceso ilimitado a historias",
-  "Advanced AI features": "Funciones avanzadas de IA",
-  "Priority support": "Soporte prioritario",
-  "Personalized recommendations": "Recomendaciones personalizadas",
-  "Progress tracking": "Seguimiento de progreso",
-  "Subscribe": "Suscríbete Ahora",
-  "School-wide access": "Acceso para toda la escuela",
-  "Curriculum integration": "Integración curricular",
-  "Teacher dashboard": "Panel de control para profesores",
-  "Analytics & reporting": "Análisis y informes",
-  "Custom content creation": "Creación de contenido personalizado",
-  "Training & support": "Formación y soporte",
-  "Contact Sales": "Contactar con Ventas",
-  "Coming Soon": "Próximamente",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas e instituciones educativas.",
-
-  // Contact Page
-  "Contact Us": "Contáctenos",
-  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "Nos encantaría saber de ti. Envíanos un mensaje y te responderemos lo antes posible.",
-  "Email": "Correo electrónico",
-  "WhatsApp": "WhatsApp",
-  "Telegram": "Telegram",
-  "Send us a message": "Envíanos un mensaje",
-  "Name": "Nombre",
-  "Your name": "Tu nombre",
-  "your@email.com": "tu@correo.com",
-  "Message": "Mensaje",
-  "Your message": "Tu mensaje",
-  "Sending...": "Enviando...",
-  "Send Message": "Enviar Mensaje",
-  "Message sent successfully! 📬": "¡Mensaje enviado con éxito! 📬",
-  "We'll get back to you within 24 hours.": "Te responderemos dentro de las próximas 24 horas.",
-  "Error": "Error",
-  "Something went wrong. Please try again.": "Algo salió mal. Por favor, inténtalo de nuevo.",
-  
   // Blog Page
   "Latest Stories & Insights": "Últimas Historias y Perspectivas",
   "Explore the latest developments in AI storytelling and education": "Explora los últimos avances en narración con IA y educación",
@@ -73,8 +25,7 @@ export default {
   "Technology": "Tecnología",
   "Product Strategy": "Estrategia de Producto",
 
-  // Privacy Policy Page
-  "Privacy Policy": "Política de Privacidad",
+  // Privacy Policy Section
   "How we protect and handle your data": "Cómo protegemos y manejamos sus datos",
   "Data Collection & Usage": "Recopilación y Uso de Datos",
   "Information We Collect": "Información que Recopilamos",
@@ -90,7 +41,7 @@ export default {
   "Data Protection": "Protección de Datos",
   "We employ industry-standard security measures": "Empleamos medidas de seguridad estándar de la industria",
 
-  // School Pilot Page
+  // School Pilot Section
   "School Pilot Program": "Programa Piloto Escolar",
   "Partner with us": "Asóciate con nosotros",
   "Educational Innovation": "Innovación Educativa",
@@ -110,7 +61,7 @@ export default {
   "Ready to Join?": "¿Listo para Unirte?",
   "Apply Now": "Aplicar Ahora",
 
-  // Pricing Page
+  // Extended Pricing Section
   "Choose Your Plan": "Elige tu Plan",
   "Monthly": "Mensual",
   "Yearly": "Anual",
@@ -120,9 +71,6 @@ export default {
   "Enterprise": "Empresa",
   "per month": "por mes",
   "per user/month": "por usuario/mes",
-  "Get Started": "Comenzar",
-  "Contact Sales": "Contactar Ventas",
-  "Most Popular": "Más Popular",
   "Features included": "Características incluidas",
   "All Free features, plus": "Todas las características gratuitas, más",
   "All Pro features, plus": "Todas las características Pro, más",

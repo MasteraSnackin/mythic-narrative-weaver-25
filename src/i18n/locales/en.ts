@@ -27,7 +27,6 @@ export default {
   "Basic AI features": "Basic AI features",
   "Limited story choices": "Limited story choices",
   "Community access": "Community access",
-  "GetStarted": "Get Started",
   "Unlimited story access": "Unlimited story access",
   "Advanced AI features": "Advanced AI features",
   "Priority support": "Priority support",
@@ -44,8 +43,7 @@ export default {
   "Coming Soon": "Coming Soon",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.",
 
-  // Privacy Policy Page
-  "Privacy Policy": "Privacy Policy",
+  // Privacy Policy Section
   "How we protect and handle your data": "How we protect and handle your data",
   "Data Collection & Usage": "Data Collection & Usage",
   "Information We Collect": "Information We Collect",
@@ -61,7 +59,7 @@ export default {
   "Data Protection": "Data Protection",
   "We employ industry-standard security measures": "We employ industry-standard security measures",
 
-  // School Pilot Page
+  // School Pilot Section
   "School Pilot Program": "School Pilot Program",
   "Partner with us": "Partner with us",
   "Educational Innovation": "Educational Innovation",
@@ -81,7 +79,7 @@ export default {
   "Ready to Join?": "Ready to Join?",
   "Apply Now": "Apply Now",
 
-  // Pricing Page
+  // Extended Pricing Section
   "Choose Your Plan": "Choose Your Plan",
   "Monthly": "Monthly",
   "Yearly": "Yearly",
@@ -91,15 +89,11 @@ export default {
   "Enterprise": "Enterprise",
   "per month": "per month",
   "per user/month": "per user/month",
-  "Get Started": "Get Started",
-  "Contact Sales": "Contact Sales",
-  "Most Popular": "Most Popular",
   "Features included": "Features included",
   "All Free features, plus": "All Free features, plus",
   "All Pro features, plus": "All Pro features, plus",
   "Custom pricing": "Custom pricing",
   "Unlimited stories": "Unlimited stories",
   "Advanced analytics": "Advanced analytics",
-  "Priority support": "Priority support",
   "Custom integrations": "Custom integrations"
 };

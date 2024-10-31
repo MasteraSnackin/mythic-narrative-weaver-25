@@ -12,10 +12,9 @@ export default {
   "Resources": "资源",
   "Blog": "博客",
   "FAQ": "常见问题",
-  "Privacy Policy": "隐私政策",
   "Terms": "使用条款",
 
-  // Privacy Policy Page
+  // Privacy Policy Section
   "Privacy Policy": "隐私政策",
   "How we protect and handle your data": "我们如何保护和处理您的数据",
   "Data Collection & Usage": "数据收集和使用",
@@ -32,7 +31,7 @@ export default {
   "Data Protection": "数据保护",
   "We employ industry-standard security measures": "我们采用行业标准的安全措施",
 
-  // School Pilot Page
+  // School Pilot Section
   "School Pilot Program": "学校试点计划",
   "Partner with us": "与我们合作",
   "Educational Innovation": "教育创新",
@@ -52,7 +51,7 @@ export default {
   "Ready to Join?": "准备加入？",
   "Apply Now": "立即申请",
 
-  // Pricing Page
+  // Extended Pricing Section
   "Choose Your Plan": "选择您的计划",
   "Monthly": "月付",
   "Yearly": "年付",
@@ -62,9 +61,6 @@ export default {
   "Enterprise": "企业版",
   "per month": "每月",
   "per user/month": "每用户/月",
-  "Get Started": "开始使用",
-  "Contact Sales": "联系销售",
-  "Most Popular": "最受欢迎",
   "Features included": "包含功能",
   "All Free features, plus": "包含所有免费功能，另加",
   "All Pro features, plus": "包含所有专业版功能，另加",
