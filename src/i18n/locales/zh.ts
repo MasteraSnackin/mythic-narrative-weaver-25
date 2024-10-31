@@ -48,5 +48,31 @@ export default {
   "Back": "返回",
   "Save": "保存",
   "Cancel": "取消",
-  "Submit": "提交"
+  "Submit": "提交",
+
+  // Contact Page
+  "Contact Us": "联系我们",
+  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "我们很乐意听到您的声音。发送消息给我们，我们会尽快回复。",
+  "Send us a message": "给我们发消息",
+  "Name": "姓名",
+  "Your name": "您的姓名",
+  "Email": "电子邮件",
+  "Message": "消息",
+  "Your message": "您的消息",
+  "Sending...": "发送中...",
+  "Send Message": "发送消息",
+  "Message sent successfully! 📬": "消息发送成功！📬",
+  "We'll get back to you within 24 hours.": "我们将在24小时内回复您。",
+  "Error": "错误",
+  "Something went wrong. Please try again.": "出现错误。请重试。",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram",
+
+  // Image Alt Text
+  "Fantasy Storytelling": "奇幻故事",
+  "Creative Writing": "创意写作",
+  "Interactive Stories": "互动故事",
+  "AI Technology": "人工智能技术",
+  "Adventure Stories": "冒险故事",
+  "Reading Experience": "阅读体验"
 };

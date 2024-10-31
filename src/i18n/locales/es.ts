@@ -42,11 +42,29 @@ export default {
   "Join thousands of students": "Únete a miles de estudiantes en su viaje de aprendizaje",
   "Try Demo": "Probar Demo",
 
-  // Common Actions
-  "Learn More": "Más Información",
-  "Continue": "Continuar",
-  "Back": "Atrás",
-  "Save": "Guardar",
-  "Cancel": "Cancelar",
-  "Submit": "Enviar"
+  // Contact Page
+  "Contact Us": "Contáctenos",
+  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "Nos encantaría saber de ti. Envíanos un mensaje y te responderemos lo antes posible.",
+  "Send us a message": "Envíanos un mensaje",
+  "Name": "Nombre",
+  "Your name": "Tu nombre",
+  "Email": "Correo electrónico",
+  "Message": "Mensaje",
+  "Your message": "Tu mensaje",
+  "Sending...": "Enviando...",
+  "Send Message": "Enviar Mensaje",
+  "Message sent successfully! 📬": "¡Mensaje enviado con éxito! 📬",
+  "We'll get back to you within 24 hours.": "Te responderemos dentro de 24 horas.",
+  "Error": "Error",
+  "Something went wrong. Please try again.": "Algo salió mal. Por favor, inténtalo de nuevo.",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram",
+
+  // Image Alt Text
+  "Fantasy Storytelling": "Narración Fantástica",
+  "Creative Writing": "Escritura Creativa",
+  "Interactive Stories": "Historias Interactivas",
+  "AI Technology": "Tecnología IA",
+  "Adventure Stories": "Historias de Aventuras",
+  "Reading Experience": "Experiencia de Lectura"
 };
