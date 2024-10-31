@@ -108,4 +108,13 @@ export default {
   "Successfully subscribed! 🎉": "Inscription réussie ! 🎉",
   "Welcome to our newsletter community!": "Bienvenue dans notre communauté de newsletter !",
   "Subscribing...": "Inscription en cours...",
+
+  // Library Page
+  "Story Library": "Bibliothèque d'Histoires",
+  "Discover interactive stories tailored to your reading level": "Découvrez des histoires interactives adaptées à votre niveau de lecture",
+  "Search stories...": "Rechercher des histoires...",
+  "Filters": "Filtres",
+  "Start Reading": "Commencer la Lecture",
+  "Starting Story": "Démarrage de l'Histoire",
+  "Beginning '{{title}}'. Enjoy your adventure!": "Début de '{{title}}'. Bonne aventure !",
 };

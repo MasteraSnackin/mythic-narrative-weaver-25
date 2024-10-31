@@ -94,25 +94,12 @@ export default {
   "Coming Soon": "即将推出",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "敬请期待我们的教育合作计划，为学校和教育机构提供特别定价。",
 
-  // Learn More Page
-  "The Future of Storytelling": "讲故事的未来",
-  "Market Opportunity": "市场机遇",
-  "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.": "预计到2027年，全球互动小说市场将达到41亿美元，CYOA图书全球销量超过2.7亿册。",
-  "Target Age Range": "目标年龄范围",
-  "Hackathon Origin": "黑客马拉松起源",
-
-  // Stay Updated Page
-  "Stay Updated": "保持更新",
-  "Join our newsletter and never miss an update about new stories and features.": "订阅我们的通讯，不错过任何关于新故事和功能的更新。",
-  "Weekly Updates": "每周更新",
-  "Get notified about new stories and features": "获取新故事和功能的通知",
-  "Exclusive Content": "独家内容",
-  "Access to subscriber-only stories": "访问仅限订阅者的故事",
-  "Direct Updates": "直接更新",
-  "Important announcements straight to your inbox": "重要公告直接发送到您的收件箱",
-  "Subscribe to Our Newsletter": "订阅我们的通讯",
-  "Email Address": "电子邮件地址",
-  "Successfully subscribed! 🎉": "订阅成功！🎉",
-  "Welcome to our newsletter community!": "欢迎加入我们的通讯社区！",
-  "Subscribing...": "订阅中...",
+  // Library Page
+  "Story Library": "故事库",
+  "Discover interactive stories tailored to your reading level": "发现适合您阅读水平的互动故事",
+  "Search stories...": "搜索故事...",
+  "Filters": "筛选",
+  "Start Reading": "开始阅读",
+  "Starting Story": "开始故事",
+  "Beginning '{{title}}'. Enjoy your adventure!": "正在开始《{{title}}》。享受您的冒险！",
 };
