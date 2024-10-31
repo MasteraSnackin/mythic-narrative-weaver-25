@@ -55,4 +55,4 @@ export const stories = [
     genre: "Historical",
     description: "Explore the pyramids and discover the secrets of ancient Egyptian civilization."
   }
-];
+] as const;

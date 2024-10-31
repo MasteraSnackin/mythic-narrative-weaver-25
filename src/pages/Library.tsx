@@ -5,74 +5,18 @@ import { motion } from "framer-motion"
 import { Book, Filter, Search } from "lucide-react"
 import { useState } from "react"
 import { useToast } from "@/components/ui/use-toast"
-
-const stories = [
-  {
-    title: "The Dragon's Riddle",
-    ageRange: "8-12",
-    readingLevel: "Intermediate",
-    genre: "Fantasy",
-    description: "An interactive tale of wit and wisdom where your choices determine the outcome of a young wizard's journey."
-  },
-  {
-    title: "Space Explorer Academy",
-    ageRange: "10-14",
-    readingLevel: "Advanced",
-    genre: "Science Fiction",
-    description: "Navigate through the cosmos and learn about space while making crucial decisions as a cadet at the Space Academy."
-  },
-  {
-    title: "The Friendly Forest",
-    ageRange: "5-8",
-    readingLevel: "Beginner",
-    genre: "Adventure",
-    description: "A gentle introduction to reading where young readers help woodland creatures solve simple problems."
-  },
-  {
-    title: "Mystery at Midnight Manor",
-    ageRange: "9-13",
-    readingLevel: "Intermediate",
-    genre: "Mystery",
-    description: "Solve puzzles and uncover clues in this thrilling detective story set in an old mansion."
-  },
-  {
-    title: "Time Travelers Club",
-    ageRange: "11-15",
-    readingLevel: "Advanced",
-    genre: "Historical",
-    description: "Journey through different historical periods and make decisions that could change the course of history."
-  },
-  {
-    title: "Ocean Explorers",
-    ageRange: "7-11",
-    readingLevel: "Intermediate",
-    genre: "Science",
-    description: "Dive deep into marine biology and oceanography while having underwater adventures."
-  },
-  {
-    title: "Robot Friends",
-    ageRange: "6-10",
-    readingLevel: "Beginner",
-    genre: "Science Fiction",
-    description: "Learn about robotics and artificial intelligence through friendly robot characters."
-  },
-  {
-    title: "Ancient Egypt Quest",
-    ageRange: "10-14",
-    readingLevel: "Advanced",
-    genre: "Historical",
-    description: "Explore the pyramids and discover the secrets of ancient Egyptian civilization."
-  }
-];
+import { useTranslation } from "react-i18next"
+import { stories } from "@/data/stories"
 
 const Library = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const { toast } = useToast();
+  const { t } = useTranslation();
 
   const handleStartReading = (storyTitle: string) => {
     toast({
-      title: "Starting Story",
-      description: `Beginning "${storyTitle}". Enjoy your adventure!`,
+      title: t("Starting Story"),
+      description: t("Beginning '{{title}}'. Enjoy your adventure!", { title: storyTitle }),
     });
   };
 
@@ -86,10 +30,10 @@ const Library = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              Story Library
+              {t("Story Library")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Discover interactive stories tailored to your reading level
+              {t("Discover interactive stories tailored to your reading level")}
             </p>
           </div>
 
@@ -98,7 +42,7 @@ const Library = () => {
               <div className="relative">
                 <Search className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
                 <Input
-                  placeholder="Search stories..."
+                  placeholder={t("Search stories...")}
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="pl-9"
@@ -106,7 +50,7 @@ const Library = () => {
               </div>
             </div>
             <Button variant="outline">
-              <Filter className="mr-2 h-4 w-4" /> Filters
+              <Filter className="mr-2 h-4 w-4" /> {t("Filters")}
             </Button>
           </div>
 
@@ -121,27 +65,27 @@ const Library = () => {
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <Book className="h-5 w-5 text-purple-600" />
-                      {story.title}
+                      {t(story.title)}
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <p className="text-gray-600 dark:text-gray-300">{story.description}</p>
+                    <p className="text-gray-600 dark:text-gray-300">{t(story.description)}</p>
                     <div className="flex gap-2 flex-wrap">
                       <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/50 rounded-full text-sm">
                         {story.ageRange}
                       </span>
                       <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/50 rounded-full text-sm">
-                        {story.readingLevel}
+                        {t(story.readingLevel)}
                       </span>
                       <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/50 rounded-full text-sm">
-                        {story.genre}
+                        {t(story.genre)}
                       </span>
                     </div>
                     <Button 
                       className="w-full"
                       onClick={() => handleStartReading(story.title)}
                     >
-                      Start Reading
+                      {t("Start Reading")}
                     </Button>
                   </CardContent>
                 </Card>

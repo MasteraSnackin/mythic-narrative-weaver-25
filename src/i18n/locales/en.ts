@@ -19,52 +19,40 @@ export default {
   "Start Reading": "Start Reading",
   "Search stories": "Search stories",
   "Filters": "Filters",
-  "Browse Library": "Browse Library",
-  "Age Range": "Age Range",
-  "Reading Level": "Reading Level",
-  "Genre": "Genre",
-  "Description": "Description",
+  "Discover interactive stories tailored to your reading level": "Discover interactive stories tailored to your reading level",
+  "Starting Story": "Starting Story",
+  "Beginning '{{title}}'. Enjoy your adventure!": "Beginning '{{title}}'. Enjoy your adventure!",
+  
+  // Reading Levels
+  "Beginner": "Beginner",
+  "Intermediate": "Intermediate",
+  "Advanced": "Advanced",
 
-  // Pricing Page
-  "Free Explorer": "Free Explorer",
-  "Story Weaver": "Story Weaver",
-  "Education Pro": "Education Pro",
-  "Subscribe Now": "Subscribe Now",
-  "Contact Sales": "Contact Sales",
-  "Monthly": "Monthly",
-  "Yearly": "Yearly",
-  "Custom": "Custom",
-  "Starting from": "Starting from",
+  // Genres
+  "Fantasy": "Fantasy",
+  "Science Fiction": "Science Fiction",
+  "Adventure": "Adventure",
+  "Mystery": "Mystery",
+  "Historical": "Historical",
+  "Science": "Science",
 
-  // Hero Section
-  "Interactive Learning Adventures": "Interactive Learning Adventures",
-  "Experience AI-powered stories": "Experience AI-powered stories that adapt to your choices",
-  "Join thousands of students": "Join thousands of students in their learning journey",
-  "Try Demo": "Try Demo",
+  // Story Titles
+  "The Dragon's Riddle": "The Dragon's Riddle",
+  "Space Explorer Academy": "Space Explorer Academy",
+  "The Friendly Forest": "The Friendly Forest",
+  "Mystery at Midnight Manor": "Mystery at Midnight Manor",
+  "Time Travelers Club": "Time Travelers Club",
+  "Ocean Explorers": "Ocean Explorers",
+  "Robot Friends": "Robot Friends",
+  "Ancient Egypt Quest": "Ancient Egypt Quest",
 
-  // Contact Page
-  "Contact Us": "Contact Us",
-  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
-  "Send us a message": "Send us a message",
-  "Name": "Name",
-  "Your name": "Your name",
-  "Email": "Email",
-  "Message": "Message",
-  "Your message": "Your message",
-  "Sending...": "Sending...",
-  "Send Message": "Send Message",
-  "Message sent successfully! 📬": "Message sent successfully! 📬",
-  "We'll get back to you within 24 hours.": "We'll get back to you within 24 hours.",
-  "Error": "Error",
-  "Something went wrong. Please try again.": "Something went wrong. Please try again.",
-  "WhatsApp": "WhatsApp",
-  "Telegram": "Telegram",
-
-  // Image Alt Text
-  "Fantasy Storytelling": "Fantasy Storytelling",
-  "Creative Writing": "Creative Writing",
-  "Interactive Stories": "Interactive Stories",
-  "AI Technology": "AI Technology",
-  "Adventure Stories": "Adventure Stories",
-  "Reading Experience": "Reading Experience"
+  // Story Descriptions
+  "An interactive tale of wit and wisdom where your choices determine the outcome of a young wizard's journey.": "An interactive tale of wit and wisdom where your choices determine the outcome of a young wizard's journey.",
+  "Navigate through the cosmos and learn about space while making crucial decisions as a cadet at the Space Academy.": "Navigate through the cosmos and learn about space while making crucial decisions as a cadet at the Space Academy.",
+  "A gentle introduction to reading where young readers help woodland creatures solve simple problems.": "A gentle introduction to reading where young readers help woodland creatures solve simple problems.",
+  "Solve puzzles and uncover clues in this thrilling detective story set in an old mansion.": "Solve puzzles and uncover clues in this thrilling detective story set in an old mansion.",
+  "Journey through different historical periods and make decisions that could change the course of history.": "Journey through different historical periods and make decisions that could change the course of history.",
+  "Dive deep into marine biology and oceanography while having underwater adventures.": "Dive deep into marine biology and oceanography while having underwater adventures.",
+  "Learn about robotics and artificial intelligence through friendly robot characters.": "Learn about robotics and artificial intelligence through friendly robot characters.",
+  "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "Explore the pyramids and discover the secrets of ancient Egyptian civilization."
 };

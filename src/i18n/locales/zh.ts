@@ -19,60 +19,40 @@ export default {
   "Start Reading": "开始阅读",
   "Search stories": "搜索故事",
   "Filters": "筛选",
-  "Browse Library": "浏览图书馆",
-  "Age Range": "年龄范围",
-  "Reading Level": "阅读水平",
-  "Genre": "类型",
-  "Description": "描述",
+  "Discover interactive stories tailored to your reading level": "发现适合您阅读水平的互动故事",
+  "Starting Story": "开始故事",
+  "Beginning '{{title}}'. Enjoy your adventure!": "正在开始'{{title}}'。享受您的冒险！",
 
-  // Pricing Page
-  "Free Explorer": "免费探索版",
-  "Story Weaver": "故事编织者",
-  "Education Pro": "教育专业版",
-  "Subscribe Now": "立即订阅",
-  "Contact Sales": "联系销售",
-  "Monthly": "月付",
-  "Yearly": "年付",
-  "Custom": "定制",
-  "Starting from": "起价",
+  // Reading Levels
+  "Beginner": "初级",
+  "Intermediate": "中级",
+  "Advanced": "高级",
 
-  // Hero Section
-  "Interactive Learning Adventures": "互动学习冒险",
-  "Experience AI-powered stories": "体验由AI驱动的自适应故事",
-  "Join thousands of students": "加入数千名学生的学习之旅",
-  "Try Demo": "试用演示",
+  // Genres
+  "Fantasy": "奇幻",
+  "Science Fiction": "科幻",
+  "Adventure": "冒险",
+  "Mystery": "悬疑",
+  "Historical": "历史",
+  "Science": "科学",
 
-  // Common Actions
-  "Learn More": "了解更多",
-  "Continue": "继续",
-  "Back": "返回",
-  "Save": "保存",
-  "Cancel": "取消",
-  "Submit": "提交",
+  // Story Titles
+  "The Dragon's Riddle": "龙的谜题",
+  "Space Explorer Academy": "太空探索学院",
+  "The Friendly Forest": "友好森林",
+  "Mystery at Midnight Manor": "午夜庄园之谜",
+  "Time Travelers Club": "时间旅行者俱乐部",
+  "Ocean Explorers": "海洋探索者",
+  "Robot Friends": "机器人朋友",
+  "Ancient Egypt Quest": "古埃及探险",
 
-  // Contact Page
-  "Contact Us": "联系我们",
-  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "我们很乐意听到您的声音。发送消息给我们，我们会尽快回复。",
-  "Send us a message": "给我们发消息",
-  "Name": "姓名",
-  "Your name": "您的姓名",
-  "Email": "电子邮件",
-  "Message": "消息",
-  "Your message": "您的消息",
-  "Sending...": "发送中...",
-  "Send Message": "发送消息",
-  "Message sent successfully! 📬": "消息发送成功！📬",
-  "We'll get back to you within 24 hours.": "我们将在24小时内回复您。",
-  "Error": "错误",
-  "Something went wrong. Please try again.": "出现错误。请重试。",
-  "WhatsApp": "WhatsApp",
-  "Telegram": "Telegram",
-
-  // Image Alt Text
-  "Fantasy Storytelling": "奇幻故事",
-  "Creative Writing": "创意写作",
-  "Interactive Stories": "互动故事",
-  "AI Technology": "人工智能技术",
-  "Adventure Stories": "冒险故事",
-  "Reading Experience": "阅读体验"
+  // Story Descriptions
+  "An interactive tale of wit and wisdom where your choices determine the outcome of a young wizard's journey.": "一个智慧与机智的互动故事，您的选择将决定年轻巫师旅程的结局。",
+  "Navigate through the cosmos and learn about space while making crucial decisions as a cadet at the Space Academy.": "作为太空学院的学员，在探索宇宙的同时学习太空知识并做出关键决策。",
+  "A gentle introduction to reading where young readers help woodland creatures solve simple problems.": "一个温和的阅读入门，年轻读者帮助森林生物解决简单问题。",
+  "Solve puzzles and uncover clues in this thrilling detective story set in an old mansion.": "在这个令人兴奋的侦探故事中解开谜题，在古老的庄园中寻找线索。",
+  "Journey through different historical periods and make decisions that could change the course of history.": "穿越不同的历史时期，做出可能改变历史进程的决定。",
+  "Dive deep into marine biology and oceanography while having underwater adventures.": "在水下冒险的同时深入了解海洋生物学和海洋学。",
+  "Learn about robotics and artificial intelligence through friendly robot characters.": "通过友好的机器人角色学习机器人技术和人工智能。",
+  "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "探索金字塔，发现古埃及文明的秘密。"
 };
