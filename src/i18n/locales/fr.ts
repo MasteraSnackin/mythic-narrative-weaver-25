@@ -42,5 +42,24 @@ export default {
   "Training & support": "Formation et support",
   "Contact Sales": "Contacter les Ventes",
   "Coming Soon": "Bientôt Disponible",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Restez à l'écoute pour notre programme de partenariat éducatif, offrant des tarifs spéciaux pour les écoles et les institutions éducatives."
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Restez à l'écoute pour notre programme de partenariat éducatif, offrant des tarifs spéciaux pour les écoles et les institutions éducatives.",
+
+  // Contact Page
+  "Contact Us": "Contactez-nous",
+  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "Nous aimerions avoir de vos nouvelles. Envoyez-nous un message et nous vous répondrons dès que possible.",
+  "Email": "E-mail",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram",
+  "Send us a message": "Envoyez-nous un message",
+  "Name": "Nom",
+  "Your name": "Votre nom",
+  "your@email.com": "votre@email.com",
+  "Message": "Message",
+  "Your message": "Votre message",
+  "Sending...": "Envoi en cours...",
+  "Send Message": "Envoyer le message",
+  "Message sent successfully! 📬": "Message envoyé avec succès ! 📬",
+  "We'll get back to you within 24 hours.": "Nous vous répondrons dans les 24 heures.",
+  "Error": "Erreur",
+  "Something went wrong. Please try again.": "Une erreur s'est produite. Veuillez réessayer."
 };

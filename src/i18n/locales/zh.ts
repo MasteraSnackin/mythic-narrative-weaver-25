@@ -42,5 +42,24 @@ export default {
   "Training & support": "培训和支持",
   "Contact Sales": "联系销售",
   "Coming Soon": "即将推出",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "敬请期待我们的教育合作计划，为学校和教育机构提供特别定价。"
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "敬请期待我们的教育合作计划，为学校和教育机构提供特别定价。",
+
+  // Contact Page
+  "Contact Us": "联系我们",
+  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "我们很乐意听取您的意见。发送消息给我们，我们会尽快回复。",
+  "Email": "电子邮件",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram",
+  "Send us a message": "给我们发消息",
+  "Name": "姓名",
+  "Your name": "您的姓名",
+  "your@email.com": "your@email.com",
+  "Message": "消息",
+  "Your message": "您的消息",
+  "Sending...": "发送中...",
+  "Send Message": "发送消息",
+  "Message sent successfully! 📬": "消息发送成功！📬",
+  "We'll get back to you within 24 hours.": "我们会在24小时内回复您。",
+  "Error": "错误",
+  "Something went wrong. Please try again.": "出现错误。请重试。"
 };

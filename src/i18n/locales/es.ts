@@ -37,10 +37,29 @@ export default {
   "School-wide access": "Acceso para toda la escuela",
   "Curriculum integration": "Integración curricular",
   "Teacher dashboard": "Panel de control para profesores",
-  "Analytics & reporting": "Análisis e informes",
+  "Analytics & reporting": "Análisis y informes",
   "Custom content creation": "Creación de contenido personalizado",
   "Training & support": "Formación y soporte",
   "Contact Sales": "Contactar con Ventas",
   "Coming Soon": "Próximamente",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas e instituciones educativas."
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas e instituciones educativas.",
+
+  // Contact Page
+  "Contact Us": "Contáctenos",
+  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "Nos encantaría saber de ti. Envíanos un mensaje y te responderemos lo antes posible.",
+  "Email": "Correo electrónico",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram",
+  "Send us a message": "Envíanos un mensaje",
+  "Name": "Nombre",
+  "Your name": "Tu nombre",
+  "your@email.com": "tu@correo.com",
+  "Message": "Mensaje",
+  "Your message": "Tu mensaje",
+  "Sending...": "Enviando...",
+  "Send Message": "Enviar Mensaje",
+  "Message sent successfully! 📬": "¡Mensaje enviado con éxito! 📬",
+  "We'll get back to you within 24 hours.": "Te responderemos dentro de las próximas 24 horas.",
+  "Error": "Error",
+  "Something went wrong. Please try again.": "Algo salió mal. Por favor, inténtalo de nuevo."
 };

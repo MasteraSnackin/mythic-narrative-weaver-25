@@ -42,5 +42,24 @@ export default {
   "Training & support": "Training & support",
   "Contact Sales": "Contact Sales",
   "Coming Soon": "Coming Soon",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions."
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.",
+
+  // Contact Page
+  "Contact Us": "Contact Us",
+  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+  "Email": "Email",
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram",
+  "Send us a message": "Send us a message",
+  "Name": "Name",
+  "Your name": "Your name",
+  "your@email.com": "your@email.com",
+  "Message": "Message",
+  "Your message": "Your message",
+  "Sending...": "Sending...",
+  "Send Message": "Send Message",
+  "Message sent successfully! 📬": "Message sent successfully! 📬",
+  "We'll get back to you within 24 hours.": "We'll get back to you within 24 hours.",
+  "Error": "Error",
+  "Something went wrong. Please try again.": "Something went wrong. Please try again."
 };
