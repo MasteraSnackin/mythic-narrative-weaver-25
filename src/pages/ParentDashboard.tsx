@@ -8,28 +8,28 @@ const ParentDashboard = () => {
 
   const stats = [
     {
-      title: t("Books Read"),
+      title: t("books_read"),
       value: "12",
       icon: BookOpen,
-      change: `+2 ${t("this week")}`
+      change: `+2 ${t("this_week")}`
     },
     {
-      title: t("Reading Time"),
+      title: t("reading_time"),
       value: "45h",
       icon: Clock,
-      change: `+5h ${t("this week")}`
+      change: `+5h ${t("this_week")}`
     },
     {
-      title: t("Comprehension"),
+      title: t("comprehension"),
       value: "85%",
       icon: LineChart,
       change: `+3% ${t("improvement")}`
     },
     {
-      title: t("Achievements"),
+      title: t("achievements"),
       value: "8",
       icon: Award,
-      change: `${t("Latest")}: ${t("Speed Reader")}`
+      change: `${t("latest")}: ${t("Speed Reader")}`
     }
   ]
 
@@ -55,10 +55,10 @@ const ParentDashboard = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              {t("Parent Dashboard")}
+              {t("parent_dashboard")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              {t("Track your child's reading progress and achievements")}
+              {t("track_progress")}
             </p>
           </div>
 
@@ -82,7 +82,7 @@ const ParentDashboard = () => {
           <div className="grid md:grid-cols-2 gap-6">
             <Card>
               <CardHeader>
-                <CardTitle>{t("Recent Activity")}</CardTitle>
+                <CardTitle>{t("recent_activity")}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
@@ -99,7 +99,7 @@ const ParentDashboard = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle>{t("Achievements")}</CardTitle>
+                <CardTitle>{t("achievements")}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
@@ -107,7 +107,7 @@ const ParentDashboard = () => {
                     <div key={achievement} className="flex items-center gap-4">
                       <Star className="h-4 w-4 text-purple-600" />
                       <span>{achievement}</span>
-                      <span className="text-sm text-gray-500 ml-auto">{t("Earned")}</span>
+                      <span className="text-sm text-gray-500 ml-auto">{t("earned")}</span>
                     </div>
                   ))}
                 </div>

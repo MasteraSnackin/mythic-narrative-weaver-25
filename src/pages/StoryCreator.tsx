@@ -31,10 +31,10 @@ const StoryCreator = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              {t("Story Creator")}
+              {t("story_creator")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              {t("Create interactive stories with AI assistance")}
+              {t("create_interactive")}
             </p>
           </div>
 
@@ -42,31 +42,31 @@ const StoryCreator = () => {
             <Card>
               <CardContent className="p-6 space-y-4">
                 <div className="space-y-2">
-                  <label className="text-sm font-medium">{t("Story Title")}</label>
+                  <label className="text-sm font-medium">{t("story_title")}</label>
                   <Input
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
-                    placeholder={t("Enter your story title...")}
+                    placeholder={t("enter_title")}
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-medium">{t("Story Content")}</label>
+                  <label className="text-sm font-medium">{t("story_content")}</label>
                   <Textarea
                     value={content}
                     onChange={(e) => setContent(e.target.value)}
-                    placeholder={t("Start writing your story...")}
+                    placeholder={t("start_writing")}
                     rows={10}
                   />
                 </div>
                 <div className="flex gap-4">
                   <Button onClick={handleSave} className="flex-1">
-                    <BookOpen className="mr-2 h-4 w-4" /> {t("Save Draft")}
+                    <BookOpen className="mr-2 h-4 w-4" /> {t("save_draft")}
                   </Button>
                   <Button className="flex-1">
-                    <Sparkles className="mr-2 h-4 w-4" /> {t("AI Assist")}
+                    <Sparkles className="mr-2 h-4 w-4" /> {t("ai_assist")}
                   </Button>
                   <Button className="flex-1">
-                    <Target className="mr-2 h-4 w-4" /> {t("Preview")}
+                    <Target className="mr-2 h-4 w-4" /> {t("preview")}
                   </Button>
                 </div>
               </CardContent>

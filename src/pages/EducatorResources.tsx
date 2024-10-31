@@ -16,10 +16,10 @@ const EducatorResources = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              {t("Educator Resources")}
+              {t("educator_resources")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              {t("Tools and resources to enhance your teaching experience")}
+              {t("tools_enhance")}
             </p>
           </div>
 
@@ -27,16 +27,16 @@ const EducatorResources = () => {
             <Card>
               <CardContent className="p-6 space-y-4">
                 <BookOpen className="w-12 h-12 text-purple-600" />
-                <h3 className="text-xl font-semibold">{t("Lesson Plans")}</h3>
-                <p className="text-gray-600">{t("Ready-to-use lesson plans integrated with our interactive stories")}</p>
+                <h3 className="text-xl font-semibold">{t("lesson_plans")}</h3>
+                <p className="text-gray-600">{t("ready_to_use")}</p>
               </CardContent>
             </Card>
 
             <Card>
               <CardContent className="p-6 space-y-4">
                 <GraduationCap className="w-12 h-12 text-purple-600" />
-                <h3 className="text-xl font-semibold">{t("Teaching Guides")}</h3>
-                <p className="text-gray-600">{t("Comprehensive guides to maximize learning outcomes")}</p>
+                <h3 className="text-xl font-semibold">{t("teaching_guides")}</h3>
+                <p className="text-gray-600">{t("comprehensive_guides")}</p>
               </CardContent>
             </Card>
 
@@ -44,7 +44,7 @@ const EducatorResources = () => {
               <CardContent className="p-6 space-y-4">
                 <Users className="w-12 h-12 text-purple-600" />
                 <h3 className="text-xl font-semibold">{t("Community")}</h3>
-                <p className="text-gray-600">{t("Connect with other educators using our platform")}</p>
+                <p className="text-gray-600">{t("connect_educators")}</p>
               </CardContent>
             </Card>
           </div>
