@@ -5,13 +5,13 @@ import { Menu, X } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Moon, Sun } from "lucide-react";
 import { Link } from "react-router-dom";
-import { LanguageSwitcher } from "@/components/ui/language-switcher";
+import { LanguageSelector } from "@/components/ui/language-selector";
 import { useTranslation } from "react-i18next";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { theme, setTheme } = useTheme();
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
 
   const navItems = [
     { label: "About", path: "/about-us" },
@@ -24,6 +24,11 @@ const Navigation = () => {
     { label: "Blog", path: "/blog" },
     { label: "FAQ", path: "/faq" },
     { label: "Contact", path: "/contact" }
+  ];
+
+  const footerLinks = [
+    { label: "Privacy Policy", path: "/privacy-policy" },
+    { label: "Terms", path: "/terms" }
   ];
 
   return (
@@ -53,7 +58,7 @@ const Navigation = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-            <LanguageSwitcher />
+            <LanguageSelector />
             <Button
               variant="ghost"
               size="icon"
@@ -71,7 +76,7 @@ const Navigation = () => {
           </div>
 
           <div className="md:hidden flex items-center gap-2">
-            <LanguageSwitcher />
+            <LanguageSelector />
             <Button
               variant="ghost"
               size="icon"
@@ -86,6 +91,16 @@ const Navigation = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item) => (
+                <Link
+                  key={item.label}
+                  to={item.path}
+                  className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-purple-600 dark:text-gray-300 dark:hover:text-purple-400"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {t(item.label)}
+                </Link>
+              ))}
+              {footerLinks.map((item) => (
                 <Link
                   key={item.label}
                   to={item.path}

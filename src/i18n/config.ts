@@ -1,29 +1,25 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import enCommon from './locales/en/common';
-import enHome from './locales/en/home';
-import esCommon from './locales/es/common';
-import esHome from './locales/es/home';
+
+// Import language files to keep config.ts smaller
+import en from './locales/en';
+import es from './locales/es';
+import fr from './locales/fr';
+import zh from './locales/zh';
 
 const resources = {
-  en: {
-    common: enCommon,
-    home: enHome
-  },
-  es: {
-    common: esCommon,
-    home: esHome
-  }
+  en: { translation: en },
+  es: { translation: es },
+  fr: { translation: fr },
+  zh: { translation: zh }
 };
 
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'en',
+    lng: 'en', // default language
     fallbackLng: 'en',
-    defaultNS: 'common',
-    ns: ['common', 'home'],
     interpolation: {
       escapeValue: false
     }
