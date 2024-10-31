@@ -94,41 +94,29 @@ export default {
   "Coming Soon": "即将推出",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "敬请期待我们的教育合作计划，为学校和教育机构提供特别定价。",
 
-  // School Pilot Page
-  "School Pilot Program": "学校试点计划",
-  "Partner with us to bring AI-powered interactive learning to your school": "与我们合作，为您的学校带来AI驱动的互动学习",
-  "Educational Innovation": "教育创新",
-  "Join our pilot program and be among the first schools to experience the future of interactive learning. Our AI-powered stories adapt to each student's learning pace and style.": "加入我们的试点计划，成为首批体验互动学习未来的学校之一。我们的AI驱动故事会根据每个学生的学习节奏和风格进行调整。",
-  "What You Get:": "您将获得：",
-  "Free access during pilot period": "试点期间免费访问",
-  "Customized content for your curriculum": "为您的课程定制内容",
-  "Teacher training and support": "教师培训和支持",
-  "Regular progress reports": "定期进度报告",
-  "Program Duration:": "项目期限：",
-  "3-month initial pilot": "3个月初始试点",
-  "Optional extension": "可选延期",
-  "Flexible implementation": "灵活实施",
-  "Ongoing support": "持续支持",
-  "Personalized Learning": "个性化学习",
-  "Stories adapt to each student's reading level and learning pace": "故事会根据每个学生的阅读水平和学习节奏进行调整",
-  "Progress Tracking": "进度跟踪",
-  "Detailed analytics on student engagement and comprehension": "详细的学生参与度和理解力分析",
-  "Teacher Support": "教师支持",
-  "Comprehensive training and ongoing technical assistance": "全面的培训和持续的技术支持",
-  "Ready to Join?": "准备加入？",
-  "Limited spots available for our pilot program. Contact us to learn more about bringing interactive storytelling to your school.": "试点计划名额有限。联系我们了解更多关于为您的学校引入互动故事的信息。",
-  "Apply Now": "立即申请",
-  "Learn More": "了解更多",
-
-  // AI Story Engine Page
-  "Our AI Story Engine": "我们的AI故事引擎",
-  "Discover how our proprietary AI crafts personalized narratives that adapt to your choices": "了解我们的专有AI如何制作适应您选择的个性化叙事",
-  "Proprietary AI Model": "专有AI模型",
-  "Our custom-built AI is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique training allows it to craft stories that are both engaging and informative.": "我们的定制AI在大量创意写作、教育材料和互动游戏设计的数据集上进行训练。这种独特的训练使其能够创作出既引人入胜又富有教育意义的故事。",
-  "Dynamic Adaptation": "动态适应",
-  "The AI engine analyzes your choices and reading patterns to adjust difficulty, pacing, and narrative complexity in real-time. This creates a truly personalized experience that grows with you.": "AI引擎分析您的选择和阅读模式，实时调整难度、节奏和叙事复杂性。这创造了一个真正的个性化体验，与您一起成长。",
-  "Human Touch & Curation": "人性化触感与策划",
-  "Our AI is guided by experienced storytellers, educators, and game designers. This human touch ensures stories are not only educational but also captivating and tailored to specific age groups and interests.": "我们的AI由经验丰富的故事讲述者、教育工作者和游戏设计师指导。这种人性化的触感确保故事不仅具有教育意义，而且引人入胜，并针对特定年龄组和兴趣量身定制。",
-  "Continuous Learning": "持续学习",
-  "Our AI constantly learns and improves based on user interaction and feedback. This ongoing loop ensures our stories stay fresh, relevant, and even more effective over time.": "我们的AI根据用户互动和反馈不断学习和改进。这种持续的循环确保我们的故事保持新鲜、相关，并随着时间推移变得更加有效。"
+  // Blog Page
+  "latest_stories_insights": "最新故事与见解",
+  "explore_ai_storytelling": "探索AI讲故事和教育领域的最新发展",
+  "read_more": "阅读更多",
+  "company_story": "公司故事",
+  "market_insights": "市场洞察",
+  "education": "教育",
+  "technology": "技术",
+  "product_strategy": "产品策略",
+  
+  // Blog Posts
+  "hackathon_story_title": "从黑客马拉松到创新：Mythic Mind Labs的诞生",
+  "hackathon_story_excerpt": "我们的旅程始于一场36小时的黑客马拉松。三位充满激情的开发者，因对AI讲故事的未来有着共同的愿景，聚在一起创造了革命性的产品。",
+  
+  "market_opportunity_title": "互动小说的未来：41亿美元的市场机遇",
+  "market_opportunity_excerpt": "在人们对引人入胜和个性化学习体验的需求推动下，全球互动小说市场预计到2027年将达到41亿美元。了解AI如何革新讲故事。",
+  
+  "education_revolution_title": "通过AI驱动的故事革新教育",
+  "education_revolution_excerpt": "我们的AI会根据每个读者的选择、技能水平和节奏进行调整，创造真正个性化的学习体验。了解我们如何通过互动讲故事转变教育。",
+  
+  "ai_storytelling_title": "超越传统CYOA：AI讲故事的力量",
+  "ai_storytelling_excerpt": "传统的选择你自己的冒险书提供有限的选择。看看我们的AI技术如何创造真正动态的叙事，适应你的每一个决定。",
+  
+  "next_gen_readers_title": "针对下一代读者",
+  "next_gen_readers_excerpt": "我们专注于5-14岁的年轻受众和教育机构，创造将娱乐与学习相结合的引人入胜的内容。"
 };

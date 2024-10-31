@@ -94,41 +94,29 @@ export default {
   "Coming Soon": "Próximamente",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas y instituciones educativas.",
 
-  // School Pilot Page
-  "School Pilot Program": "Programa Piloto Escolar",
-  "Partner with us to bring AI-powered interactive learning to your school": "Asóciate con nosotros para llevar el aprendizaje interactivo con IA a tu escuela",
-  "Educational Innovation": "Innovación Educativa",
-  "Join our pilot program and be among the first schools to experience the future of interactive learning. Our AI-powered stories adapt to each student's learning pace and style.": "Únete a nuestro programa piloto y sé de las primeras escuelas en experimentar el futuro del aprendizaje interactivo. Nuestras historias impulsadas por IA se adaptan al ritmo y estilo de aprendizaje de cada estudiante.",
-  "What You Get:": "Lo que Obtienes:",
-  "Free access during pilot period": "Acceso gratuito durante el período piloto",
-  "Customized content for your curriculum": "Contenido personalizado para tu plan de estudios",
-  "Teacher training and support": "Capacitación y soporte para profesores",
-  "Regular progress reports": "Informes regulares de progreso",
-  "Program Duration:": "Duración del Programa:",
-  "3-month initial pilot": "Piloto inicial de 3 meses",
-  "Optional extension": "Extensión opcional",
-  "Flexible implementation": "Implementación flexible",
-  "Ongoing support": "Soporte continuo",
-  "Personalized Learning": "Aprendizaje Personalizado",
-  "Stories adapt to each student's reading level and learning pace": "Las historias se adaptan al nivel de lectura y ritmo de aprendizaje de cada estudiante",
-  "Progress Tracking": "Seguimiento del Progreso",
-  "Detailed analytics on student engagement and comprehension": "Análisis detallado sobre la participación y comprensión de los estudiantes",
-  "Teacher Support": "Apoyo al Profesor",
-  "Comprehensive training and ongoing technical assistance": "Capacitación integral y asistencia técnica continua",
-  "Ready to Join?": "¿Listo para Unirte?",
-  "Limited spots available for our pilot program. Contact us to learn more about bringing interactive storytelling to your school.": "Plazas limitadas disponibles para nuestro programa piloto. Contáctanos para saber más sobre cómo llevar la narración interactiva a tu escuela.",
-  "Apply Now": "Aplicar Ahora",
-  "Learn More": "Saber Más",
-
-  // AI Story Engine Page
-  "Our AI Story Engine": "Nuestro Motor de Historias IA",
-  "Discover how our proprietary AI crafts personalized narratives that adapt to your choices": "Descubre cómo nuestra IA propietaria crea narrativas personalizadas que se adaptan a tus elecciones",
-  "Proprietary AI Model": "Modelo de IA Propietario",
-  "Our custom-built AI is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique training allows it to craft stories that are both engaging and informative.": "Nuestra IA personalizada está entrenada con un conjunto masivo de datos de escritura creativa, materiales educativos y diseño de juegos interactivos. Este entrenamiento único le permite crear historias que son tanto atractivas como informativas.",
-  "Dynamic Adaptation": "Adaptación Dinámica",
-  "The AI engine analyzes your choices and reading patterns to adjust difficulty, pacing, and narrative complexity in real-time. This creates a truly personalized experience that grows with you.": "El motor de IA analiza tus elecciones y patrones de lectura para ajustar la dificultad, el ritmo y la complejidad narrativa en tiempo real. Esto crea una experiencia verdaderamente personalizada que crece contigo.",
-  "Human Touch & Curation": "Toque Humano y Curación",
-  "Our AI is guided by experienced storytellers, educators, and game designers. This human touch ensures stories are not only educational but also captivating and tailored to specific age groups and interests.": "Nuestra IA está guiada por narradores, educadores y diseñadores de juegos experimentados. Este toque humano asegura que las historias no solo sean educativas sino también cautivadoras y adaptadas a grupos de edad e intereses específicos.",
-  "Continuous Learning": "Aprendizaje Continuo",
-  "Our AI constantly learns and improves based on user interaction and feedback. This ongoing loop ensures our stories stay fresh, relevant, and even more effective over time.": "Nuestra IA aprende y mejora constantemente basándose en la interacción y retroalimentación del usuario. Este ciclo continuo asegura que nuestras historias se mantengan frescas, relevantes y cada vez más efectivas con el tiempo."
+  // Blog Page
+  "latest_stories_insights": "Últimas Historias y Perspectivas",
+  "explore_ai_storytelling": "Explora los últimos avances en narración con IA y educación",
+  "read_more": "Leer Más",
+  "company_story": "Historia de la Empresa",
+  "market_insights": "Perspectivas del Mercado",
+  "education": "Educación",
+  "technology": "Tecnología",
+  "product_strategy": "Estrategia de Producto",
+  
+  // Blog Posts
+  "hackathon_story_title": "Del Hackathon a la Innovación: El Nacimiento de Mythic Mind Labs",
+  "hackathon_story_excerpt": "Nuestro viaje comenzó en el electrizante crisol de un hackathon de 36 horas. Tres desarrolladores apasionados, unidos por una visión compartida del futuro de la narración con IA, se unieron para crear algo revolucionario.",
+  
+  "market_opportunity_title": "El Futuro de la Ficción Interactiva: Una Oportunidad de Mercado de $4.1B",
+  "market_opportunity_excerpt": "Se espera que el mercado global de ficción interactiva alcance los $4.1B para 2027, impulsado por el deseo de experiencias de aprendizaje atractivas y personalizadas. Descubre cómo la IA está revolucionando la narración.",
+  
+  "education_revolution_title": "Revolucionando la Educación a través de Historias Impulsadas por IA",
+  "education_revolution_excerpt": "Nuestra IA se adapta a las elecciones, nivel de habilidad y ritmo de cada lector, creando experiencias de aprendizaje verdaderamente personalizadas. Descubre cómo estamos transformando la educación a través de la narración interactiva.",
+  
+  "ai_storytelling_title": "Más Allá del CYOA Tradicional: El Poder de la IA en la Narración",
+  "ai_storytelling_excerpt": "Los libros tradicionales de Elige Tu Propia Aventura ofrecen opciones limitadas. Descubre cómo nuestra tecnología de IA crea narrativas verdaderamente dinámicas que se adaptan a cada una de tus decisiones.",
+  
+  "next_gen_readers_title": "Dirigido a la Próxima Generación de Lectores",
+  "next_gen_readers_excerpt": "Con un enfoque en audiencias jóvenes de 5 a 14 años e instituciones educativas, estamos creando contenido atractivo que combina entretenimiento con aprendizaje."
 };

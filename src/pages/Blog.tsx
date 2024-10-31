@@ -2,51 +2,54 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { motion } from "framer-motion"
 import { Calendar, User, ArrowRight } from "lucide-react"
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 const blogPosts = [
   {
     id: 1,
-    title: "From Hackathon to Innovation: The Birth of Mythic Mind Labs",
-    excerpt: "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.",
+    title: "hackathon_story_title",
+    excerpt: "hackathon_story_excerpt",
     author: "MML Team",
     date: "2024-03-15",
-    category: "Company Story"
+    category: "company_story"
   },
   {
     id: 2,
-    title: "The Future of Interactive Fiction: A $4.1B Market Opportunity",
-    excerpt: "The global interactive fiction market is expected to reach $4.1B by 2027, driven by a desire for engaging and personalized learning experiences. Discover how AI is revolutionizing storytelling.",
+    title: "market_opportunity_title",
+    excerpt: "market_opportunity_excerpt",
     author: "Market Research Team",
     date: "2024-03-12",
-    category: "Market Insights"
+    category: "market_insights"
   },
   {
     id: 3,
-    title: "Revolutionizing Education Through AI-Powered Stories",
-    excerpt: "Our AI adapts to each reader's choices, skill level, and pacing, creating truly personalized learning experiences. Learn how we're transforming education through interactive storytelling.",
+    title: "education_revolution_title",
+    excerpt: "education_revolution_excerpt",
     author: "Education Team",
     date: "2024-03-10",
-    category: "Education"
+    category: "education"
   },
   {
     id: 4,
-    title: "Beyond Traditional CYOA: The Power of AI in Storytelling",
-    excerpt: "Traditional Choose Your Own Adventure books offer limited choices. See how our AI technology creates truly dynamic narratives that adapt to your every decision.",
+    title: "ai_storytelling_title",
+    excerpt: "ai_storytelling_excerpt",
     author: "Tech Team",
     date: "2024-03-08",
-    category: "Technology"
+    category: "technology"
   },
   {
     id: 5,
-    title: "Targeting the Next Generation of Readers",
-    excerpt: "With a focus on young audiences aged 5-14 and educational institutions, we're creating engaging content that combines entertainment with learning.",
+    title: "next_gen_readers_title",
+    excerpt: "next_gen_readers_excerpt",
     author: "Product Team",
     date: "2024-03-05",
-    category: "Product Strategy"
+    category: "product_strategy"
   }
 ];
 
 const Blog = () => {
+  const { t } = useTranslation()
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-50 to-white dark:from-purple-900 dark:via-gray-900 dark:to-black pt-20">
       <div className="container mx-auto px-4">
@@ -57,10 +60,10 @@ const Blog = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              Latest Stories & Insights
+              {t("latest_stories_insights")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Explore the latest developments in AI storytelling and education
+              {t("explore_ai_storytelling")}
             </p>
           </div>
 
@@ -76,20 +79,20 @@ const Blog = () => {
                   <CardHeader>
                     <div className="flex justify-between items-start">
                       <CardTitle className="text-2xl font-bold hover:text-purple-600">
-                        <Link to={`/blog/${post.id}`}>{post.title}</Link>
+                        <Link to={`/blog/${post.id}`}>{t(post.title)}</Link>
                       </CardTitle>
                       <span className="text-sm px-3 py-1 bg-purple-100 text-purple-600 rounded-full">
-                        {post.category}
+                        {t(post.category)}
                       </span>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <p className="text-gray-600 dark:text-gray-300">{post.excerpt}</p>
+                    <p className="text-gray-600 dark:text-gray-300">{t(post.excerpt)}</p>
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-4">
                         <div className="flex items-center text-gray-500">
                           <User className="w-4 h-4 mr-2" />
-                          <span>{post.author}</span>
+                          <span>{t(post.author)}</span>
                         </div>
                         <div className="flex items-center text-gray-500">
                           <Calendar className="w-4 h-4 mr-2" />
@@ -100,7 +103,7 @@ const Blog = () => {
                         to={`/blog/${post.id}`}
                         className="flex items-center text-purple-600 hover:text-purple-700"
                       >
-                        Read More
+                        {t("read_more")}
                         <ArrowRight className="w-4 h-4 ml-2" />
                       </Link>
                     </div>

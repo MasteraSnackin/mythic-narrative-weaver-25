@@ -94,15 +94,29 @@ export default {
   "Coming Soon": "Coming Soon",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.",
 
-  // AI Story Engine Page
-  "Our AI Story Engine": "Our AI Story Engine",
-  "Discover how our proprietary AI crafts personalized narratives that adapt to your choices": "Discover how our proprietary AI crafts personalized narratives that adapt to your choices",
-  "Proprietary AI Model": "Proprietary AI Model",
-  "Our custom-built AI is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique training allows it to craft stories that are both engaging and informative.": "Our custom-built AI is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique training allows it to craft stories that are both engaging and informative.",
-  "Dynamic Adaptation": "Dynamic Adaptation",
-  "The AI engine analyzes your choices and reading patterns to adjust difficulty, pacing, and narrative complexity in real-time. This creates a truly personalized experience that grows with you.": "The AI engine analyzes your choices and reading patterns to adjust difficulty, pacing, and narrative complexity in real-time. This creates a truly personalized experience that grows with you.",
-  "Human Touch & Curation": "Human Touch & Curation",
-  "Our AI is guided by experienced storytellers, educators, and game designers. This human touch ensures stories are not only educational but also captivating and tailored to specific age groups and interests.": "Our AI is guided by experienced storytellers, educators, and game designers. This human touch ensures stories are not only educational but also captivating and tailored to specific age groups and interests.",
-  "Continuous Learning": "Continuous Learning",
-  "Our AI constantly learns and improves based on user interaction and feedback. This ongoing loop ensures our stories stay fresh, relevant, and even more effective over time.": "Our AI constantly learns and improves based on user interaction and feedback. This ongoing loop ensures our stories stay fresh, relevant, and even more effective over time."
+  // Blog Page
+  "latest_stories_insights": "Latest Stories & Insights",
+  "explore_ai_storytelling": "Explore the latest developments in AI storytelling and education",
+  "read_more": "Read More",
+  "company_story": "Company Story",
+  "market_insights": "Market Insights",
+  "education": "Education",
+  "technology": "Technology",
+  "product_strategy": "Product Strategy",
+  
+  // Blog Posts
+  "hackathon_story_title": "From Hackathon to Innovation: The Birth of Mythic Mind Labs",
+  "hackathon_story_excerpt": "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.",
+  
+  "market_opportunity_title": "The Future of Interactive Fiction: A $4.1B Market Opportunity",
+  "market_opportunity_excerpt": "The global interactive fiction market is expected to reach $4.1B by 2027, driven by a desire for engaging and personalized learning experiences. Discover how AI is revolutionizing storytelling.",
+  
+  "education_revolution_title": "Revolutionizing Education Through AI-Powered Stories",
+  "education_revolution_excerpt": "Our AI adapts to each reader's choices, skill level, and pacing, creating truly personalized learning experiences. Learn how we're transforming education through interactive storytelling.",
+  
+  "ai_storytelling_title": "Beyond Traditional CYOA: The Power of AI in Storytelling",
+  "ai_storytelling_excerpt": "Traditional Choose Your Own Adventure books offer limited choices. See how our AI technology creates truly dynamic narratives that adapt to your every decision.",
+  
+  "next_gen_readers_title": "Targeting the Next Generation of Readers",
+  "next_gen_readers_excerpt": "With a focus on young audiences aged 5-14 and educational institutions, we're creating engaging content that combines entertainment with learning."
 };
