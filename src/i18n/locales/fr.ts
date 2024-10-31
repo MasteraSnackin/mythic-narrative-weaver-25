@@ -22,7 +22,7 @@ export default {
   "Discover interactive stories tailored to your reading level": "Découvrez des histoires interactives adaptées à votre niveau de lecture",
   "Starting Story": "Démarrage de l'Histoire",
   "Beginning '{{title}}'. Enjoy your adventure!": "Début de '{{title}}'. Bonne aventure !",
-  
+
   // Reading Levels
   "Beginner": "Débutant",
   "Intermediate": "Intermédiaire",
@@ -40,7 +40,7 @@ export default {
   "The Dragon's Riddle": "L'Énigme du Dragon",
   "Space Explorer Academy": "Académie des Explorateurs Spatiaux",
   "The Friendly Forest": "La Forêt Amicale",
-  "Mystery at Midnight Manor": "Mystère au Manoir de Minuit",
+  "Mystery at Midnight Manor": "Mistere au Manoir de Minuit",
   "Time Travelers Club": "Club des Voyageurs du Temps",
   "Ocean Explorers": "Explorateurs des Océans",
   "Robot Friends": "Amis Robots",
@@ -59,8 +59,48 @@ export default {
   "Experience AI-powered stories": "Découvrez des histoires alimentées par l'IA",
   "Learn More": "En Savoir Plus",
 
-  // Adventure Games Section
-  "Adventure Games": "Jeux d'Aventure",
-  "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!": "Générez votre propre Jeu d'Aventure en utilisant la puissance de l'IA. Ces aventures textuelles vous feront chercher des indices, explorer des lieux exotiques, résoudre des mystères et plus encore !",
-  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "Vous pouvez choisir un thème, un type de jeu et un niveau de difficulté pour générer votre Aventure ou commencer avec l'Aventure sélectionnée aléatoirement que nous avons choisie pour vous."
+  // Features Section
+  "Why Choose Mythic Mind Labs?": "Pourquoi choisir Mythic Mind Labs ?",
+  "AI-Powered Narratives": "Récits alimentés par l'IA",
+  "Our AI crafts dynamic stories that adapt to your choices, creating unique and personalized adventures every time you read.": "Notre IA crée des histoires dynamiques qui s'adaptent à vos choix, créant des aventures uniques et personnalisées à chaque lecture.",
+  "Dynamic Difficulty & Pacing": "Difficulté et rythme dynamiques",
+  "Stories automatically adjust to your skill level and reading pace, ensuring an engaging and challenging experience.": "Les histoires s'ajustent automatiquement à votre niveau et à votre rythme de lecture, garantissant une expérience stimulante et enrichissante.",
+  "Immersive Storytelling": "Narration immersive",
+  "Experience stories that react to your decisions, creating truly interactive and engaging narratives.": "Vivez des histoires qui réagissent à vos décisions, créant des récits véritablement interactifs et captivants.",
+  "Educational Value": "Valeur éducative",
+  "Stories seamlessly integrate educational elements, making learning fun and interactive for ages 5-14.": "Les histoires intègrent harmonieusement des éléments éducatifs, rendant l'apprentissage amusant et interactif pour les 5-14 ans.",
+  "Endless Possibilities": "Possibilités infinies",
+  "With AI-generated content, every story offers multiple paths and outcomes, ensuring high replayability.": "Avec du contenu généré par l'IA, chaque histoire offre de multiples chemins et résultats, garantissant une grande rejouabilité.",
+  "Community Focused": "Axé sur la communauté",
+  "Join a growing community of young readers and educators embracing the future of interactive storytelling.": "Rejoignez une communauté grandissante de jeunes lecteurs et d'éducateurs qui embrassent l'avenir de la narration interactive.",
+
+  // Platform Metrics
+  "Platform Metrics": "Métriques de la plateforme",
+  "Market Size": "Taille du marché",
+  "Expected market size by 2027": "Taille de marché prévue d'ici 2027",
+  "User Base": "Base d'utilisateurs",
+  "CYOA books sold worldwide": "Livres CYOA vendus dans le monde",
+  "Growth": "Croissance",
+  "User retention rate": "Taux de rétention des utilisateurs",
+  "AI Stories": "Histoires IA",
+  "Unique story possibilities": "Possibilités d'histoires uniques",
+
+  // Testimonials
+  "What Our Community Says": "Ce que dit notre communauté",
+  "Elementary School Teacher": "Professeur d'école primaire",
+  "Parent": "Parent",
+  "Education Technology Specialist": "Spécialiste en technologie éducative",
+  "The AI-powered stories have transformed my classroom. Students are more engaged than ever, and the personalized learning experience helps every child progress at their own pace.": "Les histoires alimentées par l'IA ont transformé ma classe. Les élèves sont plus engagés que jamais, et l'expérience d'apprentissage personnalisée aide chaque enfant à progresser à son rythme.",
+  "My kids love choosing their own adventures and seeing how their decisions affect the story. It's amazing how the difficulty adapts to keep them challenged and engaged.": "Mes enfants adorent choisir leurs propres aventures et voir comment leurs décisions affectent l'histoire. C'est incroyable comme la difficulté s'adapte pour les maintenir motivés et engagés.",
+  "The combination of AI storytelling and educational content is revolutionary. This platform represents the future of interactive learning.": "La combinaison de la narration IA et du contenu éducatif est révolutionnaire. Cette plateforme représente l'avenir de l'apprentissage interactif.",
+
+  // Footer
+  "Revolutionizing storytelling with AI-powered narratives.": "Révolutionner la narration avec des récits alimentés par l'IA.",
+  "Company": "Entreprise",
+  "Connect": "Se connecter",
+  "Visit our Facebook page": "Visitez notre page Facebook",
+  "Visit our Twitter page": "Visitez notre page Twitter",
+  "Visit our Instagram page": "Visitez notre page Instagram",
+  "Visit our LinkedIn page": "Visitez notre page LinkedIn",
+  "All rights reserved.": "Tous droits réservés."
 };

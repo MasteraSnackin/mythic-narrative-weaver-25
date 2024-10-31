@@ -62,5 +62,50 @@ export default {
   // Adventure Games Section
   "Adventure Games": "冒险游戏",
   "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!": "使用AI的力量生成您自己的冒险游戏。这些基于文本的冒险将让您寻找线索、探索异域景点、解决谜题等等！",
-  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "您可以选择主题、游戏类型和难度级别来生成您的冒险，或者从我们随机选择的冒险开始。"
+  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "您可以选择主题、游戏类型和难度级别来生成您的冒险，或者从我们随机选择的冒险开始。",
+
+  // Features Section
+  "Why Choose Mythic Mind Labs?": "为什么选择神话思维实验室？",
+  "AI-Powered Narratives": "AI驱动的叙事",
+  "Our AI crafts dynamic stories that adapt to your choices, creating unique and personalized adventures every time you read.": "我们的AI会根据您的选择创作动态故事，每次阅读都能创造独特的个性化冒险。",
+  "Dynamic Difficulty & Pacing": "动态难度和节奏",
+  "Stories automatically adjust to your skill level and reading pace, ensuring an engaging and challenging experience.": "故事会自动调整以适应您的技能水平和阅读节奏，确保引人入胜且具有挑战性的体验。",
+  "Immersive Storytelling": "沉浸式讲故事",
+  "Experience stories that react to your decisions, creating truly interactive and engaging narratives.": "体验对您的决定做出反应的故事，创造真正互动和引人入胜的叙事。",
+  "Educational Value": "教育价值",
+  "Stories seamlessly integrate educational elements, making learning fun and interactive for ages 5-14.": "故事无缝集成教育元素，让5-14岁的学习变得有趣且互动。",
+  "Endless Possibilities": "无限可能",
+  "With AI-generated content, every story offers multiple paths and outcomes, ensuring high replayability.": "通过AI生成的内容，每个故事都提供多种路径和结果，确保高重玩性。",
+  "Community Focused": "以社区为中心",
+  "Join a growing community of young readers and educators embracing the future of interactive storytelling.": "加入不断成长的年轻读者和教育工作者社区，拥抱互动讲故事的未来。",
+
+  // Platform Metrics
+  "Platform Metrics": "平台指标",
+  "Market Size": "市场规模",
+  "Expected market size by 2027": "预计2027年市场规模",
+  "User Base": "用户基础",
+  "CYOA books sold worldwide": "全球销售的CYOA图书",
+  "Growth": "增长",
+  "User retention rate": "用户保留率",
+  "AI Stories": "AI故事",
+  "Unique story possibilities": "独特故事可能性",
+
+  // Testimonials
+  "What Our Community Says": "社区评价",
+  "Elementary School Teacher": "小学教师",
+  "Parent": "家长",
+  "Education Technology Specialist": "教育技术专家",
+  "The AI-powered stories have transformed my classroom. Students are more engaged than ever, and the personalized learning experience helps every child progress at their own pace.": "AI驱动的故事改变了我的课堂。学生们比以往任何时候都更投入，个性化的学习体验帮助每个孩子按照自己的节奏进步。",
+  "My kids love choosing their own adventures and seeing how their decisions affect the story. It's amazing how the difficulty adapts to keep them challenged and engaged.": "我的孩子们喜欢选择自己的冒险，看看他们的决定如何影响故事。难度如何调整以保持他们的挑战性和参与度真是令人惊叹。",
+  "The combination of AI storytelling and educational content is revolutionary. This platform represents the future of interactive learning.": "AI讲故事和教育内容的结合具有革命性。这个平台代表了互动学习的未来。",
+
+  // Footer
+  "Revolutionizing storytelling with AI-powered narratives.": "用AI驱动的叙事革新讲故事。",
+  "Company": "公司",
+  "Connect": "联系",
+  "Visit our Facebook page": "访问我们的Facebook页面",
+  "Visit our Twitter page": "访问我们的Twitter页面",
+  "Visit our Instagram page": "访问我们的Instagram页面",
+  "Visit our LinkedIn page": "访问我们的LinkedIn页面",
+  "All rights reserved.": "版权所有。"
 };
