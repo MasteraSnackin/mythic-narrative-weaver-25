@@ -94,29 +94,23 @@ export default {
   "Coming Soon": "Bientôt Disponible",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Restez à l'écoute pour notre programme de partenariat éducatif, offrant des tarifs spéciaux pour les écoles et les institutions éducatives.",
 
-  // Blog Page
-  "latest_stories_insights": "Dernières Histoires et Perspectives",
-  "explore_ai_storytelling": "Explorez les derniers développements en matière de narration IA et d'éducation",
-  "read_more": "Lire Plus",
-  "company_story": "Histoire de l'Entreprise",
-  "market_insights": "Perspectives du Marché",
-  "education": "Éducation",
-  "technology": "Technologie",
-  "product_strategy": "Stratégie Produit",
+  // FAQ Page
+  "frequently_asked_questions": "Questions Fréquemment Posées",
+  "find_answers_common_questions": "Trouvez des réponses aux questions courantes sur notre plateforme",
+  "common_questions": "Questions Courantes",
   
-  // Blog Posts
-  "hackathon_story_title": "Du Hackathon à l'Innovation : La Naissance de Mythic Mind Labs",
-  "hackathon_story_excerpt": "Notre voyage a commencé dans le creuset électrisant d'un hackathon de 36 heures. Trois développeurs passionnés, unis par une vision commune de l'avenir de la narration avec l'IA, se sont réunis pour créer quelque chose de révolutionnaire.",
+  "faq_age_group": "Pour quelle tranche d'âge est-ce adapté ?",
+  "faq_age_group_answer": "Nos histoires interactives sont conçues pour les lecteurs de 5 à 14 ans, avec des contenus et des niveaux de difficulté qui s'ajustent automatiquement pour correspondre aux capacités et aux intérêts de chaque lecteur.",
   
-  "market_opportunity_title": "L'Avenir de la Fiction Interactive : Une Opportunité de Marché de 4,1 Milliards $",
-  "market_opportunity_excerpt": "Le marché mondial de la fiction interactive devrait atteindre 4,1 milliards $ d'ici 2027, porté par un désir d'expériences d'apprentissage engageantes et personnalisées. Découvrez comment l'IA révolutionne la narration.",
+  "faq_ai_storytelling": "Comment fonctionne la narration par IA ?",
+  "faq_ai_storytelling_answer": "Notre IA analyse vos choix et vos habitudes de lecture pour créer des récits personnalisés qui s'adaptent à vos préférences et à votre style d'apprentissage. Chaque décision façonne la direction et le résultat de l'histoire.",
   
-  "education_revolution_title": "Révolutionner l'Éducation grâce aux Histoires Alimentées par l'IA",
-  "education_revolution_excerpt": "Notre IA s'adapte aux choix, au niveau et au rythme de chaque lecteur, créant des expériences d'apprentissage véritablement personnalisées. Découvrez comment nous transformons l'éducation grâce à la narration interactive.",
+  "faq_educational_aspect": "Comment fonctionne l'aspect éducatif ?",
+  "faq_educational_aspect_answer": "Nous intégrons harmonieusement des éléments éducatifs dans nos histoires, rendant l'apprentissage amusant et interactif. L'IA adapte le contenu pour renforcer l'apprentissage tout en maintenant l'engagement à travers des récits passionnants.",
   
-  "ai_storytelling_title": "Au-delà du CYOA Traditionnel : La Puissance de l'IA dans la Narration",
-  "ai_storytelling_excerpt": "Les livres traditionnels 'Choisis Ton Aventure' offrent des choix limités. Découvrez comment notre technologie IA crée des récits véritablement dynamiques qui s'adaptent à chacune de vos décisions.",
+  "faq_parent_monitoring": "Les parents peuvent-ils suivre les progrès de leur enfant ?",
+  "faq_parent_monitoring_answer": "Oui ! Les parents ont accès à un tableau de bord montrant les progrès de lecture, les niveaux de compréhension et les centres d'intérêt. Cela aide à suivre le développement éducatif tout en assurant une expérience de lecture agréable.",
   
-  "next_gen_readers_title": "Cibler la Prochaine Génération de Lecteurs",
-  "next_gen_readers_excerpt": "En nous concentrant sur les jeunes publics de 5 à 14 ans et les établissements d'enseignement, nous créons un contenu engageant qui allie divertissement et apprentissage."
+  "faq_new_content": "À quelle fréquence du nouveau contenu est-il ajouté ?",
+  "faq_new_content_answer": "Notre IA génère continuellement de nouvelles variations d'histoires, et nous ajoutons régulièrement de nouvelles histoires de base à notre bibliothèque. Chaque histoire peut être vécue plusieurs fois avec différents résultats selon vos choix."
 };

@@ -94,29 +94,23 @@ export default {
   "Coming Soon": "Coming Soon",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.",
 
-  // Blog Page
-  "latest_stories_insights": "Latest Stories & Insights",
-  "explore_ai_storytelling": "Explore the latest developments in AI storytelling and education",
-  "read_more": "Read More",
-  "company_story": "Company Story",
-  "market_insights": "Market Insights",
-  "education": "Education",
-  "technology": "Technology",
-  "product_strategy": "Product Strategy",
+  // FAQ Page
+  "frequently_asked_questions": "Frequently Asked Questions",
+  "find_answers_common_questions": "Find answers to common questions about our platform",
+  "common_questions": "Common Questions",
   
-  // Blog Posts
-  "hackathon_story_title": "From Hackathon to Innovation: The Birth of Mythic Mind Labs",
-  "hackathon_story_excerpt": "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.",
+  "faq_age_group": "What age group is this suitable for?",
+  "faq_age_group_answer": "Our interactive stories are designed for readers aged 5-14, with content and difficulty levels that automatically adjust to match each reader's abilities and interests.",
   
-  "market_opportunity_title": "The Future of Interactive Fiction: A $4.1B Market Opportunity",
-  "market_opportunity_excerpt": "The global interactive fiction market is expected to reach $4.1B by 2027, driven by a desire for engaging and personalized learning experiences. Discover how AI is revolutionizing storytelling.",
+  "faq_ai_storytelling": "How does the AI storytelling work?",
+  "faq_ai_storytelling_answer": "Our AI analyzes your choices and reading patterns to create personalized narratives that adapt to your preferences and learning style. Each decision shapes the story's direction and outcome.",
   
-  "education_revolution_title": "Revolutionizing Education Through AI-Powered Stories",
-  "education_revolution_excerpt": "Our AI adapts to each reader's choices, skill level, and pacing, creating truly personalized learning experiences. Learn how we're transforming education through interactive storytelling.",
+  "faq_educational_aspect": "How does the educational aspect work?",
+  "faq_educational_aspect_answer": "We seamlessly integrate educational elements into our stories, making learning fun and interactive. The AI adapts the content to reinforce learning while maintaining engagement through exciting narratives.",
   
-  "ai_storytelling_title": "Beyond Traditional CYOA: The Power of AI in Storytelling",
-  "ai_storytelling_excerpt": "Traditional Choose Your Own Adventure books offer limited choices. See how our AI technology creates truly dynamic narratives that adapt to your every decision.",
+  "faq_parent_monitoring": "Can parents monitor their child's progress?",
+  "faq_parent_monitoring_answer": "Yes! Parents have access to a dashboard showing reading progress, comprehension levels, and areas of interest. This helps track educational development while ensuring an enjoyable reading experience.",
   
-  "next_gen_readers_title": "Targeting the Next Generation of Readers",
-  "next_gen_readers_excerpt": "With a focus on young audiences aged 5-14 and educational institutions, we're creating engaging content that combines entertainment with learning."
+  "faq_new_content": "How often is new content added?",
+  "faq_new_content_answer": "Our AI continuously generates new story variations, and we regularly add new base stories to our library. Each story can be experienced multiple times with different outcomes based on your choices."
 };

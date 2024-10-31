@@ -2,28 +2,31 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Card, CardContent } from "@/components/ui/card"
 import { motion } from "framer-motion"
 import { HelpCircle } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 const FAQ = () => {
+  const { t } = useTranslation()
+
   const faqs = [
     {
-      question: "What age group is this suitable for?",
-      answer: "Our interactive stories are designed for readers aged 5-14, with content and difficulty levels that automatically adjust to match each reader's abilities and interests."
+      question: "faq_age_group",
+      answer: "faq_age_group_answer"
     },
     {
-      question: "How does the AI storytelling work?",
-      answer: "Our AI analyzes your choices and reading patterns to create personalized narratives that adapt to your preferences and learning style. Each decision shapes the story's direction and outcome."
+      question: "faq_ai_storytelling",
+      answer: "faq_ai_storytelling_answer"
     },
     {
-      question: "Is it safe for children?",
-      answer: "Yes! We prioritize safety with age-appropriate content, parental controls, and secure data protection. All content is reviewed and monitored for educational value and appropriateness."
+      question: "faq_educational_aspect",
+      answer: "faq_educational_aspect_answer"
     },
     {
-      question: "Can teachers use it in classrooms?",
-      answer: "Absolutely! We offer special educational licenses with features like progress tracking, classroom management tools, and curriculum integration support."
+      question: "faq_parent_monitoring",
+      answer: "faq_parent_monitoring_answer"
     },
     {
-      question: "How much does it cost?",
-      answer: "We offer various subscription plans starting from $9.99/month, with special pricing for educational institutions. A free trial is available to explore our platform."
+      question: "faq_new_content",
+      answer: "faq_new_content_answer"
     }
   ]
 
@@ -37,10 +40,10 @@ const FAQ = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              Frequently Asked Questions
+              {t("frequently_asked_questions")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Find answers to common questions about our platform
+              {t("find_answers_common_questions")}
             </p>
           </div>
 
@@ -48,17 +51,17 @@ const FAQ = () => {
             <CardContent className="p-6">
               <div className="flex items-center gap-4 mb-6">
                 <HelpCircle className="w-8 h-8 text-purple-600" />
-                <h2 className="text-2xl font-semibold">Common Questions</h2>
+                <h2 className="text-2xl font-semibold">{t("common_questions")}</h2>
               </div>
               
               <Accordion type="single" collapsible className="w-full">
                 {faqs.map((faq, index) => (
                   <AccordionItem key={index} value={`item-${index}`}>
                     <AccordionTrigger className="text-left">
-                      {faq.question}
+                      {t(faq.question)}
                     </AccordionTrigger>
                     <AccordionContent className="text-gray-600">
-                      {faq.answer}
+                      {t(faq.answer)}
                     </AccordionContent>
                   </AccordionItem>
                 ))}
