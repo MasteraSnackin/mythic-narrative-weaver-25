@@ -22,8 +22,8 @@ const StayUpdated = () => {
       await new Promise(resolve => setTimeout(resolve, 1000))
       
       toast({
-        title: t("Successfully subscribed! 🎉"),
-        description: t("Welcome to our newsletter community!"),
+        title: t("Message sent successfully! 📬"),
+        description: t("We'll get back to you within 24 hours."),
       })
       
       setEmail("")
@@ -48,10 +48,10 @@ const StayUpdated = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              {t("Stay Updated")}
+              {t("stay_updated")}
             </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300">
-              {t("Join our newsletter and never miss an update about new stories and features.")}
+            <p className="text-xl text-gray-600">
+              {t("join_newsletter")}
             </p>
           </div>
 
@@ -61,8 +61,8 @@ const StayUpdated = () => {
                 <div className="mx-auto w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-full flex items-center justify-center">
                   <Bell className="w-6 h-6 text-purple-600" />
                 </div>
-                <h3 className="font-semibold">{t("Weekly Updates")}</h3>
-                <p className="text-gray-600 dark:text-gray-300">{t("Get notified about new stories and features")}</p>
+                <h3 className="font-semibold">{t("weekly_updates")}</h3>
+                <p className="text-gray-600 dark:text-gray-300">{t("get_notified")}</p>
               </CardContent>
             </Card>
 
@@ -71,8 +71,8 @@ const StayUpdated = () => {
                 <div className="mx-auto w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-full flex items-center justify-center">
                   <Star className="w-6 h-6 text-purple-600" />
                 </div>
-                <h3 className="font-semibold">{t("Exclusive Content")}</h3>
-                <p className="text-gray-600 dark:text-gray-300">{t("Access to subscriber-only stories")}</p>
+                <h3 className="font-semibold">{t("exclusive_content")}</h3>
+                <p className="text-gray-600 dark:text-gray-300">{t("subscriber_only")}</p>
               </CardContent>
             </Card>
 
@@ -81,31 +81,31 @@ const StayUpdated = () => {
                 <div className="mx-auto w-12 h-12 bg-purple-100 dark:bg-purple-900/50 rounded-full flex items-center justify-center">
                   <Mail className="w-6 h-6 text-purple-600" />
                 </div>
-                <h3 className="font-semibold">{t("Direct Updates")}</h3>
-                <p className="text-gray-600 dark:text-gray-300">{t("Important announcements straight to your inbox")}</p>
+                <h3 className="font-semibold">{t("direct_updates")}</h3>
+                <p className="text-gray-600 dark:text-gray-300">{t("important_announcements")}</p>
               </CardContent>
             </Card>
           </div>
 
           <Card>
             <CardHeader>
-              <CardTitle>{t("Subscribe to Our Newsletter")}</CardTitle>
+              <CardTitle>{t("subscribe_newsletter")}</CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="space-y-2">
-                  <label htmlFor="email" className="text-sm font-medium">{t("Email Address")}</label>
+                  <label htmlFor="email" className="text-sm font-medium">{t("email_address")}</label>
                   <Input
                     id="email"
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    placeholder={t("your@email.com")}
+                    placeholder="your@email.com"
                   />
                 </div>
                 <Button type="submit" className="w-full" disabled={isSubmitting}>
-                  {isSubmitting ? t("Subscribing...") : t("Subscribe Now")}
+                  {isSubmitting ? t("subscribing") : t("subscribe_now")}
                 </Button>
               </form>
             </CardContent>
