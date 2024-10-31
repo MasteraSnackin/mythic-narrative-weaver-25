@@ -34,7 +34,7 @@ export default {
 
   // About Us Page
   "Our Story": "Nuestra Historia",
-  "Born in a 36-hour hackathon, fueled by passion and innovation": "Né lors d'un hackathon de 36 heures, alimenté par la passion et l'innovation",
+  "Born in a 36-hour hackathon, fueled by passion and innovation": "Nacido lors d'un hackathon de 36 heures, alimenté par la passion et l'innovation",
   "The Hackathon Origin": "L'Origine du Hackathon",
   "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "Notre voyage a commencé dans le creuset électrisant d'un hackathon de 36 heures. Trois développeurs passionnés, unis par une vision commune de l'avenir de la narration avec l'IA, se sont réunis pour créer quelque chose de révolutionnaire.",
   "Our Vision": "Nuestra Visión",
@@ -89,7 +89,6 @@ export default {
   "Analytics & reporting": "Análisis e informes",
   "Custom content creation": "Creación de contenido personalizado",
   "Training & support": "Formación y soporte",
-  "Get Started": "Comenzar",
   "Subscribe Now": "Suscribirse Ahora",
   "Contact Sales": "Contactar Ventas",
   "Coming Soon": "Próximamente",

@@ -89,7 +89,6 @@ export default {
   "Analytics & reporting": "Analytics & reporting",
   "Custom content creation": "Custom content creation",
   "Training & support": "Training & support",
-  "Get Started": "Get Started",
   "Subscribe Now": "Subscribe Now",
   "Contact Sales": "Contact Sales",
   "Coming Soon": "Coming Soon",
