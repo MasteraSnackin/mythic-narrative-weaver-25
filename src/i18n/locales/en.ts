@@ -30,5 +30,19 @@ export default {
   "Providing progress reports for educational accounts": "Providing progress reports for educational accounts",
   "Sending relevant updates and recommendations": "Sending relevant updates and recommendations",
   "Data Protection:": "Data Protection:",
-  "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent.": "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent."
+  "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent.": "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent.",
+
+  // About Us Page
+  "Our Story": "Our Story",
+  "Born in a 36-hour hackathon, fueled by passion and innovation": "Born in a 36-hour hackathon, fueled by passion and innovation",
+  "The Hackathon Origin": "The Hackathon Origin",
+  "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.",
+  "Our Vision": "Our Vision",
+  "We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys. Every decision shapes the story, making each experience unique.": "We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys. Every decision shapes the story, making each experience unique.",
+  "Technology & Innovation": "Technology & Innovation",
+  "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.": "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.",
+  "Growing Together": "Growing Together",
+  "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.",
+  "CYOA Books Sold Worldwide": "CYOA Books Sold Worldwide",
+  "Market Size by 2027": "Market Size by 2027"
 };

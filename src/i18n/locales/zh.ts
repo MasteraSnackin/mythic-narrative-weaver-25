@@ -30,5 +30,19 @@ export default {
   "Providing progress reports for educational accounts": "为教育账户提供进度报告",
   "Sending relevant updates and recommendations": "发送相关更新和推荐",
   "Data Protection:": "数据保护：",
-  "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent.": "我们采用行业标准的安全措施来保护您的数据。所有信息都经过加密并安全存储。未经您的明确同意，我们绝不会与第三方共享您的个人信息。"
+  "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent.": "我们采用行业标准的安全措施来保护您的数据。所有信息都经过加密并安全存储。未经您的明确同意，我们绝不会与第三方共享您的个人信息。",
+
+  // About Us Page
+  "Our Story": "我们的故事",
+  "Born in a 36-hour hackathon, fueled by passion and innovation": "诞生于36小时的编程马拉松，由激情和创新驱动",
+  "The Hackathon Origin": "编程马拉松的起源",
+  "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "我们的旅程始于36小时编程马拉松的激动人心的熔炉中。三位充满激情的开发者，因对人工智能讲故事的未来有着共同的愿景而聚在一起，创造了革命性的产品。",
+  "Our Vision": "我们的愿景",
+  "We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys. Every decision shapes the story, making each experience unique.": "我们正在用人工智能驱动的叙事革新讲故事的方式，这些故事会根据您的选择而调整，创造真正沉浸式和个性化的旅程。每个决定都会塑造故事，使每次体验都独一无二。",
+  "Technology & Innovation": "技术与创新",
+  "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.": "我们的专有人工智能模型在大量创意写作、教育材料和互动游戏设计的数据集上进行训练。这种独特的组合使我们能够创作出既引人入胜又富有教育意义的故事。",
+  "Growing Together": "共同成长",
+  "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "我们正在积极寻找与我们一样对讲故事和教育充满热情的合作者。加入我们，一起塑造互动小说的未来，让学习成为一场冒险。",
+  "CYOA Books Sold Worldwide": "全球销售的CYOA图书",
+  "Market Size by 2027": "2027年市场规模"
 };
