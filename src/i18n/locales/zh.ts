@@ -100,5 +100,25 @@ export default {
   "Filters": "筛选",
   "Start Reading": "开始阅读",
   "Starting Story": "开始故事",
-  "Beginning '{{title}}'. Enjoy your adventure!": "正在开始《{{title}}》。享受您的冒险！"
+  "Beginning '{{title}}'. Enjoy your adventure!": "正在开始《{{title}}》。享受您的冒险！",
+
+  // Parent Dashboard
+  "Parent Dashboard": "家长仪表板",
+  "Track your child's reading progress and achievements": "追踪孩子的阅读进度和成就",
+  "Books Read": "已读书籍",
+  "Reading Time": "阅读时间",
+  "Comprehension": "理解能力",
+  "Achievements": "成就",
+  "this week": "本周",
+  "improvement": "提升",
+  "Latest": "最新",
+  "Speed Reader": "快速阅读者",
+  "Recent Activity": "最近活动",
+  "ago": "前",
+  "The Dragon's Riddle": "龙的谜题",
+  "Space Explorer Academy": "太空探索学院",
+  "The Friendly Forest": "友好森林",
+  "Story Explorer": "故事探索者",
+  "Word Master": "词汇大师",
+  "Earned": "已获得"
 };

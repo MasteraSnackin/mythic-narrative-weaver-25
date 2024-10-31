@@ -1,34 +1,49 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { motion } from "framer-motion"
 import { Award, BookOpen, Clock, LineChart, Star } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 const ParentDashboard = () => {
+  const { t } = useTranslation();
+
   const stats = [
     {
-      title: "Books Read",
+      title: t("Books Read"),
       value: "12",
       icon: BookOpen,
-      change: "+2 this week"
+      change: `+2 ${t("this week")}`
     },
     {
-      title: "Reading Time",
+      title: t("Reading Time"),
       value: "45h",
       icon: Clock,
-      change: "+5h this week"
+      change: `+5h ${t("this week")}`
     },
     {
-      title: "Comprehension",
+      title: t("Comprehension"),
       value: "85%",
       icon: LineChart,
-      change: "+3% improvement"
+      change: `+3% ${t("improvement")}`
     },
     {
-      title: "Achievements",
+      title: t("Achievements"),
       value: "8",
       icon: Award,
-      change: "Latest: Speed Reader"
+      change: `${t("Latest")}: ${t("Speed Reader")}`
     }
   ]
+
+  const recentStories = [
+    t("The Dragon's Riddle"),
+    t("Space Explorer Academy"),
+    t("The Friendly Forest")
+  ];
+
+  const achievements = [
+    t("Speed Reader"),
+    t("Story Explorer"),
+    t("Word Master")
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-50 to-white dark:from-purple-900 dark:via-gray-900 dark:to-black pt-20">
@@ -40,10 +55,10 @@ const ParentDashboard = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              Parent Dashboard
+              {t("Parent Dashboard")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Track your child's reading progress and achievements
+              {t("Track your child's reading progress and achievements")}
             </p>
           </div>
 
@@ -67,15 +82,15 @@ const ParentDashboard = () => {
           <div className="grid md:grid-cols-2 gap-6">
             <Card>
               <CardHeader>
-                <CardTitle>Recent Activity</CardTitle>
+                <CardTitle>{t("Recent Activity")}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  {["The Dragon's Riddle", "Space Explorer Academy", "The Friendly Forest"].map((story) => (
+                  {recentStories.map((story) => (
                     <div key={story} className="flex items-center gap-4">
                       <BookOpen className="h-4 w-4 text-purple-600" />
                       <span>{story}</span>
-                      <span className="text-sm text-gray-500 ml-auto">2h ago</span>
+                      <span className="text-sm text-gray-500 ml-auto">2h {t("ago")}</span>
                     </div>
                   ))}
                 </div>
@@ -84,15 +99,15 @@ const ParentDashboard = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle>Achievements</CardTitle>
+                <CardTitle>{t("Achievements")}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  {["Speed Reader", "Story Explorer", "Word Master"].map((achievement) => (
+                  {achievements.map((achievement) => (
                     <div key={achievement} className="flex items-center gap-4">
                       <Star className="h-4 w-4 text-purple-600" />
                       <span>{achievement}</span>
-                      <span className="text-sm text-gray-500 ml-auto">Earned</span>
+                      <span className="text-sm text-gray-500 ml-auto">{t("Earned")}</span>
                     </div>
                   ))}
                 </div>

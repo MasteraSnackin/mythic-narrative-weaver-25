@@ -100,5 +100,25 @@ export default {
   "Filters": "Filtres",
   "Start Reading": "Commencer la Lecture",
   "Starting Story": "Démarrage de l'Histoire",
-  "Beginning '{{title}}'. Enjoy your adventure!": "Début de '{{title}}'. Bonne aventure !"
+  "Beginning '{{title}}'. Enjoy your adventure!": "Début de '{{title}}'. Bonne aventure !",
+
+  // Parent Dashboard
+  "Parent Dashboard": "Tableau de Bord des Parents",
+  "Track your child's reading progress and achievements": "Suivez les progrès et les réalisations de lecture de votre enfant",
+  "Books Read": "Livres Lus",
+  "Reading Time": "Temps de Lecture",
+  "Comprehension": "Compréhension",
+  "Achievements": "Réalisations",
+  "this week": "cette semaine",
+  "improvement": "amélioration",
+  "Latest": "Dernier",
+  "Speed Reader": "Lecteur Rapide",
+  "Recent Activity": "Activité Récente",
+  "ago": "il y a",
+  "The Dragon's Riddle": "L'Énigme du Dragon",
+  "Space Explorer Academy": "Académie des Explorateurs de l'Espace",
+  "The Friendly Forest": "La Forêt Amicale",
+  "Story Explorer": "Explorateur d'Histoires",
+  "Word Master": "Maître des Mots",
+  "Earned": "Obtenu"
 };

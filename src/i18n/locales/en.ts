@@ -94,11 +94,23 @@ export default {
   "Coming Soon": "Coming Soon",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.",
 
-  // Library Page
-  "Discover interactive stories tailored to your reading level": "Discover interactive stories tailored to your reading level",
-  "Search stories...": "Search stories...",
-  "Filters": "Filters",
-  "Start Reading": "Start Reading",
-  "Starting Story": "Starting Story",
-  "Beginning '{{title}}'. Enjoy your adventure!": "Beginning '{{title}}'. Enjoy your adventure!"
+  // Parent Dashboard
+  "Parent Dashboard": "Parent Dashboard",
+  "Track your child's reading progress and achievements": "Track your child's reading progress and achievements",
+  "Books Read": "Books Read",
+  "Reading Time": "Reading Time",
+  "Comprehension": "Comprehension",
+  "Achievements": "Achievements",
+  "this week": "this week",
+  "improvement": "improvement",
+  "Latest": "Latest",
+  "Speed Reader": "Speed Reader",
+  "Recent Activity": "Recent Activity",
+  "ago": "ago",
+  "The Dragon's Riddle": "The Dragon's Riddle",
+  "Space Explorer Academy": "Space Explorer Academy",
+  "The Friendly Forest": "The Friendly Forest",
+  "Story Explorer": "Story Explorer",
+  "Word Master": "Word Master",
+  "Earned": "Earned"
 };
