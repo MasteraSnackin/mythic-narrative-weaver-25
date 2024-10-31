@@ -125,5 +125,29 @@ export default {
   "AI Assist": "AI Assist",
   "Preview": "Preview",
   "Story saved! 📚": "Story saved! 📚",
-  "Your story has been saved successfully.": "Your story has been saved successfully."
+  "Your story has been saved successfully.": "Your story has been saved successfully.",
+
+  // Community Page
+  "Community Hub": "Community Hub",
+  "Connect with fellow storytellers, educators, and readers": "Connect with fellow storytellers, educators, and readers",
+  "Featured Stories": "Featured Stories",
+  "Discussion Forums": "Discussion Forums",
+  "Educational Resources": "Educational Resources",
+  "Community Events": "Community Events",
+  "The Magic Library": "The Magic Library",
+  "Space Adventures": "Space Adventures",
+  "Time Travelers": "Time Travelers",
+  "Writing Tips": "Writing Tips",
+  "Story Ideas": "Story Ideas",
+  "Technical Help": "Technical Help",
+  "Lesson Plans": "Lesson Plans",
+  "Writing Guides": "Writing Guides",
+  "Reading Strategies": "Reading Strategies",
+  "Writing Workshop": "Writing Workshop",
+  "Story Reading": "Story Reading",
+  "Teacher Training": "Teacher Training",
+  "Read": "Read",
+  "Join": "Join",
+  "Download": "Download",
+  "Register": "Register"
 };

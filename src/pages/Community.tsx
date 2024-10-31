@@ -2,8 +2,11 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { motion } from "framer-motion"
 import { MessageSquare, Users, BookOpen, GraduationCap } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 const Community = () => {
+  const { t } = useTranslation()
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-50 to-white dark:from-purple-900 dark:via-gray-900 dark:to-black pt-20">
       <div className="container mx-auto px-4">
@@ -14,10 +17,10 @@ const Community = () => {
         >
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-900 to-purple-600 bg-clip-text text-transparent">
-              Community Hub
+              {t("Community Hub")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Connect with fellow storytellers, educators, and readers
+              {t("Connect with fellow storytellers, educators, and readers")}
             </p>
           </div>
 
@@ -26,14 +29,14 @@ const Community = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <BookOpen className="h-5 w-5 text-purple-600" />
-                  Featured Stories
+                  {t("Featured Stories")}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                {["The Magic Library", "Space Adventures", "Time Travelers"].map((story) => (
+                {[t("The Magic Library"), t("Space Adventures"), t("Time Travelers")].map((story) => (
                   <div key={story} className="flex items-center justify-between">
                     <span>{story}</span>
-                    <Button variant="outline" size="sm">Read</Button>
+                    <Button variant="outline" size="sm">{t("Read")}</Button>
                   </div>
                 ))}
               </CardContent>
@@ -43,14 +46,14 @@ const Community = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <MessageSquare className="h-5 w-5 text-purple-600" />
-                  Discussion Forums
+                  {t("Discussion Forums")}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                {["Writing Tips", "Story Ideas", "Technical Help"].map((forum) => (
+                {[t("Writing Tips"), t("Story Ideas"), t("Technical Help")].map((forum) => (
                   <div key={forum} className="flex items-center justify-between">
                     <span>{forum}</span>
-                    <Button variant="outline" size="sm">Join</Button>
+                    <Button variant="outline" size="sm">{t("Join")}</Button>
                   </div>
                 ))}
               </CardContent>
@@ -60,14 +63,14 @@ const Community = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <GraduationCap className="h-5 w-5 text-purple-600" />
-                  Educational Resources
+                  {t("Educational Resources")}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                {["Lesson Plans", "Writing Guides", "Reading Strategies"].map((resource) => (
+                {[t("Lesson Plans"), t("Writing Guides"), t("Reading Strategies")].map((resource) => (
                   <div key={resource} className="flex items-center justify-between">
                     <span>{resource}</span>
-                    <Button variant="outline" size="sm">Download</Button>
+                    <Button variant="outline" size="sm">{t("Download")}</Button>
                   </div>
                 ))}
               </CardContent>
@@ -77,14 +80,14 @@ const Community = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Users className="h-5 w-5 text-purple-600" />
-                  Community Events
+                  {t("Community Events")}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                {["Writing Workshop", "Story Reading", "Teacher Training"].map((event) => (
+                {[t("Writing Workshop"), t("Story Reading"), t("Teacher Training")].map((event) => (
                   <div key={event} className="flex items-center justify-between">
                     <span>{event}</span>
-                    <Button variant="outline" size="sm">Register</Button>
+                    <Button variant="outline" size="sm">{t("Register")}</Button>
                   </div>
                 ))}
               </CardContent>

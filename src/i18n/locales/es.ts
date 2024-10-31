@@ -34,7 +34,7 @@ export default {
 
   // About Us Page
   "Our Story": "Nuestra Historia",
-  "Born in a 36-hour hackathon, fueled by passion and innovation": "Nacido lors d'un hackathon de 36 heures, alimenté par la pasión et l'innovation",
+  "Born in a 36-hour hackathon, fueled by passion and innovation": "Nacido lors d'un hackathon de 36 horas, alimenté par la pasión et l'innovation",
   "The Hackathon Origin": "L'Origine du Hackathon",
   "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "Notre voyage a commencé dans le creuset électrisant d'un hackathon de 36 heures. Trois développeurs passionnés, unis par une vision commune de l'avenir de la narration avec l'IA, se sont réunis pour créer quelque chose de révolutionnaire.",
   "Our Vision": "Nuestra Visión",
@@ -94,16 +94,27 @@ export default {
   "Coming Soon": "Próximamente",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas y instituciones educativas.",
   
-  // Story Creator
-  "Story Creator": "Creador de Historias",
-  "Create interactive stories with AI assistance": "Crea historias interactivas con asistencia de IA",
-  "Story Title": "Título de la Historia",
-  "Story Content": "Contenido de la Historia",
-  "Enter your story title...": "Ingresa el título de tu historia...",
-  "Start writing your story...": "Comienza a escribir tu historia...",
-  "Save Draft": "Guardar Borrador",
-  "AI Assist": "Asistencia IA",
-  "Preview": "Vista Previa",
-  "Story saved! 📚": "¡Historia guardada! 📚",
-  "Your story has been saved successfully.": "Tu historia se ha guardado exitosamente."
+  // Community Page
+  "Community Hub": "Centro Comunitario",
+  "Connect with fellow storytellers, educators, and readers": "Conéctate con otros narradores, educadores y lectores",
+  "Featured Stories": "Historias Destacadas",
+  "Discussion Forums": "Foros de Discusión",
+  "Educational Resources": "Recursos Educativos",
+  "Community Events": "Eventos Comunitarios",
+  "The Magic Library": "La Biblioteca Mágica",
+  "Space Adventures": "Aventuras Espaciales",
+  "Time Travelers": "Viajeros del Tiempo",
+  "Writing Tips": "Consejos de Escritura",
+  "Story Ideas": "Ideas para Historias",
+  "Technical Help": "Ayuda Técnica",
+  "Lesson Plans": "Planes de Lección",
+  "Writing Guides": "Guías de Escritura",
+  "Reading Strategies": "Estrategias de Lectura",
+  "Writing Workshop": "Taller de Escritura",
+  "Story Reading": "Lectura de Historias",
+  "Teacher Training": "Formación de Profesores",
+  "Read": "Leer",
+  "Join": "Unirse",
+  "Download": "Descargar",
+  "Register": "Registrarse"
 };
