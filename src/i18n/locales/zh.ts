@@ -32,6 +32,20 @@ export default {
   "Data Protection:": "数据保护：",
   "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent.": "我们采用行业标准的安全措施来保护您的数据。所有信息都经过加密并安全存储。未经您的明确同意，我们绝不会与第三方共享您的个人信息。",
 
+  // About Us Page
+  "Our Story": "我们的故事",
+  "Born in a 36-hour hackathon, fueled by passion and innovation": "在一个36小时的黑客马拉松中诞生，充满了激情和创新",
+  "The Hackathon Origin": "黑客马拉松的起源",
+  "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "我们的旅程始于一个充满电力的36小时黑客马拉松。三位充满激情的开发者，肩负着对未来AI叙事的共同愿景，聚在一起创造了某种革命性的东西。",
+  "Our Vision": "我们的愿景",
+  "We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys. Every decision shapes the story, making each experience unique.": "我们正在用AI驱动的叙事革新故事讲述，这些叙事会根据您的选择进行调整，从而创造出真正沉浸式和个性化的旅程。每一个决定都会塑造故事，使每一次体验都独一无二。",
+  "Technology & Innovation": "技术与创新",
+  "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.": "我们独特的AI模型是在大量的创意写作、教育材料和互动游戏设计的数据集上训练的。这种独特的组合使我们能够创作出既引人入胜又富有信息性的故事。",
+  "Growing Together": "一起成长",
+  "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "我们积极寻找与我们分享对故事讲述和教育热情的合作伙伴。加入我们，塑造互动小说的未来，让学习成为一种冒险。",
+  "CYOA Books Sold Worldwide": "全球CYOA书籍销售",
+  "Market Size by 2027": "到2027年的市场规模",
+
   // Contact Page
   "Contact Us": "联系我们",
   "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "我们很乐意听取您的意见。给我们发送消息，我们会尽快回复。",
@@ -50,7 +64,7 @@ export default {
   "We'll get back to you within 24 hours.": "我们会在24小时内回复您。",
   "Error": "错误",
   "Something went wrong. Please try again.": "出现错误。请重试。",
-  
+
   // Pricing Page
   "Choose Your Adventure Plan": "选择您的冒险计划",
   "Flexible plans for every storyteller": "为每位讲故事的人提供灵活的计划",

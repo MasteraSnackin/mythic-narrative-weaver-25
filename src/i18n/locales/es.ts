@@ -92,5 +92,18 @@ export default {
   "Subscribe Now": "Suscribirse Ahora",
   "Contact Sales": "Contactar Ventas",
   "Coming Soon": "Próximamente",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas e instituciones educativas."
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas e instituciones educativas.",
+  
+  // Get Started Page
+  "Begin Your Adventure": "Comienza Tu Aventura",
+  "Start Your Journey": "Inicia Tu Viaje",
+  "Experience AI-powered stories": "Experimenta historias impulsadas por IA que se adaptan a tus elecciones y crean aventuras únicas cada vez.",
+  "Create Your Account": "Crea Tu Cuenta",
+  "Explore Stories": "Explora Historias",
+  "Browse Library": "Explorar Biblioteca",
+  "Dive into our growing library": "Sumérgete en nuestra creciente biblioteca de historias interactivas que combinan entretenimiento con valor educativo.",
+  "Join Community": "Únete a la Comunidad",
+  "Connect with other readers": "Conéctate con otros jóvenes lectores y educadores en nuestra creciente comunidad de narración.",
+  "Join Discord": "Únete a Discord",
+  "Back to Home": "Volver al Inicio",
 };

@@ -32,6 +32,20 @@ export default {
   "Data Protection:": "Protection des Données :",
   "We employ industry-standard security measures to protect your data. All information is encrypted and stored securely. We never share your personal information with third parties without your explicit consent.": "Nous employons des mesures de sécurité standard de l'industrie pour protéger vos données. Toutes les informations sont cryptées et stockées en toute sécurité. Nous ne partageons jamais vos informations personnelles avec des tiers sans votre consentement explicite.",
 
+  // About Us Page
+  "Our Story": "Notre Histoire",
+  "Born in a 36-hour hackathon, fueled by passion and innovation": "Né lors d'un hackathon de 36 heures, alimenté par la passion et l'innovation",
+  "The Hackathon Origin": "L'Origine du Hackathon",
+  "Our journey began in the electrifying crucible of a 36-hour hackathon. Three passionate developers, united by a shared vision for the future of storytelling with AI, came together to create something revolutionary.": "Notre voyage a commencé dans le creuset électrisant d'un hackathon de 36 heures. Trois développeurs passionnés, unis par une vision commune de l'avenir de la narration avec l'IA, se sont réunis pour créer quelque chose de révolutionnaire.",
+  "Our Vision": "Notre Vision",
+  "We're revolutionizing storytelling with AI-powered narratives that adapt to your choices, creating truly immersive and personalized journeys. Every decision shapes the story, making each experience unique.": "Nous révolutionnons la narration avec des récits alimentés par l'IA qui s'adaptent à vos choix, créant des voyages véritablement immersifs et personnalisés. Chaque décision façonne l'histoire, rendant chaque expérience unique.",
+  "Technology & Innovation": "Technologie et Innovation",
+  "Our proprietary AI model is trained on a massive dataset of creative writing, educational materials, and interactive game design. This unique combination allows us to craft stories that are both engaging and informative.": "Notre modèle d'IA propriétaire est entraîné sur un ensemble massif de données d'écriture créative, de matériels éducatifs et de conception de jeux interactifs. Cette combinaison unique nous permet de créer des histoires à la fois captivantes et informatives.",
+  "Growing Together": "Creciendo Juntos",
+  "We're actively seeking collaborators who share our passion for storytelling and education. Join us in shaping the future of interactive fiction and making learning an adventure.": "Nous recherchons activement des collaborateurs qui partagent notre passion pour la narration et l'éducation. Rejoignez-nous pour façonner l'avenir de la fiction interactive et faire de l'apprentissage une aventure.",
+  "CYOA Books Sold Worldwide": "Livres CYOA Vendus dans le Monde",
+  "Market Size by 2027": "Taille du Marché pour 2027",
+
   // Contact Page
   "Contact Us": "Contactez-nous",
   "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "Nous aimerions avoir de vos nouvelles. Envoyez-nous un message et nous vous répondrons dès que possible.",
@@ -69,7 +83,7 @@ export default {
   "Priority support": "Support prioritaire",
   "Personalized recommendations": "Recommandations personnalisées",
   "Progress tracking": "Suivi des progrès",
-  "School-wide access": "Accès à toute l'école",
+  "School-wide access": "Accès pour toute l'école",
   "Curriculum integration": "Intégration au programme",
   "Teacher dashboard": "Tableau de bord enseignant",
   "Analytics & reporting": "Analyses et rapports",
@@ -78,5 +92,18 @@ export default {
   "Subscribe Now": "S'abonner Maintenant",
   "Contact Sales": "Contacter les Ventes",
   "Coming Soon": "Bientôt Disponible",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Restez à l'écoute pour notre programme de partenariat éducatif, offrant des tarifs spéciaux pour les écoles et les institutions éducatives."
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Restez à l'écoute pour notre programme de partenariat éducatif, offrant des tarifs spéciaux pour les écoles et les institutions éducatives.",
+  
+  // Get Started Page
+  "Begin Your Adventure": "Commencez Votre Aventure",
+  "Start Your Journey": "Débutez Votre Voyage",
+  "Experience AI-powered stories": "Découvrez des histoires alimentées par l'IA qui s'adaptent à vos choix et créent des aventures uniques à chaque fois.",
+  "Create Your Account": "Créez Votre Compte",
+  "Explore Stories": "Explorez les Histoires",
+  "Browse Library": "Parcourir la Bibliothèque",
+  "Dive into our growing library": "Plongez dans notre bibliothèque grandissante d'histoires interactives qui mêlent divertissement et valeur éducative.",
+  "Join Community": "Rejoignez la Communauté",
+  "Connect with other readers": "Connectez-vous avec d'autres jeunes lecteurs et éducateurs dans notre communauté narrative grandissante.",
+  "Join Discord": "Rejoindre Discord",
+  "Back to Home": "Retour à l'Accueil",
 };

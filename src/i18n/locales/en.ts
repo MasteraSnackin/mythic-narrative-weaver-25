@@ -92,5 +92,18 @@ export default {
   "Subscribe Now": "Subscribe Now",
   "Contact Sales": "Contact Sales",
   "Coming Soon": "Coming Soon",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions."
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.",
+
+  // Get Started Page
+  "Begin Your Adventure": "Begin Your Adventure",
+  "Start Your Journey": "Start Your Journey",
+  "Experience AI-powered stories": "Experience AI-powered stories that adapt to your choices and create unique adventures every time.",
+  "Create Your Account": "Create Your Account",
+  "Explore Stories": "Explore Stories",
+  "Browse Library": "Browse Library",
+  "Dive into our growing library": "Dive into our growing library of interactive stories that blend entertainment with educational value.",
+  "Join Community": "Join Community",
+  "Connect with other readers": "Connect with other young readers and educators in our growing storytelling community.",
+  "Join Discord": "Join Discord",
+  "Back to Home": "Back to Home",
 };
