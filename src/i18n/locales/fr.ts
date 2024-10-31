@@ -59,6 +59,11 @@ export default {
   "Experience AI-powered stories": "Découvrez des histoires alimentées par l'IA",
   "Learn More": "En Savoir Plus",
 
+  // Adventure Games Section
+  "Adventure Games": "Jeux d'Aventure",
+  "Generate your very own Adventure Game using the power of AI. These text-based adventures will have you looking for clues, exploring exotic locations, solving mysteries, and more!": "Générez votre propre jeu d'aventure en utilisant le pouvoir de l'IA. Ces aventures textuelles vous feront chercher des indices, explorer des lieux exotiques, résoudre des mystères et plus encore !",
+  "You can choose a theme, game type, and difficulty level to generate your Adventure or start with the randomly selected Adventure we've picked for you.": "Vous pouvez choisir un thème, un type de jeu et un niveau de difficulté pour générer votre aventure ou commencer avec l'aventure sélectionnée aléatoirement que nous avons choisie pour vous.",
+
   // Features Section
   "Why Choose Mythic Mind Labs?": "Pourquoi choisir Mythic Mind Labs ?",
   "AI-Powered Narratives": "Récits alimentés par l'IA",
@@ -70,7 +75,7 @@ export default {
   "Educational Value": "Valeur éducative",
   "Stories seamlessly integrate educational elements, making learning fun and interactive for ages 5-14.": "Les histoires intègrent harmonieusement des éléments éducatifs, rendant l'apprentissage amusant et interactif pour les 5-14 ans.",
   "Endless Possibilities": "Possibilités infinies",
-  "With AI-generated content, every story offers multiple paths and outcomes, ensuring high replayability.": "Avec du contenu généré par l'IA, chaque histoire offre de multiples chemins et résultats, garantissant une grande rejouabilité.",
+  "With AI-generated content, every story offers multiple paths and outcomes, ensuring high replayability.": "Avec du contenu généré par l'IA, chaque histoire offre plusieurs chemins et résultats, garantissant une grande rejouabilité.",
   "Community Focused": "Axé sur la communauté",
   "Join a growing community of young readers and educators embracing the future of interactive storytelling.": "Rejoignez une communauté grandissante de jeunes lecteurs et d'éducateurs qui embrassent l'avenir de la narration interactive.",
 
@@ -102,5 +107,69 @@ export default {
   "Visit our Twitter page": "Visitez notre page Twitter",
   "Visit our Instagram page": "Visitez notre page Instagram",
   "Visit our LinkedIn page": "Visitez notre page LinkedIn",
-  "All rights reserved.": "Tous droits réservés."
+  "All rights reserved.": "Tous droits réservés.",
+
+  // Get Started Page
+  "Begin Your Adventure": "Commencez Votre Aventure",
+  "Start Your Journey": "Débutez Votre Voyage",
+  "Experience AI-powered stories that adapt to your choices and create unique adventures every time.": "Découvrez des histoires alimentées par l'IA qui s'adaptent à vos choix et créent des aventures uniques à chaque fois.",
+  "Explore Stories": "Explorez les Histoires",
+  "Dive into our growing library of interactive stories that blend entertainment with educational value.": "Plongez dans notre bibliothèque croissante d'histoires interactives qui mêlent divertissement et valeur éducative.",
+  "Join Community": "Rejoignez la Communauté",
+  "Connect with other young readers and educators in our growing storytelling community.": "Connectez-vous avec d'autres jeunes lecteurs et éducateurs dans notre communauté grandissante de conteurs.",
+  "Create Your Account": "Créez Votre Compte",
+  "Browse Library": "Parcourir la Bibliothèque",
+  "Join Discord": "Rejoindre Discord",
+  "Back to Home": "Retour à l'Accueil",
+
+  // Learn More Page
+  "The Future of Storytelling": "L'Avenir de la Narration",
+  "Born in a 36-hour hackathon, we're revolutionizing interactive storytelling with AI-powered narratives": "Né lors d'un hackathon de 36 heures, nous révolutionnons la narration interactive avec des récits alimentés par l'IA",
+  "Our Vision": "Notre Vision",
+  "Every reader becomes the hero of their own epic adventure, with choices that truly matter and shape unique, personalized narratives.": "Chaque lecteur devient le héros de sa propre aventure épique, avec des choix qui comptent vraiment et façonnent des récits uniques et personnalisés.",
+  "Innovation": "Innovation",
+  "Our AI technology adapts to your choices, skill level, and reading pace, creating an immersive experience that evolves with you.": "Notre technologie IA s'adapte à vos choix, votre niveau et votre rythme de lecture, créant une expérience immersive qui évolue avec vous.",
+  "Market Opportunity": "Opportunité de Marché",
+  "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.": "Le marché mondial de la fiction interactive devrait atteindre 4,1 milliards de dollars d'ici 2027, avec plus de 270 millions de livres CYOA vendus dans le monde.",
+  "Target Age Range": "Tranche d'Âge Cible",
+  "Hackathon Origin": "Origine du Hackathon",
+
+  // Contact Page
+  "Get in Touch": "Contactez-nous",
+  "We'd love to hear from you": "Nous aimerions avoir de vos nouvelles",
+  "Send us a message": "Envoyez-nous un message",
+  "Your Name": "Votre Nom",
+  "Your Email": "Votre Email",
+  "Subject": "Sujet",
+  "Message": "Message",
+  "Send Message": "Envoyer le Message",
+  "Message sent successfully!": "Message envoyé avec succès !",
+  "Error sending message": "Erreur lors de l'envoi du message",
+
+  // Stay Updated Page
+  "Stay Updated": "Restez Informé",
+  "Join our newsletter and never miss an update about new stories and features.": "Rejoignez notre newsletter et ne manquez aucune mise à jour sur les nouvelles histoires et fonctionnalités.",
+  "Weekly Updates": "Mises à Jour Hebdomadaires",
+  "Get notified about new stories and features": "Soyez informé des nouvelles histoires et fonctionnalités",
+  "Exclusive Content": "Contenu Exclusif",
+  "Access to subscriber-only stories": "Accès aux histoires réservées aux abonnés",
+  "Direct Updates": "Mises à Jour Directes",
+  "Important announcements straight to your inbox": "Annonces importantes directement dans votre boîte de réception",
+  "Subscribe to Our Newsletter": "Abonnez-vous à Notre Newsletter",
+  "Email Address": "Adresse Email",
+  "Subscribe Now": "S'abonner Maintenant",
+  "Successfully subscribed!": "Abonnement réussi !",
+  "Welcome to our newsletter community!": "Bienvenue dans notre communauté de newsletter !",
+
+  // Library Page Additional
+  "Recently Added": "Ajouts Récents",
+  "Popular Stories": "Histoires Populaires",
+  "Reading Level": "Niveau de Lecture",
+  "Duration": "Durée",
+  "minutes": "minutes",
+  "Filter by Genre": "Filtrer par Genre",
+  "Filter by Level": "Filtrer par Niveau",
+  "Clear Filters": "Effacer les Filtres",
+  "No stories found": "Aucune histoire trouvée",
+  "Try adjusting your filters or search terms": "Essayez d'ajuster vos filtres ou termes de recherche"
 };

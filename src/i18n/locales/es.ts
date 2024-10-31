@@ -107,5 +107,69 @@ export default {
   "Visit our Twitter page": "Visita nuestra página de Twitter",
   "Visit our Instagram page": "Visita nuestra página de Instagram",
   "Visit our LinkedIn page": "Visita nuestra página de LinkedIn",
-  "All rights reserved.": "Todos los derechos reservados."
+  "All rights reserved.": "Todos los derechos reservados.",
+
+  // Get Started Page
+  "Begin Your Adventure": "Comienza Tu Aventura",
+  "Start Your Journey": "Inicia Tu Viaje",
+  "Experience AI-powered stories that adapt to your choices and create unique adventures every time.": "Experimenta historias impulsadas por IA que se adaptan a tus elecciones y crean aventuras únicas cada vez.",
+  "Explore Stories": "Explora Historias",
+  "Dive into our growing library of interactive stories that blend entertainment with educational value.": "Sumérgete en nuestra creciente biblioteca de historias interactivas que combinan entretenimiento con valor educativo.",
+  "Join Community": "Únete a la Comunidad",
+  "Connect with other young readers and educators in our growing storytelling community.": "Conéctate con otros jóvenes lectores y educadores en nuestra creciente comunidad de narración.",
+  "Create Your Account": "Crea Tu Cuenta",
+  "Browse Library": "Explorar Biblioteca",
+  "Join Discord": "Únete a Discord",
+  "Back to Home": "Volver al Inicio",
+
+  // Learn More Page
+  "The Future of Storytelling": "El Futuro de la Narración",
+  "Born in a 36-hour hackathon, we're revolutionizing interactive storytelling with AI-powered narratives": "Nacido en un hackathon de 36 horas, estamos revolucionando la narración interactiva con narrativas impulsadas por IA",
+  "Our Vision": "Nuestra Visión",
+  "Every reader becomes the hero of their own epic adventure, with choices that truly matter and shape unique, personalized narratives.": "Cada lector se convierte en el héroe de su propia aventura épica, con decisiones que realmente importan y dan forma a narrativas únicas y personalizadas.",
+  "Innovation": "Innovación",
+  "Our AI technology adapts to your choices, skill level, and reading pace, creating an immersive experience that evolves with you.": "Nuestra tecnología de IA se adapta a tus elecciones, nivel de habilidad y ritmo de lectura, creando una experiencia inmersiva que evoluciona contigo.",
+  "Market Opportunity": "Oportunidad de Mercado",
+  "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.": "Se espera que el mercado global de ficción interactiva alcance los $4.1B para 2027, con libros CYOA que han vendido más de 270M de copias en todo el mundo.",
+  "Target Age Range": "Rango de Edad Objetivo",
+  "Hackathon Origin": "Origen del Hackathon",
+
+  // Contact Page
+  "Get in Touch": "Ponte en Contacto",
+  "We'd love to hear from you": "Nos encantaría saber de ti",
+  "Send us a message": "Envíanos un mensaje",
+  "Your Name": "Tu Nombre",
+  "Your Email": "Tu Email",
+  "Subject": "Asunto",
+  "Message": "Mensaje",
+  "Send Message": "Enviar Mensaje",
+  "Message sent successfully!": "¡Mensaje enviado con éxito!",
+  "Error sending message": "Error al enviar el mensaje",
+
+  // Stay Updated Page
+  "Stay Updated": "Mantente Actualizado",
+  "Join our newsletter and never miss an update about new stories and features.": "Únete a nuestro boletín y no te pierdas ninguna actualización sobre nuevas historias y funciones.",
+  "Weekly Updates": "Actualizaciones Semanales",
+  "Get notified about new stories and features": "Recibe notificaciones sobre nuevas historias y funciones",
+  "Exclusive Content": "Contenido Exclusivo",
+  "Access to subscriber-only stories": "Acceso a historias exclusivas para suscriptores",
+  "Direct Updates": "Actualizaciones Directas",
+  "Important announcements straight to your inbox": "Anuncios importantes directamente en tu bandeja de entrada",
+  "Subscribe to Our Newsletter": "Suscríbete a Nuestro Boletín",
+  "Email Address": "Dirección de Email",
+  "Subscribe Now": "Suscríbete Ahora",
+  "Successfully subscribed!": "¡Suscripción exitosa!",
+  "Welcome to our newsletter community!": "¡Bienvenido a nuestra comunidad de boletines!",
+
+  // Library Page Additional
+  "Recently Added": "Añadido Recientemente",
+  "Popular Stories": "Historias Populares",
+  "Reading Level": "Nivel de Lectura",
+  "Duration": "Duración",
+  "minutes": "minutos",
+  "Filter by Genre": "Filtrar por Género",
+  "Filter by Level": "Filtrar por Nivel",
+  "Clear Filters": "Limpiar Filtros",
+  "No stories found": "No se encontraron historias",
+  "Try adjusting your filters or search terms": "Intenta ajustar tus filtros o términos de búsqueda"
 };
