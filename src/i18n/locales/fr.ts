@@ -106,4 +106,11 @@ export default {
   "Connect with other readers": "Connectez-vous avec d'autres jeunes lecteurs et éducateurs dans notre communauté narrative grandissante.",
   "Join Discord": "Rejoindre Discord",
   "Back to Home": "Retour à l'Accueil",
+
+  // Learn More Page
+  "The Future of Storytelling": "L'Avenir de la Narration",
+  "Market Opportunity": "Opportunité de Marché",
+  "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.": "Le marché mondial de la fiction interactive devrait atteindre 4,1 milliards de dollars d'ici 2027, avec plus de 270 millions de livres CYOA vendus dans le monde.",
+  "Target Age Range": "Tranche d'Âge Cible",
+  "Hackathon Origin": "Origine du Hackathon",
 };

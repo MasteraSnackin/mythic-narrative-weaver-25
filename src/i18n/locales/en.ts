@@ -94,16 +94,10 @@ export default {
   "Coming Soon": "Coming Soon",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.",
 
-  // Get Started Page
-  "Begin Your Adventure": "Begin Your Adventure",
-  "Start Your Journey": "Start Your Journey",
-  "Experience AI-powered stories": "Experience AI-powered stories that adapt to your choices and create unique adventures every time.",
-  "Create Your Account": "Create Your Account",
-  "Explore Stories": "Explore Stories",
-  "Browse Library": "Browse Library",
-  "Dive into our growing library": "Dive into our growing library of interactive stories that blend entertainment with educational value.",
-  "Join Community": "Join Community",
-  "Connect with other readers": "Connect with other young readers and educators in our growing storytelling community.",
-  "Join Discord": "Join Discord",
-  "Back to Home": "Back to Home",
+  // Learn More Page
+  "The Future of Storytelling": "The Future of Storytelling",
+  "Market Opportunity": "Market Opportunity",
+  "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.": "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.",
+  "Target Age Range": "Target Age Range",
+  "Hackathon Origin": "Hackathon Origin",
 };

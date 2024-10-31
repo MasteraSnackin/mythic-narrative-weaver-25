@@ -92,18 +92,12 @@ export default {
   "Subscribe Now": "Suscribirse Ahora",
   "Contact Sales": "Contactar Ventas",
   "Coming Soon": "Próximamente",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas e instituciones educativas.",
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Mantente atento a nuestro programa de asociación educativa, que ofrece precios especiales para escuelas y instituciones educativas.",
   
-  // Get Started Page
-  "Begin Your Adventure": "Comienza Tu Aventura",
-  "Start Your Journey": "Inicia Tu Viaje",
-  "Experience AI-powered stories": "Experimenta historias impulsadas por IA que se adaptan a tus elecciones y crean aventuras únicas cada vez.",
-  "Create Your Account": "Crea Tu Cuenta",
-  "Explore Stories": "Explora Historias",
-  "Browse Library": "Explorar Biblioteca",
-  "Dive into our growing library": "Sumérgete en nuestra creciente biblioteca de historias interactivas que combinan entretenimiento con valor educativo.",
-  "Join Community": "Únete a la Comunidad",
-  "Connect with other readers": "Conéctate con otros jóvenes lectores y educadores en nuestra creciente comunidad de narración.",
-  "Join Discord": "Únete a Discord",
-  "Back to Home": "Volver al Inicio",
+  // Learn More Page
+  "The Future of Storytelling": "El Futuro de la Narración",
+  "Market Opportunity": "Oportunidad de Mercado",
+  "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.": "Se espera que el mercado global de ficción interactiva alcance los $4.1B para 2027, con más de 270M de copias de libros CYOA vendidas en todo el mundo.",
+  "Target Age Range": "Rango de Edad Objetivo",
+  "Hackathon Origin": "Origen del Hackathon",
 };

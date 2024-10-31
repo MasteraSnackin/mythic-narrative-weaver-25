@@ -92,5 +92,12 @@ export default {
   "Subscribe Now": "立即订阅",
   "Contact Sales": "联系销售",
   "Coming Soon": "即将推出",
-  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "敬请期待我们的教育合作计划，为学校和教育机构提供特别定价。"
+  "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "敬请期待我们的教育合作计划，为学校和教育机构提供特别定价。",
+
+  // Learn More Page
+  "The Future of Storytelling": "讲故事的未来",
+  "Market Opportunity": "市场机遇",
+  "The global interactive fiction market is expected to reach $4.1B by 2027, with CYOA books having sold over 270M copies worldwide.": "预计到2027年，全球互动小说市场将达到41亿美元，CYOA图书全球销量超过2.7亿册。",
+  "Target Age Range": "目标年龄范围",
+  "Hackathon Origin": "黑客马拉松起源",
 };
