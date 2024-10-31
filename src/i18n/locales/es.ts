@@ -17,55 +17,26 @@ export default {
 
   // Library Page
   "Start Reading": "Empezar a Leer",
-  "Search stories": "Buscar historias",
+  "Search stories...": "Buscar historias...",
   "Filters": "Filtros",
-  "Browse Library": "Explorar Biblioteca",
-  "Age Range": "Rango de Edad",
-  "Reading Level": "Nivel de Lectura",
-  "Genre": "Género",
-  "Description": "Descripción",
-
-  // Pricing Page
-  "Free Explorer": "Explorador Gratuito",
-  "Story Weaver": "Tejedor de Historias",
-  "Education Pro": "Educación Pro",
-  "Subscribe Now": "Suscribirse Ahora",
-  "Contact Sales": "Contactar Ventas",
-  "Monthly": "Mensual",
-  "Yearly": "Anual",
-  "Custom": "Personalizado",
-  "Starting from": "Desde",
-
-  // Hero Section
-  "Interactive Learning Adventures": "Aventuras de Aprendizaje Interactivas",
-  "Experience AI-powered stories": "Experimenta historias impulsadas por IA que se adaptan a tus elecciones",
-  "Join thousands of students": "Únete a miles de estudiantes en su viaje de aprendizaje",
-  "Try Demo": "Probar Demo",
-
-  // Contact Page
-  "Contact Us": "Contáctenos",
-  "We'd love to hear from you. Send us a message and we'll respond as soon as possible.": "Nos encantaría saber de ti. Envíanos un mensaje y te responderemos lo antes posible.",
-  "Send us a message": "Envíanos un mensaje",
-  "Name": "Nombre",
-  "Your name": "Tu nombre",
-  "Email": "Correo electrónico",
-  "Message": "Mensaje",
-  "Your message": "Tu mensaje",
-  "Sending...": "Enviando...",
-  "Send Message": "Enviar Mensaje",
-  "Message sent successfully! 📬": "¡Mensaje enviado con éxito! 📬",
-  "We'll get back to you within 24 hours.": "Te responderemos dentro de 24 horas.",
-  "Error": "Error",
-  "Something went wrong. Please try again.": "Algo salió mal. Por favor, inténtalo de nuevo.",
-  "WhatsApp": "WhatsApp",
-  "Telegram": "Telegram",
-
-  // Library Page Translations
   "Starting Story": "Iniciando Historia",
   "Beginning '{{title}}'. Enjoy your adventure!": "Comenzando '{{title}}'. ¡Disfruta tu aventura!",
   "Discover interactive stories tailored to your reading level": "Descubre historias interactivas adaptadas a tu nivel de lectura",
-  "Search stories...": "Buscar historias...",
-  "Filters": "Filtros",
+
+  // Reading Levels
+  "Beginner": "Principiante",
+  "Intermediate": "Intermedio",
+  "Advanced": "Avanzado",
+
+  // Genres
+  "Fantasy": "Fantasía",
+  "Science Fiction": "Ciencia Ficción",
+  "Adventure": "Aventura",
+  "Mystery": "Misterio",
+  "Historical": "Histórico",
+  "Science": "Ciencia",
+
+  // Story Titles
   "The Dragon's Riddle": "El Acertijo del Dragón",
   "Space Explorer Academy": "Academia de Exploradores Espaciales",
   "The Friendly Forest": "El Bosque Amigable",
@@ -74,6 +45,8 @@ export default {
   "Ocean Explorers": "Exploradores del Océano",
   "Robot Friends": "Amigos Robot",
   "Ancient Egypt Quest": "Aventura en el Antiguo Egipto",
+
+  // Story Descriptions
   "An interactive tale of wit and wisdom where your choices determine the outcome of a young wizard's journey.": "Un cuento interactivo de ingenio y sabiduría donde tus decisiones determinan el resultado del viaje de un joven mago.",
   "Navigate through the cosmos and learn about space while making crucial decisions as a cadet at the Space Academy.": "Navega por el cosmos y aprende sobre el espacio mientras tomas decisiones cruciales como cadete en la Academia Espacial.",
   "A gentle introduction to reading where young readers help woodland creatures solve simple problems.": "Una suave introducción a la lectura donde los jóvenes lectores ayudan a las criaturas del bosque a resolver problemas simples.",
@@ -81,5 +54,9 @@ export default {
   "Journey through different historical periods and make decisions that could change the course of history.": "Viaja a través de diferentes períodos históricos y toma decisiones que podrían cambiar el curso de la historia.",
   "Dive deep into marine biology and oceanography while having underwater adventures.": "Sumérgete en la biología marina y la oceanografía mientras vives aventuras submarinas.",
   "Learn about robotics and artificial intelligence through friendly robot characters.": "Aprende sobre robótica e inteligencia artificial a través de simpáticos personajes robot.",
-  "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "Explora las pirámides y descubre los secretos de la antigua civilización egipcia."
+  "Explore the pyramids and discover the secrets of ancient Egyptian civilization.": "Explora las pirámides y descubre los secretos de la antigua civilización egipcia.",
+
+  // Contact
+  "WhatsApp": "WhatsApp",
+  "Telegram": "Telegram"
 };
