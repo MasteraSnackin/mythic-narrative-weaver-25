@@ -95,11 +95,10 @@ export default {
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.",
 
   // Library Page
-  "Story Library": "Story Library",
   "Discover interactive stories tailored to your reading level": "Discover interactive stories tailored to your reading level",
   "Search stories...": "Search stories...",
   "Filters": "Filters",
   "Start Reading": "Start Reading",
   "Starting Story": "Starting Story",
-  "Beginning '{{title}}'. Enjoy your adventure!": "Beginning '{{title}}'. Enjoy your adventure!",
+  "Beginning '{{title}}'. Enjoy your adventure!": "Beginning '{{title}}'. Enjoy your adventure!"
 };

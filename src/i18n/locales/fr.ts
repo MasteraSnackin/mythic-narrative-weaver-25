@@ -94,27 +94,11 @@ export default {
   "Coming Soon": "Bientôt Disponible",
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "Restez à l'écoute pour notre programme de partenariat éducatif, offrant des tarifs spéciaux pour les écoles et les institutions éducatives.",
   
-  // Stay Updated Page
-  "Stay Updated": "Restez Informé",
-  "Join our newsletter and never miss an update about new stories and features.": "Rejoignez notre newsletter et ne manquez aucune mise à jour sur les nouvelles histoires et fonctionnalités.",
-  "Weekly Updates": "Mises à Jour Hebdomadaires",
-  "Get notified about new stories and features": "Soyez informé des nouvelles histoires et fonctionnalités",
-  "Exclusive Content": "Contenu Exclusif",
-  "Access to subscriber-only stories": "Accès aux histoires réservées aux abonnés",
-  "Direct Updates": "Mises à Jour Directes",
-  "Important announcements straight to your inbox": "Annonces importantes directement dans votre boîte de réception",
-  "Subscribe to Our Newsletter": "Abonnez-vous à Notre Newsletter",
-  "Email Address": "Adresse E-mail",
-  "Successfully subscribed! 🎉": "Inscription réussie ! 🎉",
-  "Welcome to our newsletter community!": "Bienvenue dans notre communauté de newsletter !",
-  "Subscribing...": "Inscription en cours...",
-
   // Library Page
-  "Story Library": "Bibliothèque d'Histoires",
   "Discover interactive stories tailored to your reading level": "Découvrez des histoires interactives adaptées à votre niveau de lecture",
   "Search stories...": "Rechercher des histoires...",
   "Filters": "Filtres",
   "Start Reading": "Commencer la Lecture",
   "Starting Story": "Démarrage de l'Histoire",
-  "Beginning '{{title}}'. Enjoy your adventure!": "Début de '{{title}}'. Bonne aventure !",
+  "Beginning '{{title}}'. Enjoy your adventure!": "Début de '{{title}}'. Bonne aventure !"
 };

@@ -95,11 +95,10 @@ export default {
   "Stay tuned for our educational partnership program, offering special pricing for schools and educational institutions.": "敬请期待我们的教育合作计划，为学校和教育机构提供特别定价。",
 
   // Library Page
-  "Story Library": "故事库",
   "Discover interactive stories tailored to your reading level": "发现适合您阅读水平的互动故事",
   "Search stories...": "搜索故事...",
   "Filters": "筛选",
   "Start Reading": "开始阅读",
   "Starting Story": "开始故事",
-  "Beginning '{{title}}'. Enjoy your adventure!": "正在开始《{{title}}》。享受您的冒险！",
+  "Beginning '{{title}}'. Enjoy your adventure!": "正在开始《{{title}}》。享受您的冒险！"
 };
